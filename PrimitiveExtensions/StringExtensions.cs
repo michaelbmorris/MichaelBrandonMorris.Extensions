@@ -638,7 +638,8 @@ namespace PrimitiveExtensions
             return float.Parse(s);
         }
 
-        private static float ParseFloat(this string s, IFormatProvider provider)
+        private static float ParseFloat(
+            this string s, IFormatProvider provider)
         {
             return float.Parse(s, provider);
         }
@@ -701,7 +702,8 @@ namespace PrimitiveExtensions
             return short.Parse(s);
         }
 
-        private static short ParseShort(this string s, IFormatProvider provider)
+        private static short ParseShort(
+            this string s, IFormatProvider provider)
         {
             return short.Parse(s, provider);
         }
