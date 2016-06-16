@@ -94,6 +94,16 @@ namespace PrimitiveExtensions
             return char.GetUnicodeCategory(s, index);
         }
 
+        public static int IndexOfOrdinal(this string s1, string s2)
+        {
+            return s1.IndexOf(s2, StringComparison.Ordinal);
+        }
+
+        public static int IndexOfOrdinalIgnoreCase(this string s1, string s2)
+        {
+            return s1.IndexOf(s2, StringComparison.OrdinalIgnoreCase);
+        }
+
         public static bool IsControl(this string s, int index)
         {
             return char.IsControl(s, index);
@@ -190,6 +200,28 @@ namespace PrimitiveExtensions
             }
 
             return true;
+        }
+
+        public static string Remove(this string s, char c)
+        {
+            return s.Replace(c.ToString(), string.Empty);
+        }
+
+        public static string Remove(this string s1, string s2)
+        {
+            return s1.Replace(s2, string.Empty);
+        }
+
+        public static string SubstringAtIndexOfOrdinal(
+            this string s1, string s2)
+        {
+            return s1.Substring(s1.IndexOfOrdinal(s2));
+        }
+
+        public static string SubstringAtIndexOfOrdinalIgnoreCase(
+            this string s1, string s2)
+        {
+            return s1.Substring(s1.IndexOfOrdinalIgnoreCase(s2));
         }
 
         public static bool ToBool(this string s)
