@@ -1,10 +1,17 @@
 ﻿using System;
 using System.Globalization;
+using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace PrimitiveExtensions
 {
     public static class StringExtensions
     {
+        public static bool ContainsIgnoreCase(this string s1, string s2)
+        {
+            return s1.IndexOfOrdinalIgnoreCase(s2) >= 0;
+        }
+
         public static int Compare(this string s1, string s2)
         {
             return string.Compare(s1, s2);
@@ -191,15 +198,7 @@ namespace PrimitiveExtensions
 
         public static bool IsWhiteSpace(this string s)
         {
-            foreach (var c in s)
-            {
-                if (!c.IsWhiteSpace())
-                {
-                    return false;
-                }
-            }
-
-            return true;
+            return s.All(c => c.IsWhiteSpace());
         }
 
         public static string Remove(this string s, char c)
@@ -210,6 +209,14 @@ namespace PrimitiveExtensions
         public static string Remove(this string s1, string s2)
         {
             return s1.Replace(s2, string.Empty);
+        }
+
+        public static string SpaceCamelCase(this string s)
+        {
+            return
+                Regex.Replace(
+                    Regex.Replace(s, @"(\P{Ll})(\P{Ll}\p{Ll})", "$1 $2"),
+                    @"(\p{Ll})(\P{Ll})", "$1 $2");
         }
 
         public static string SubstringAtIndexOfOrdinal(
