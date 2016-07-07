@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
@@ -204,6 +205,12 @@ namespace PrimitiveExtensions
         public static string Remove(this string s, char c)
         {
             return s.Replace(c.ToString(), string.Empty);
+        }
+
+        public static string RemoveAll(
+            this string s, IEnumerable<char> characters)
+        {
+            return characters.Aggregate(s, (current, character) => current.Remove(character));
         }
 
         public static string Remove(this string s1, string s2)

@@ -1,4 +1,6 @@
-﻿using System.Globalization;
+﻿using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
 
 namespace PrimitiveExtensions
 {
@@ -12,6 +14,11 @@ namespace PrimitiveExtensions
         public static UnicodeCategory GetUnicodeCategory(this char c)
         {
             return char.GetUnicodeCategory(c);
+        }
+
+        public static bool EqualsAny(this char c, IEnumerable<char> characters)
+        {
+            return characters.Any(c.Equals);
         }
 
         public static bool IsControl(this char c)
