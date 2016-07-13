@@ -2,9 +2,9 @@
 using System.DirectoryServices;
 using System.DirectoryServices.AccountManagement;
 using System.Linq;
-using PrimitiveExtensions;
+using Extensions.PrimitiveExtensions;
 
-namespace PrincipalExtensions
+namespace Extensions.PrincipalExtensions
 {
     /// <summary>
     /// Provides useful extension methods for the <see cref="Principal"/> 

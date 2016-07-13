@@ -2,7 +2,7 @@
 using System.DirectoryServices.AccountManagement;
 using System.Linq;
 
-namespace PrincipalExtensions
+namespace Extensions.PrincipalExtensions
 {
     /// <summary>
     /// Provides useful extensions for the 

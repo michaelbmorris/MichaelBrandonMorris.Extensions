@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.DirectoryServices.AccountManagement;
 
-namespace PrincipalExtensions
+namespace Extensions.PrincipalExtensions
 {
     /// <summary>
     /// Provides useful extensions for the <see cref="PrincipalSearcher"/> 

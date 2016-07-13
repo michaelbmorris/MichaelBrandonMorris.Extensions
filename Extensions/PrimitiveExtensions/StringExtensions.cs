@@ -4,26 +4,55 @@ using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace PrimitiveExtensions
+namespace Extensions.PrimitiveExtensions
 {
+    /// <summary>
+    /// Provides useful extension methods for the <see cref="string"/> class.
+    /// </summary>
     public static class StringExtensions
     {
+        /// <summary>
+        /// Compares this <see cref="string"/> with another 
+        /// <see cref="string"/> and returns an <see cref="int"/> that 
+        /// indicates their relative position in the sort order.
+        /// </summary>
         public static int Compare(this string s1, string s2)
         {
+            // ReSharper disable once StringCompareIsCultureSpecific.1
             return string.Compare(s1, s2);
         }
 
+        /// <summary>
+        /// Compares this <see cref="string"/> with another 
+        /// <see cref="string"/>, ignoring or honoring their case, and returns 
+        /// an integer that indicates their relative position in the sort 
+        /// order.
+        /// </summary>
         public static int Compare(this string s1, string s2, bool ignoreCase)
         {
             return string.Compare(s1, s2, ignoreCase);
         }
 
+        /// <summary>
+        /// Compares this <see cref="string"/> with another 
+        /// <see cref="string"/>, ignoring or honoring their case, and using 
+        /// culture-specific information to influence the comparison, and 
+        /// returns an integer that indicates their relative position in the 
+        /// sort order.
+        /// </summary>
         public static int Compare(
             this string s1, string s2, bool ignoreCase, CultureInfo culture)
         {
             return string.Compare(s1, s2, ignoreCase, culture);
         }
 
+        /// <summary>
+        /// Compares this <see cref="string"/> with another 
+        /// <see cref="string"/> using the specified comparison options and 
+        /// culture-specific information to influence the comparison, and 
+        /// returns an <see cref="int"/> that indicates the relationship of the
+        ///  two <see cref="string"/>s to each other in the sort order.
+        /// </summary>
         public static int Compare(
             this string s1,
             string s2,
@@ -33,12 +62,24 @@ namespace PrimitiveExtensions
             return string.Compare(s1, s2, culture, options);
         }
 
+        /// <summary>
+        /// Compares this <see cref="string"/> with another 
+        /// <see cref="string"/> using the specified rules, and returns an 
+        /// <see cref="int"/> that indicates their relative position in the 
+        /// sort order.
+        /// </summary>
         public static int Compare(
             this string s1, string s2, StringComparison comparisonType)
         {
             return string.Compare(s1, s2, comparisonType);
         }
 
+        /// <summary>
+        /// Compares this <see cref="string"/> with another 
+        /// <see cref="string"/> using <see cref="StringComparison.Ordinal"/> 
+        /// and returns an <see cref="int"/> that indicates their relative 
+        /// position in the sort order.
+        /// </summary>
         public static int CompareOrdinal(this string s1, string s2)
         {
             return string.CompareOrdinal(s1, s2);
@@ -227,10 +268,10 @@ namespace PrimitiveExtensions
 
         public static string SpaceCamelCase(this string s)
         {
-            return
+            return Regex.Replace(
                 Regex.Replace(
-                    Regex.Replace(s, @"(\P{Ll})(\P{Ll}\p{Ll})", "$1 $2"),
-                    @"(\p{Ll})(\P{Ll})", "$1 $2");
+                    s, @"(\P{Ll})(\P{Ll}\p{Ll})", "$1 $2"),
+                @"(\p{Ll})(\P{Ll})", "$1 $2");
         }
 
         public static string SubstringAtIndexOfOrdinal(
