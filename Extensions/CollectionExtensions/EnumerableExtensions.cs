@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using System.Data;
+using System.Dynamic;
 using System.Linq;
 
 namespace Extensions.CollectionExtensions
@@ -31,6 +33,43 @@ namespace Extensions.CollectionExtensions
         public static bool Multiple<T>(this IEnumerable<T> enumerable)
         {
             return enumerable.Count() > 1;
+        }
+
+        /// <summary>
+        /// Converts this <see cref="IEnumerable{ExpandoObject}"/> to a 
+        /// <see cref="DataTable"/>.
+        /// </summary>
+        public static DataTable ToDataTable(
+            this IEnumerable<ExpandoObject> expandoObjectEnumerable)
+        {
+            var expandoObjectArray =
+                expandoObjectEnumerable as ExpandoObject[] ??
+                expandoObjectEnumerable.ToArray();
+
+            if (expandoObjectArray.IsNullOrEmpty()) return null;
+            var dataTable = new DataTable();
+
+            var firstExpandoObjectAsDictionary =
+                (IDictionary<string, object>) expandoObjectArray.First();
+
+            var keys = firstExpandoObjectAsDictionary.Keys;
+            foreach (var key in keys)
+            {
+                dataTable.Columns.Add(key);
+            }
+
+            foreach (var expandoObject in expandoObjectArray)
+            {
+                var expandoObjectAsDictionary =
+                    (IDictionary<string, object>) expandoObject;
+
+                var expandoObjectValuesAsArray =
+                    expandoObjectAsDictionary.Values.ToArray();
+
+                dataTable.Rows.Add(expandoObjectValuesAsArray);
+            }
+
+            return dataTable;
         }
     }
 }
