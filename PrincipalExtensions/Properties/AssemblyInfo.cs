@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Primitive Extensions")]
+[assembly: AssemblyTitle("Principal Extensions")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Michael Brandon Morris")]
-[assembly: AssemblyProduct("Primitive Extensions")]
+[assembly: AssemblyProduct("Principal Extensions")]
 [assembly: AssemblyCopyright("Copyright © Michael Brandon Morris 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("d9a3de9c-726b-4d7e-be3f-fe95fa8733a1")]
+[assembly: Guid("c3de7cb4-1beb-4830-b1ae-b5fcd34499f6")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -8,11 +8,6 @@ namespace PrimitiveExtensions
 {
     public static class StringExtensions
     {
-        public static bool ContainsIgnoreCase(this string s1, string s2)
-        {
-            return s1.IndexOfOrdinalIgnoreCase(s2) >= 0;
-        }
-
         public static int Compare(this string s1, string s2)
         {
             return string.Compare(s1, s2);
@@ -47,6 +42,11 @@ namespace PrimitiveExtensions
         public static int CompareOrdinal(this string s1, string s2)
         {
             return string.CompareOrdinal(s1, s2);
+        }
+
+        public static bool ContainsIgnoreCase(this string s1, string s2)
+        {
+            return s1.IndexOfOrdinalIgnoreCase(s2) >= 0;
         }
 
         public static int ConvertToUtf32(this string s, int index)
@@ -207,15 +207,22 @@ namespace PrimitiveExtensions
             return s.Replace(c.ToString(), string.Empty);
         }
 
-        public static string RemoveAll(
-            this string s, IEnumerable<char> characters)
-        {
-            return characters.Aggregate(s, (current, character) => current.Remove(character));
-        }
-
         public static string Remove(this string s1, string s2)
         {
             return s1.Replace(s2, string.Empty);
+        }
+
+        public static string RemoveAll(
+            this string s, IEnumerable<char> characters)
+        {
+            return characters.Aggregate(
+                s, (current, character) => current.Remove(character));
+        }
+
+        public static string RemoveAllBut(
+            this string s, IEnumerable<char> characters)
+        {
+            return new string(s.Where(c => c.EqualsAny(characters)).ToArray());
         }
 
         public static string SpaceCamelCase(this string s)
@@ -292,6 +299,24 @@ namespace PrimitiveExtensions
             return s.ParseExactDateTime(format, provider);
         }
 
+        public static DateTime ToDateTime(
+            this string s,
+            string format,
+            IFormatProvider provider,
+            DateTimeStyles style)
+        {
+            return s.ParseExactDateTime(format, provider, style);
+        }
+
+        public static DateTime ToDateTime(
+            this string s,
+            string[] formats,
+            IFormatProvider provider,
+            DateTimeStyles style)
+        {
+            return s.ParseExactDateTime(formats, provider, style);
+        }
+
         public static decimal ToDecimal(this string s)
         {
             return s.ParseDecimal();
@@ -337,7 +362,7 @@ namespace PrimitiveExtensions
 
         public static float ToFloat(this string s)
         {
-            return float.Parse(s);
+            return s.ParseFloat();
         }
 
         public static float ToFloat(this string s, NumberStyles style)

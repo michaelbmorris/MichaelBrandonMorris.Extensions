@@ -1,6 +1,5 @@
 ﻿using System.Collections.ObjectModel;
 using System.Linq;
-using System.Runtime.InteropServices.ComTypes;
 
 namespace CollectionExtensions
 {
@@ -9,13 +8,13 @@ namespace CollectionExtensions
         public static void Push<T>(
             this ObservableCollection<T> observableCollection, T t)
         {
-            observableCollection.Insert(0, t);
+            observableCollection.Add(t);
         }
 
         public static T Pop<T>(
             this ObservableCollection<T> observableCollection)
         {
-            var t = observableCollection.First();
+            var t = observableCollection.Last();
             observableCollection.Remove(t);
             return t;
         }
@@ -36,7 +35,7 @@ namespace CollectionExtensions
             this ObservableCollection<T> observableCollection)
         {
             return observableCollection.Any() ? 
-                observableCollection.First() : default(T);
+                observableCollection.Last() : default(T);
         }
     }
 }

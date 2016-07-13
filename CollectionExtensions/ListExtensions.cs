@@ -7,12 +7,12 @@ namespace CollectionExtensions
     {
         public static void Push<T>(this List<T> list, T t)
         {
-            list.Insert(0, t);
+            list.Add(t);
         }
 
         public static T Pop<T>(this List<T> list)
         {
-            var t = list.First();
+            var t = list.Last();
             list.Remove(t);
             return t;
         }
@@ -20,6 +20,11 @@ namespace CollectionExtensions
         public static bool IsEmpty<T>(this List<T> list)
         {
             return !list.Any();
+        }
+
+        public static bool IsNullOrEmpty<T>(this List<T> list)
+        {
+            return list == null || list.IsEmpty();
         }
     }
 }

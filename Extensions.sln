@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimitiveExtensions", "Prim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionExtensions", "CollectionExtensions\CollectionExtensions.csproj", "{D73F5B72-8622-46A5-9C58-AFD587E2C098}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrincipalExtensions", "PrincipalExtensions\PrincipalExtensions.csproj", "{C3DE7CB4-1BEB-4830-B1AE-B5FCD34499F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D73F5B72-8622-46A5-9C58-AFD587E2C098}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D73F5B72-8622-46A5-9C58-AFD587E2C098}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D73F5B72-8622-46A5-9C58-AFD587E2C098}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3DE7CB4-1BEB-4830-B1AE-B5FCD34499F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3DE7CB4-1BEB-4830-B1AE-B5FCD34499F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3DE7CB4-1BEB-4830-B1AE-B5FCD34499F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3DE7CB4-1BEB-4830-B1AE-B5FCD34499F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
