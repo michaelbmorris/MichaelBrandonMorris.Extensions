@@ -250,6 +250,8 @@ namespace Extensions.PrimitiveExtensions
 
         public static string Remove(this string s1, string s2)
         {
+            if (s1.IsNullOrWhiteSpace())
+                return string.Empty;
             return s1.Replace(s2, string.Empty);
         }
 

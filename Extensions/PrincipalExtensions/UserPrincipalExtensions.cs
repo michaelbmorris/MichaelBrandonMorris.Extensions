@@ -104,28 +104,6 @@ namespace Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the direct report user principals from the direct reports 
-        /// property of this <see cref="UserPrincipal"/>'s underlying 
-        /// <see cref="DirectoryEntry"/>.
-        /// </summary>
-        /// <param name="userPrincipal"></param>
-        /// <returns></returns>
-        public static IEnumerable<UserPrincipal> GetDirectReportUserPrincipals(
-            this UserPrincipal userPrincipal)
-        {
-            var directReportDistinguishedNames =
-                userPrincipal.GetDirectReportDistinguishedNames();
-            var directReportDistinguishedNamesArray =
-                directReportDistinguishedNames as string[] ??
-                directReportDistinguishedNames.ToArray();
-            if (directReportDistinguishedNamesArray.IsNullOrEmpty())
-                return null;
-            return userPrincipal.Context.FindUserPrincipalsByDistinguishedNames
-                (
-                    directReportDistinguishedNamesArray);
-        }
-
-        /// <summary>
         /// Gets the division property of this <see cref="UserPrincipal"/>'s 
         /// underlying <see cref="DirectoryEntry"/>.
         /// </summary>
@@ -174,7 +152,7 @@ namespace Extensions.PrincipalExtensions
         /// Gets the country manager of this <see cref="UserPrincipal"/>'s 
         /// underlying <see cref="DirectoryEntry"/>.
         /// </summary>
-        public static string GetManager(this UserPrincipal user)
+        public static string GetManagerDistinguishedName(this UserPrincipal user)
         {
             return user.GetPropertyValueAsString(Manager);
         }
