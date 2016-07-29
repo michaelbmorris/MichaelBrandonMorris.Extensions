@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Dynamic;
 using System.Linq;
+using Extensions.PrimitiveExtensions;
 
 namespace Extensions.CollectionExtensions
 {
@@ -71,6 +72,19 @@ namespace Extensions.CollectionExtensions
             }
 
             return dataTable;
+        }
+
+        /// <summary>
+        /// Whether or not the <see cref="IEnumerable{String}"/> contains the 
+        /// specified string, ignoring case.
+        /// </summary>
+        /// <param name="strings"></param>
+        /// <param name="s"></param>
+        /// <returns></returns>
+        public static bool ContainsIgnoreCase(
+            this IEnumerable<string> strings, string s)
+        {
+            return strings.Any(str => str.EqualsOrdinalIgnoreCase(s));
         }
     }
 }

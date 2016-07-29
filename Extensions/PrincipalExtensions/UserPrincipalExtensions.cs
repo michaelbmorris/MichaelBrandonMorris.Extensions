@@ -158,6 +158,22 @@ namespace Extensions.PrincipalExtensions
         }
 
         /// <summary>
+        /// Gets the name of this <see cref="UserPrincipal"/>'s manager.
+        /// </summary>
+        /// <param name="userPrincipal"></param>
+        /// <returns></returns>
+        public static string GetManagerName(this UserPrincipal userPrincipal)
+        {
+            var managerDistinguishedName =
+                userPrincipal.GetManagerDistinguishedName();
+            if (managerDistinguishedName.IsNullOrWhiteSpace()) return null;
+            using (var managerUserPrincipal = UserPrincipal.FindByIdentity(
+                PrincipalContextExtensions.GetPrincipalContext(),
+                IdentityType.DistinguishedName, managerDistinguishedName))
+                return managerUserPrincipal?.Name;
+        }
+
+        /// <summary>
         /// Gets the mobile property of this <see cref="UserPrincipal"/>'s 
         /// underlying <see cref="DirectoryEntry"/>.
         /// </summary>
@@ -255,6 +271,15 @@ namespace Extensions.PrincipalExtensions
         {
             return !Convert.ToBoolean(
                 (int) user.GetProperty(UserAccountControl).Value & 0x0002);
+        }
+
+        public static UserPrincipal FindByDistinguishedName(
+            PrincipalContext principalContext, string distinguishedName)
+        {
+                return UserPrincipal.FindByIdentity(
+                    principalContext,
+                    IdentityType.DistinguishedName,
+                    distinguishedName);
         }
     }
 }

@@ -2,6 +2,7 @@
 using System.DirectoryServices;
 using System.DirectoryServices.AccountManagement;
 using System.Linq;
+using Extensions.PrimitiveExtensions;
 
 namespace Extensions.PrincipalExtensions
 {
@@ -13,10 +14,31 @@ namespace Extensions.PrincipalExtensions
         private const string ManagedBy = "managedBy";
 
         /// <summary>
-        /// Gets the managed by property of this <see cref="GroupPrincipal"/>'s
-        ///  underlying <see cref="DirectoryEntry"/>.
+        /// Gets the name of the manager of this group.
         /// </summary>
-        public static string GetManagedBy(this GroupPrincipal groupPrincipal)
+        public static string GetManagedByName(
+            this GroupPrincipal groupPrincipal)
+        {
+            var managedByDistinguishedName =
+                groupPrincipal.GetManagedByDistinguishedName();
+            if (managedByDistinguishedName.IsNullOrWhiteSpace()) return null;
+            using (var principalContext =
+                PrincipalContextExtensions.GetPrincipalContext())
+            using (var managedByUserPrincipal =
+                UserPrincipalExtensions.FindByDistinguishedName(
+                    principalContext, managedByDistinguishedName))
+            {
+                return managedByUserPrincipal?.Name;
+            }
+        }
+
+        /// <summary>
+        /// Gets the distinguished name of the manager of this group.
+        /// </summary>
+        /// <param name="groupPrincipal"></param>
+        /// <returns></returns>
+        public static string GetManagedByDistinguishedName(
+            this GroupPrincipal groupPrincipal)
         {
             return groupPrincipal.GetPropertyValueAsString(ManagedBy);
         }

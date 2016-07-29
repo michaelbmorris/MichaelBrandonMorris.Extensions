@@ -129,6 +129,7 @@ namespace Extensions.PrimitiveExtensions
 
         public static bool EqualsOrdinalIgnoreCase(this string s1, string s2)
         {
+            if (s1 == null) return false;
             return s1.Equals(s2, StringComparison.OrdinalIgnoreCase);
         }
 
@@ -831,6 +832,28 @@ namespace Extensions.PrimitiveExtensions
             this string s, NumberStyles style, IFormatProvider provider)
         {
             return short.Parse(s, style, provider);
+        }
+
+        public static string Wrap(this string s, char c)
+        {
+            return s.Wrap(c.ToString());
+        }
+
+        public static string Wrap(this string s, string s1)
+        {
+            return s1 + s + s1;
+        }
+
+        public static IEnumerable<string> Wrap(
+            this IEnumerable<string> strings, char c)
+        {
+            return strings.Wrap(c.ToString());
+        }
+
+        public static IEnumerable<string> Wrap(
+            this IEnumerable<string> strings, string s1)
+        {
+            return strings.Select(s => s.Wrap(s1));
         }
     }
 }

@@ -65,5 +65,13 @@ namespace Extensions.PrincipalExtensions
             return distinguishedNames.Select(
                 principalContext.FindPrincipalByDistinguishedName);
         }
+
+        /// <summary>
+        /// Gets the current default <see cref="PrincipalContext"/>.
+        /// </summary>
+        public static PrincipalContext GetPrincipalContext()
+        {
+            return new PrincipalContext(ContextType.Domain);
+        }
     }
 }
