@@ -2,7 +2,7 @@
 using System.DirectoryServices.AccountManagement;
 using System.Linq;
 
-namespace Extensions.PrincipalExtensions
+namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
 {
     /// <summary>
     /// Provides useful extensions for the <see cref="PrincipalContext"/> 

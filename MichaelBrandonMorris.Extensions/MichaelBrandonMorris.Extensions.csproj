@@ -7,10 +7,11 @@
     <ProjectGuid>{14F036EA-B41D-461D-A5C8-ECE4A2F7BB40}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Extensions</RootNamespace>
-    <AssemblyName>Extensions</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>MichaelBrandonMorris.Extensions</RootNamespace>
+    <AssemblyName>MichaelBrandonMorris.Extensions</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -20,7 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Extensions.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\MichaelBrandonMorris.Extensions.xml</DocumentationFile>
     <CodeAnalysisRuleSet>..\..\ActiveDirectoryTool\Disposable.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -30,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -44,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OtherExtensions\StringBuilderExtensions.cs" />
     <Compile Include="PrimitiveExtensions\CharExtensions.cs" />
     <Compile Include="PrimitiveExtensions\DoubleExtensions.cs" />
     <Compile Include="CollectionExtensions\EnumerableExtensions.cs" />
@@ -57,6 +62,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PrimitiveExtensions\StringExtensions.cs" />
     <Compile Include="PrincipalExtensions\UserPrincipalExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

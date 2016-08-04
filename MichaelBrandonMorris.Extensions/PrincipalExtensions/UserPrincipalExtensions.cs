@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.DirectoryServices;
 using System.DirectoryServices.AccountManagement;
 using System.Linq;
-using Extensions.CollectionExtensions;
-using Extensions.PrimitiveExtensions;
+using MichaelBrandonMorris.Extensions.PrimitiveExtensions;
 
-namespace Extensions.PrincipalExtensions
+namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
 {
     /// <summary>
     /// Provides useful extensions for the <see cref="UserPrincipal"/> class.

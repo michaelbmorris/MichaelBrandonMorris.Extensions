@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data;
 using System.Dynamic;
 using System.Linq;
-using Extensions.PrimitiveExtensions;
+using MichaelBrandonMorris.Extensions.PrimitiveExtensions;
 
-namespace Extensions.CollectionExtensions
+namespace MichaelBrandonMorris.Extensions.CollectionExtensions
 {
     /// <summary>
     /// Provides useful extensions for classes that implement 

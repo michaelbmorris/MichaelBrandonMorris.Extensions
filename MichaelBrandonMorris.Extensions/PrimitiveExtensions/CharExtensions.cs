@@ -2,10 +2,16 @@
 using System.Globalization;
 using System.Linq;
 
-namespace Extensions.PrimitiveExtensions
+namespace MichaelBrandonMorris.Extensions.PrimitiveExtensions
 {
+    /// <summary>
+    /// Provides useful extensions for <see cref="char"/>.
+    /// </summary>
     public static class CharExtensions
     {
+        /// <summary>
+        /// An array of all the English alphanumeric characters.
+        /// </summary>
         public static readonly char[] AlphanumericCharacters =
         {
             'A',

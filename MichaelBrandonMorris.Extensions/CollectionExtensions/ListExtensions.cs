@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Extensions.CollectionExtensions
+namespace MichaelBrandonMorris.Extensions.CollectionExtensions
 {
     /// <summary>
     /// Provides useful extensions for classes that implement 

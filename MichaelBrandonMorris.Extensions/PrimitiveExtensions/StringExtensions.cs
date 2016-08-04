@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace Extensions.PrimitiveExtensions
+namespace MichaelBrandonMorris.Extensions.PrimitiveExtensions
 {
     /// <summary>
     /// Provides useful extension methods for the <see cref="string"/> class.

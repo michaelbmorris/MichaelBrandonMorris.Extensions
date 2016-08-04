@@ -1,4 +1,4 @@
-﻿namespace Extensions.PrimitiveExtensions
+﻿namespace MichaelBrandonMorris.Extensions.PrimitiveExtensions
 {
     public static class DoubleExtensions
     {
