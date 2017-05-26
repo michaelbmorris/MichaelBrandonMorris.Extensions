@@ -1,26 +1,42 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 
 namespace MichaelBrandonMorris.Extensions.CollectionExtensions
 {
     /// <summary>
-    /// Provides useful extensions for classes that implement 
-    /// <see cref="IList{T}"/>.
+    ///     Provides useful extensions for classes that implement
+    ///     <see cref="IList{T}" />.
     /// </summary>
     public static class ListExtensions
     {
         /// <summary>
-        /// Adds an item to the end of the <see cref="IList{T}"/>.
+        ///     Allows use of OrderBy on <see cref="IList{T}" />
         /// </summary>
-        public static void Push<T>(this IList<T> list, T t)
+        /// <typeparam name="T"></typeparam>
+        /// <typeparam name="TResult"></typeparam>
+        /// <param name="list"></param>
+        /// <param name="expression"></param>
+        /// <returns></returns>
+        public static IList<TResult> OrderBy<T, TResult>(
+            this IList<TResult> list,
+            Expression<Func<TResult, T>> expression)
         {
-            list.Add(t);
+            return list.AsQueryable().OrderBy(expression).ToList();
         }
 
         /// <summary>
-        /// Removes and returns the item from the end of the 
-        /// <see cref="IList{T}"/>.
+        ///     Returns the item from the end of the <see cref="IList{T}" />.
+        /// </summary>
+        public static T Peek<T>(this IList<T> list)
+        {
+            return list.Any() ? list.Last() : default(T);
+        }
+
+        /// <summary>
+        ///     Removes and returns the item from the end of the
+        ///     <see cref="IList{T}" />.
         /// </summary>
         public static T Pop<T>(this IList<T> list)
         {
@@ -30,16 +46,15 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
         }
 
         /// <summary>
-        /// Returns the item from the end of the <see cref="IList{T}"/>.
+        ///     Adds an item to the end of the <see cref="IList{T}" />.
         /// </summary>
-        public static T Peek<T>(this IList<T> list)
+        public static void Push<T>(this IList<T> list, T t)
         {
-            return list.Any() ?
-                list.Last() : default(T);
+            list.Add(t);
         }
 
         /// <summary>
-        /// Returns the shuffled <see cref="IList{T}"/>
+        ///     Returns the shuffled <see cref="IList{T}" />
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="list"></param>
@@ -58,6 +73,20 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
             }
 
             return list;
+        }
+
+        /// <summary>
+        ///     Allows use of Where on <see cref="IList{T}" />
+        /// </summary>
+        /// <typeparam name="TResult"></typeparam>
+        /// <param name="list"></param>
+        /// <param name="predicate"></param>
+        /// <returns></returns>
+        public static IList<TResult> Where<TResult>(
+            this IList<TResult> list,
+            Func<TResult, bool> predicate)
+        {
+            return list.AsEnumerable().Where(predicate).ToList();
         }
     }
 }
