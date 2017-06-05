@@ -71,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OtherExtensions\HtmlHelperExtensions.cs" />
+    <Compile Include="OtherExtensions\HttpPostedFileBaseExtensions.cs" />
     <Compile Include="OtherExtensions\StringBuilderExtensions.cs" />
     <Compile Include="PrimitiveExtensions\CharExtensions.cs" />
     <Compile Include="PrimitiveExtensions\DoubleExtensions.cs" />
