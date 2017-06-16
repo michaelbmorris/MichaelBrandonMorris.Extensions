@@ -66,8 +66,21 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
             {
                 var swapIndex = random.Next(i + 1);
                 yield return elements[swapIndex];
+
                 elements[swapIndex] = elements[i];
             }
+        }
+
+        /// <summary>
+        ///     Shuffles the <see cref="IEnumerable{T}" /> and returns it as a 
+        ///     list.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="enumerable"></param>
+        /// <returns></returns>
+        public static IList<T> ShuffleToList<T>(this IEnumerable<T> enumerable)
+        {
+            return enumerable.Shuffle().ToList();
         }
 
         /// <summary>
@@ -77,20 +90,21 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
         public static DataTable ToDataTable(
             this IEnumerable<ExpandoObject> expandoObjectEnumerable)
         {
-            var expandoObjectArray =
-                expandoObjectEnumerable as ExpandoObject[]
-                ?? expandoObjectEnumerable.ToArray();
+            var expandoObjectArray = expandoObjectEnumerable as ExpandoObject[]
+                                     ?? expandoObjectEnumerable.ToArray();
 
             if (expandoObjectArray.IsNullOrEmpty())
             {
                 return null;
             }
+
             var dataTable = new DataTable();
 
             var firstExpandoObjectAsDictionary =
                 (IDictionary<string, object>) expandoObjectArray.First();
 
             var keys = firstExpandoObjectAsDictionary.Keys;
+
             foreach (var key in keys)
             {
                 dataTable.Columns.Add(key);
@@ -108,6 +122,22 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
             }
 
             return dataTable;
+        }
+
+        public static IList<T> OrderByWhere<T>(
+            this IEnumerable<T> objects,
+            Func<T, object> orderByPredicate = null,
+            Func<T, bool> wherePredicate = null)
+        {
+            objects = orderByPredicate == null
+                ? objects
+                : objects.OrderBy(orderByPredicate);
+
+            objects = wherePredicate == null
+                ? objects
+                : objects.Where(wherePredicate);
+
+            return objects.ToList();
         }
     }
 }

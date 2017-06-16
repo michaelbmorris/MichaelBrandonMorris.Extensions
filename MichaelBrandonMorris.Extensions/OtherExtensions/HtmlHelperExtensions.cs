@@ -2,18 +2,47 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
+using System.Web;
 using System.Web.Mvc;
 using System.Web.Mvc.Html;
 
 namespace MichaelBrandonMorris.Extensions.OtherExtensions
 {
     /// <summary>
-    /// Provides useful extensions for the <see cref="HtmlHelper{T}"/> class.
+    /// Provides useful extensions for the <see cref="HtmlHelper{TModel}" /> class.
     /// </summary>
     public static class HtmlHelperExtensions
     {
         /// <summary>
-        /// Allows using <see cref="DisplayFor{TModel,TValue}"/> without an 
+        /// Renders a HTML attribute with the specified name and value if the
+        /// condition is true.
+        /// </summary>
+        /// <param name="helper"></param>
+        /// <param name="name"></param>
+        /// <param name="value"></param>
+        /// <param name="condition"></param>
+        /// <returns></returns>
+        public static MvcHtmlString Attribute(
+            this HtmlHelper helper,
+            string name,
+            string value,
+            bool? condition)
+        {
+            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(value))
+            {
+                return MvcHtmlString.Empty;
+            }
+
+            var render = condition ?? true;
+            value = HttpUtility.HtmlAttributeEncode(value);
+
+            return render
+                ? new MvcHtmlString($"{name}=\"{value}\"")
+                : MvcHtmlString.Empty;
+        }
+
+        /// <summary>
+        /// Allows using <see cref="DisplayFor{TModel,TValue}" /> without an
         /// expression.
         /// </summary>
         /// <typeparam name="TModel"></typeparam>
@@ -29,8 +58,8 @@ namespace MichaelBrandonMorris.Extensions.OtherExtensions
         }
 
         /// <summary>
-        /// Created by @mattlunn on GitHub at 
-        /// https://github.com/mattlunn/DynamicListBinding. Creates HTML 
+        /// Created by @mattlunn on GitHub at
+        /// https://github.com/mattlunn/DynamicListBinding. Creates HTML
         /// editors for a list of properties.
         /// </summary>
         /// <typeparam name="TModel"></typeparam>
@@ -106,7 +135,6 @@ namespace MichaelBrandonMorris.Extensions.OtherExtensions
         }
 
         /// <summary>
-        /// 
         /// </summary>
         /// <typeparam name="TModel"></typeparam>
         /// <param name="html"></param>

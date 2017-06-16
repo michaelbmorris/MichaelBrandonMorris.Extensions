@@ -8,7 +8,7 @@ using MichaelBrandonMorris.Extensions.PrimitiveExtensions;
 namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
 {
     /// <summary>
-    /// Provides useful extensions for the <see cref="UserPrincipal"/> class.
+    /// Provides useful extensions for the <see cref="UserPrincipal" /> class.
     /// </summary>
     public static class UserPrincipalExtensions
     {
@@ -20,6 +20,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         private const string Department = "department";
         private const string DirectReports = "directReports";
         private const string Division = "division";
+        private const string EmployeeNumber = "employeeNumber";
+        private const string EmployeeNumberHash = "employeeNumberHash";
         private const string Fax = "facsimileTelephoneNumber";
         private const string HomeAddress = "homePostalAddress";
         private const string HomePhone = "homePhone";
@@ -37,8 +39,24 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         private const string Voip = "ipPhone";
 
         /// <summary>
-        /// Gets the assistant property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets a <see cref="UserPrincipal" /> by its distinguished name.
+        /// </summary>
+        /// <param name="principalContext"></param>
+        /// <param name="distinguishedName"></param>
+        /// <returns></returns>
+        public static UserPrincipal FindByDistinguishedName(
+            PrincipalContext principalContext,
+            string distinguishedName)
+        {
+            return UserPrincipal.FindByIdentity(
+                principalContext,
+                IdentityType.DistinguishedName,
+                distinguishedName);
+        }
+
+        /// <summary>
+        /// Gets the assistant property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetAssistant(this UserPrincipal user)
         {
@@ -46,8 +64,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the city property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the city property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetCity(this UserPrincipal user)
         {
@@ -55,8 +73,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the comment property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the comment property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetComment(this UserPrincipal user)
         {
@@ -64,8 +82,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the company property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the company property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetCompany(this UserPrincipal user)
         {
@@ -73,8 +91,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the country property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the country property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetCountry(this UserPrincipal user)
         {
@@ -82,8 +100,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the department property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the department property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetDepartment(this UserPrincipal user)
         {
@@ -91,20 +109,21 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the distinguished names contained in the direct reports 
-        /// property of this <see cref="UserPrincipal"/>'s underlying 
-        /// <see cref="DirectoryEntry"/>.
+        /// Gets the distinguished names contained in the direct reports
+        /// property of this <see cref="UserPrincipal" />'s underlying
+        /// <see cref="DirectoryEntry" />.
         /// </summary>
         public static IEnumerable<string> GetDirectReportDistinguishedNames(
             this UserPrincipal userPrincipal)
         {
-            return userPrincipal.GetProperty(DirectReports).Cast<string>()
+            return userPrincipal.GetProperty(DirectReports)
+                .Cast<string>()
                 .Where(dn => !dn.IsNullOrWhiteSpace());
         }
 
         /// <summary>
-        /// Gets the division property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the division property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetDivision(this UserPrincipal user)
         {
@@ -112,8 +131,32 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the fax property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the employee number property of this
+        /// <see cref="UserPrincipal" />'s underlying
+        /// <see cref="DirectoryEntry" />.
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
+        public static string GetEmployeeNumber(this UserPrincipal user)
+        {
+            return user.GetPropertyValueAsString(EmployeeNumber);
+        }
+
+        /// <summary>
+        /// Gets the employee number hash property of this
+        /// <see cref="UserPrincipal" />'s underlying
+        /// <see cref="DirectoryEntry" />.
+        /// </summary>
+        /// <param name="user"></param>
+        /// <returns></returns>
+        public static string GetEmployeeNumberHash(this UserPrincipal user)
+        {
+            return user.GetPropertyValueAsString(EmployeeNumberHash);
+        }
+
+        /// <summary>
+        /// Gets the fax property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetFax(this UserPrincipal user)
         {
@@ -121,8 +164,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the home address property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the home address property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetHomeAddress(this UserPrincipal user)
         {
@@ -130,8 +173,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the home phone property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the home phone property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetHomePhone(this UserPrincipal user)
         {
@@ -139,8 +182,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the initials property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the initials property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetInitials(this UserPrincipal user)
         {
@@ -148,16 +191,17 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the country manager of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the country manager of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
-        public static string GetManagerDistinguishedName(this UserPrincipal user)
+        public static string GetManagerDistinguishedName(
+            this UserPrincipal user)
         {
             return user.GetPropertyValueAsString(Manager);
         }
 
         /// <summary>
-        /// Gets the name of this <see cref="UserPrincipal"/>'s manager.
+        /// Gets the name of this <see cref="UserPrincipal" />'s manager.
         /// </summary>
         /// <param name="userPrincipal"></param>
         /// <returns></returns>
@@ -165,16 +209,22 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         {
             var managerDistinguishedName =
                 userPrincipal.GetManagerDistinguishedName();
-            if (managerDistinguishedName.IsNullOrWhiteSpace()) return null;
+            if (managerDistinguishedName.IsNullOrWhiteSpace())
+            {
+                return null;
+            }
             using (var managerUserPrincipal = UserPrincipal.FindByIdentity(
                 PrincipalContextExtensions.GetPrincipalContext(),
-                IdentityType.DistinguishedName, managerDistinguishedName))
+                IdentityType.DistinguishedName,
+                managerDistinguishedName))
+            {
                 return managerUserPrincipal?.Name;
+            }
         }
 
         /// <summary>
-        /// Gets the mobile property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the mobile property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetMobile(this UserPrincipal user)
         {
@@ -182,8 +232,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the country property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the country property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetNotes(this UserPrincipal user)
         {
@@ -191,8 +241,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the pager property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the pager property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetPager(this UserPrincipal user)
         {
@@ -200,8 +250,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the sip property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the sip property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetSip(this UserPrincipal user)
         {
@@ -209,8 +259,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the state property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the state property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetState(this UserPrincipal user)
         {
@@ -218,8 +268,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the street address property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the street address property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetStreetAddress(this UserPrincipal user)
         {
@@ -227,8 +277,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the suffix property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the suffix property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetSuffix(this UserPrincipal user)
         {
@@ -236,8 +286,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the title property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the title property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetTitle(this UserPrincipal user)
         {
@@ -245,8 +295,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the user account control property of this 
-        /// <see cref="UserPrincipal"/>'s underlying <see cref="DirectoryEntry"/>.
+        /// Gets the user account control property of this
+        /// <see cref="UserPrincipal" />'s underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetUserAccountControl(this UserPrincipal user)
         {
@@ -254,8 +304,8 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the Voip property of this <see cref="UserPrincipal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        /// Gets the Voip property of this <see cref="UserPrincipal" />'s
+        /// underlying <see cref="DirectoryEntry" />.
         /// </summary>
         public static string GetVoip(this UserPrincipal user)
         {
@@ -263,22 +313,13 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Whether or not this <see cref="UserPrincipal"/>'s underlying 
-        /// <see cref="DirectoryEntry"/> is active.
+        /// Whether or not this <see cref="UserPrincipal" />'s underlying
+        /// <see cref="DirectoryEntry" /> is active.
         /// </summary>
         public static bool IsActive(this UserPrincipal user)
         {
             return !Convert.ToBoolean(
                 (int) user.GetProperty(UserAccountControl).Value & 0x0002);
-        }
-
-        public static UserPrincipal FindByDistinguishedName(
-            PrincipalContext principalContext, string distinguishedName)
-        {
-                return UserPrincipal.FindByIdentity(
-                    principalContext,
-                    IdentityType.DistinguishedName,
-                    distinguishedName);
         }
     }
 }
