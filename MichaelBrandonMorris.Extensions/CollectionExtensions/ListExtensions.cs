@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
 
 namespace MichaelBrandonMorris.Extensions.CollectionExtensions
 {
@@ -12,32 +11,55 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
     public static class ListExtensions
     {
         /// <summary>
-        ///     Allows use of OrderBy on <see cref="IList{T}" />
+        ///     Sorts the elements of a sequence in ascending order by using a
+        ///     specified comparer.
         /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <typeparam name="TResult"></typeparam>
-        /// <param name="list"></param>
-        /// <param name="expression"></param>
-        /// <returns></returns>
-        public static IList<TResult> OrderBy<T, TResult>(
-            this IList<TResult> list,
-            Expression<Func<TResult, T>> expression)
+        /// <typeparam name="TSource">
+        ///     The type of the elements of source.
+        /// </typeparam>
+        /// <typeparam name="TKey">
+        ///     The type of the key returned by keySelector.
+        /// </typeparam>
+        /// <param name="source">
+        ///     A sequence of values to order.
+        /// </param>
+        /// <param name="keySelector">
+        ///     A function to extract a key from an element.
+        /// </param>
+        /// <param name="comparer">
+        ///     An <see cref="IComparer{T}" /> to compare keys.
+        /// </param>
+        /// <returns>
+        ///     An <see cref="IList{T}" /> whose elements are sorted according
+        ///     to a key.
+        /// </returns>
+        public static IList<TSource> OrderBy<TSource, TKey>(
+            this IList<TSource> source,
+            Func<TSource, TKey> keySelector,
+            IComparer<TKey> comparer = null)
         {
-            return list.AsQueryable().OrderBy(expression).ToList();
+            if (comparer == null)
+            {
+                return source.AsEnumerable().OrderBy(keySelector).ToList();
+            }
+
+            return source.AsEnumerable()
+                .OrderBy(keySelector, comparer)
+                .ToList();
         }
 
-        /// <summary>
-        ///     Allows use of OrderBy on <see cref="IList{T}" />
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="list"></param>
-        /// <param name="predicate"></param>
-        /// <returns></returns>
-        public static IList<T> OrderBy<T>(
-            this IList<T> list,
-            Func<T, object> predicate)
+        public static IList<TSource> OrderByDescending<TSource, TKey>(
+            this IList<TSource> source,
+            Func<TSource, TKey> keySelector,
+            IComparer<TKey> comparer = null)
         {
-            return list.AsEnumerable().OrderBy(predicate).ToList();
+            IEnumerable<TSource> result =
+                comparer == null
+                    ? source.AsEnumerable().OrderByDescending(keySelector)
+                    : source.AsEnumerable()
+                        .OrderByDescending(keySelector, comparer);
+
+            return result.ToList();
         }
 
         /// <summary>
@@ -71,18 +93,10 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
         ///     Projects each element of a sequence into a new form.
         /// </summary>
         /// <typeparam name="TSource">
-        ///     The type of the elements of
-        ///     <see>
-        ///         <cref>source</cref>
-        ///     </see>
-        ///     .
+        ///     The type of the elements of source.
         /// </typeparam>
         /// <typeparam name="TResult">
-        ///     The type of the value returned by
-        ///     <see>
-        ///         <cref>selector</cref>
-        ///     </see>
-        ///     .
+        ///     The type of the value returned byselector.
         /// </typeparam>
         /// <param name="source">
         ///     A sequence of values to invoke a transform function on.
@@ -134,7 +148,7 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
         ///     The number of elements to return.
         /// </param>
         /// <returns>
-        ///     An <see cref="IList{T}" /> that contains the specified number 
+        ///     An <see cref="IList{T}" /> that contains the specified number
         ///     of elements from the start of the input sequence.
         /// </returns>
         public static IList<TSource> Take

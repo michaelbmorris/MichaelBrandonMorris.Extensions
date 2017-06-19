@@ -139,5 +139,21 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
 
             return objects.ToList();
         }
+
+        public static IList<T> OrderByDescendingWhere<T>(
+            this IEnumerable<T> objects,
+            Func<T, object> orderByPredicate = null,
+            Func<T, bool> wherePredicate = null)
+        {
+            objects = orderByPredicate == null
+                ? objects
+                : objects.OrderByDescending(orderByPredicate);
+
+            objects = wherePredicate == null
+                ? objects
+                : objects.Where(wherePredicate);
+
+            return objects.ToList();
+        }
     }
 }
