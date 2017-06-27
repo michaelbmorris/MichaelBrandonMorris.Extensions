@@ -110,6 +110,7 @@
     <Compile Include="PrimitiveExtensions\DoubleExtensions.cs" />
     <Compile Include="CollectionExtensions\EnumerableExtensions.cs" />
     <Compile Include="PrimitiveExtensions\FloatExtensions.cs" />
+    <Compile Include="PrimitiveExtensions\ObjectExtensions.cs" />
     <Compile Include="PrincipalExtensions\GroupPrincipalExtensions.cs" />
     <Compile Include="CollectionExtensions\ListExtensions.cs" />
     <Compile Include="PrincipalExtensions\PrincipalContextExtensions.cs" />

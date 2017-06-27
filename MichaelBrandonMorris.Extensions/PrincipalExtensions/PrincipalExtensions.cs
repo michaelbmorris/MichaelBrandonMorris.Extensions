@@ -2,7 +2,9 @@
 using System.DirectoryServices;
 using System.DirectoryServices.AccountManagement;
 using System.Linq;
+using System.Security.Principal;
 using MichaelBrandonMorris.Extensions.PrimitiveExtensions;
+using Microsoft.AspNet.Identity;
 
 namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
 {
@@ -83,6 +85,17 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
             return propertyValue == null
                 ? string.Empty
                 : propertyValue.ToString().RemoveAllBut(LegalCharacters);
+        }
+
+        /// <summary>
+        ///     Gets the Id of this <see cref="IPrincipal"/>'s 
+        ///     <see cref="IIdentity"/>.
+        /// </summary>
+        /// <param name="principal"></param>
+        /// <returns></returns>
+        public static string GetId(this IPrincipal principal)
+        {
+            return principal.Identity.GetUserId();
         }
     }
 }
