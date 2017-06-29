@@ -4,36 +4,43 @@ using MichaelBrandonMorris.Extensions.PrimitiveExtensions;
 namespace MichaelBrandonMorris.Extensions.OtherExtensions
 {
     /// <summary>
-    ///     Provides useful extensions for the <see cref="StringBuilder" /> 
-    ///     class.
+    ///     Class StringBuilderExtensions.
     /// </summary>
+    /// TODO Edit XML Comment Template for StringBuilderExtensions
     public static class StringBuilderExtensions
     {
+        /// <summary>
+        ///     The comma
+        /// </summary>
+        /// TODO Edit XML Comment Template for Comma
         private const char Comma = ',';
+
+        /// <summary>
+        ///     The quote
+        /// </summary>
+        /// TODO Edit XML Comment Template for Quote
         private const char Quote = '"';
 
         /// <summary>
-        ///     Appends a string to the <see cref="StringBuilder" />, wrapping 
-        ///     it in quotes and adding a comma to the end for use in a .csv 
-        ///     file.
+        ///     Appends the CSV.
         /// </summary>
         /// <param name="stringBuilder">The string builder.</param>
-        /// <param name="s">The string to append.</param>
-        public static void AppendCsv(
-            this StringBuilder stringBuilder, string s)
+        /// <param name="s">The s.</param>
+        /// TODO Edit XML Comment Template for AppendCsv
+        public static void AppendCsv(this StringBuilder stringBuilder, string s)
         {
             stringBuilder.Append(s.Wrap(Quote) + Comma);
         }
 
         /// <summary>
-        ///     Appends a string to the <see cref="StringBuilder" />, wrapping 
-        ///     it in quotes and adding a newline to the end for use in a .csv 
-        ///     file.
+        ///     Appends the line CSV.
         /// </summary>
         /// <param name="stringBuilder">The string builder.</param>
-        /// <param name="s">The string to append.</param>
+        /// <param name="s">The s.</param>
+        /// TODO Edit XML Comment Template for AppendLineCsv
         public static void AppendLineCsv(
-            this StringBuilder stringBuilder, string s)
+            this StringBuilder stringBuilder,
+            string s)
         {
             stringBuilder.AppendLine(s.Wrap(Quote));
         }

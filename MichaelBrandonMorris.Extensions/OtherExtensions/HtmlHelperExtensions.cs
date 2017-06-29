@@ -9,26 +9,28 @@ using System.Web.Mvc.Html;
 namespace MichaelBrandonMorris.Extensions.OtherExtensions
 {
     /// <summary>
-    /// Provides useful extensions for the <see cref="HtmlHelper{TModel}" /> class.
+    ///     Class HtmlHelperExtensions.
     /// </summary>
+    /// TODO Edit XML Comment Template for HtmlHelperExtensions
     public static class HtmlHelperExtensions
     {
         /// <summary>
-        /// Renders a HTML attribute with the specified name and value if the
-        /// condition is true.
+        ///     Attributes the specified name.
         /// </summary>
-        /// <param name="helper"></param>
-        /// <param name="name"></param>
-        /// <param name="value"></param>
-        /// <param name="condition"></param>
-        /// <returns></returns>
+        /// <param name="helper">The helper.</param>
+        /// <param name="name">The name.</param>
+        /// <param name="value">The value.</param>
+        /// <param name="condition">if set to <c>true</c> [condition].</param>
+        /// <returns>MvcHtmlString.</returns>
+        /// TODO Edit XML Comment Template for Attribute
         public static MvcHtmlString Attribute(
             this HtmlHelper helper,
             string name,
             string value,
             bool? condition)
         {
-            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(value))
+            if (string.IsNullOrEmpty(name)
+                || string.IsNullOrEmpty(value))
             {
                 return MvcHtmlString.Empty;
             }
@@ -42,14 +44,14 @@ namespace MichaelBrandonMorris.Extensions.OtherExtensions
         }
 
         /// <summary>
-        /// Allows using <see cref="DisplayFor{TModel,TValue}" /> without an
-        /// expression.
+        ///     Displays for.
         /// </summary>
-        /// <typeparam name="TModel"></typeparam>
-        /// <typeparam name="TValue"></typeparam>
-        /// <param name="html"></param>
-        /// <param name="value"></param>
-        /// <returns></returns>
+        /// <typeparam name="TModel">The type of the t model.</typeparam>
+        /// <typeparam name="TValue">The type of the t value.</typeparam>
+        /// <param name="html">The HTML.</param>
+        /// <param name="value">The value.</param>
+        /// <returns>MvcHtmlString.</returns>
+        /// TODO Edit XML Comment Template for DisplayFor`2
         public static MvcHtmlString DisplayFor<TModel, TValue>(
             this HtmlHelper<TModel> html,
             TValue value)
@@ -58,22 +60,29 @@ namespace MichaelBrandonMorris.Extensions.OtherExtensions
         }
 
         /// <summary>
-        /// Created by @mattlunn on GitHub at
-        /// https://github.com/mattlunn/DynamicListBinding. Creates HTML
-        /// editors for a list of properties.
+        ///     Editors for many.
         /// </summary>
-        /// <typeparam name="TModel"></typeparam>
-        /// <typeparam name="TValue"></typeparam>
-        /// <param name="html"></param>
-        /// <param name="propertyExpression"></param>
-        /// <param name="indexResolverExpression"></param>
-        /// <param name="includeIndexField"></param>
-        /// <returns></returns>
+        /// <typeparam name="TModel">The type of the t model.</typeparam>
+        /// <typeparam name="TValue">The type of the t value.</typeparam>
+        /// <param name="html">The HTML.</param>
+        /// <param name="propertyExpression">The property expression.</param>
+        /// <param name="indexResolverExpression">
+        ///     The index resolver
+        ///     expression.
+        /// </param>
+        /// <param name="includeIndexField">
+        ///     if set to <c>true</c>
+        ///     [include index field].
+        /// </param>
+        /// <returns>MvcHtmlString.</returns>
+        /// <exception cref="Exception"></exception>
+        /// TODO Edit XML Comment Template for EditorForMany`2
         public static MvcHtmlString EditorForMany<TModel, TValue>(
             this HtmlHelper<TModel> html,
             Expression<Func<TModel, IEnumerable<TValue>>> propertyExpression,
             Expression<Func<TValue, string>> indexResolverExpression = null,
-            bool includeIndexField = true) where TModel : class
+            bool includeIndexField = true)
+            where TModel : class
         {
             var items = propertyExpression.Compile()(html.ViewData.Model);
             var htmlBuilder = new StringBuilder();
@@ -135,11 +144,20 @@ namespace MichaelBrandonMorris.Extensions.OtherExtensions
         }
 
         /// <summary>
+        ///     Editors for many index field.
         /// </summary>
-        /// <typeparam name="TModel"></typeparam>
-        /// <param name="html"></param>
-        /// <param name="indexResolverExpression"></param>
-        /// <returns></returns>
+        /// <typeparam name="TModel">The type of the t model.</typeparam>
+        /// <param name="html">The HTML.</param>
+        /// <param name="indexResolverExpression">
+        ///     The index resolver
+        ///     expression.
+        /// </param>
+        /// <returns>MvcHtmlString.</returns>
+        /// <exception cref="InvalidOperationException">
+        ///     EditorForManyIndexField
+        ///     called when not in a EditorForMany context
+        /// </exception>
+        /// TODO Edit XML Comment Template for EditorForManyIndexField`1
         public static MvcHtmlString EditorForManyIndexField<TModel>(
             this HtmlHelper<TModel> html,
             Expression<Func<TModel, string>> indexResolverExpression = null)
@@ -148,7 +166,8 @@ namespace MichaelBrandonMorris.Extensions.OtherExtensions
             var first = htmlPrefix.LastIndexOf('[');
             var last = htmlPrefix.IndexOf(']', first + 1);
 
-            if (first == -1 || last == -1)
+            if (first == -1
+                || last == -1)
             {
                 throw new InvalidOperationException(
                     "EditorForManyIndexField called when not in a EditorForMany context");
@@ -163,6 +182,21 @@ namespace MichaelBrandonMorris.Extensions.OtherExtensions
                 indexResolverExpression);
         }
 
+        /// <summary>
+        ///     Editors for many index field.
+        /// </summary>
+        /// <typeparam name="TModel">The type of the t model.</typeparam>
+        /// <param name="htmlFieldNameWithPrefix">
+        ///     The HTML field name
+        ///     with prefix.
+        /// </param>
+        /// <param name="guid">The unique identifier.</param>
+        /// <param name="indexResolverExpression">
+        ///     The index resolver
+        ///     expression.
+        /// </param>
+        /// <returns>MvcHtmlString.</returns>
+        /// TODO Edit XML Comment Template for _EditorForManyIndexField`1
         private static MvcHtmlString _EditorForManyIndexField<TModel>(
             string htmlFieldNameWithPrefix,
             string guid,

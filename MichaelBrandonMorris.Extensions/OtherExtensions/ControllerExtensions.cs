@@ -7,17 +7,17 @@ using Microsoft.AspNet.Identity.Owin;
 namespace MichaelBrandonMorris.Extensions.OtherExtensions
 {
     /// <summary>
-    /// Provides extensions for classes that implement the
-    /// <see cref="IController" /> interface.
+    ///     Class ControllerExtensions.
     /// </summary>
+    /// TODO Edit XML Comment Template for ControllerExtensions
     public static class ControllerExtensions
     {
         /// <summary>
-        /// Gets the <see cref="IdentityUser" /> for the current
-        /// <see cref="HttpContext" />.
+        ///     Gets the user.
         /// </summary>
-        /// <param name="controller"></param>
-        /// <returns></returns>
+        /// <param name="controller">The controller.</param>
+        /// <returns>IdentityUser.</returns>
+        /// TODO Edit XML Comment Template for GetUser
         public static IdentityUser GetUser(this IController controller)
         {
             return HttpContext.Current.GetOwinContext()

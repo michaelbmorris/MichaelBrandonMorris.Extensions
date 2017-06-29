@@ -3,18 +3,22 @@
 namespace MichaelBrandonMorris.Extensions.PrimitiveExtensions
 {
     /// <summary>
-    ///     Provides extensions for <see cref="object"/>s.
+    ///     Class ObjectExtensions.
     /// </summary>
+    /// TODO Edit XML Comment Template for ObjectExtensions
     public static class ObjectExtensions
     {
         /// <summary>
-        ///     Gets the value of a named property for this 
-        ///     <see cref="object"/>.
+        ///     Gets the property value.
         /// </summary>
-        /// <param name="o"></param>
-        /// <param name="propertyName"></param>
-        /// <returns></returns>
-        public static object GetPropertyValue(this object o, string propertyName)
+        /// <param name="o">The o.</param>
+        /// <param name="propertyName">Name of the property.</param>
+        /// <returns>System.Object.</returns>
+        /// <exception cref="Exception"></exception>
+        /// TODO Edit XML Comment Template for GetPropertyValue
+        public static object GetPropertyValue(
+            this object o,
+            string propertyName)
         {
             var propertyInfo = o.GetType().GetProperty(propertyName);
 

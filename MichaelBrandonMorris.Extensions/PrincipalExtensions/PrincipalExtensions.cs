@@ -9,11 +9,15 @@ using Microsoft.AspNet.Identity;
 namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
 {
     /// <summary>
-    /// Provides useful extension methods for the <see cref="Principal"/> 
-    /// class.
+    ///     Class PrincipalExtensions.
     /// </summary>
+    /// TODO Edit XML Comment Template for PrincipalExtensions
     public static class PrincipalExtensions
     {
+        /// <summary>
+        ///     The legal symbols
+        /// </summary>
+        /// TODO Edit XML Comment Template for LegalSymbols
         private static readonly char[] LegalSymbols =
         {
             ' ',
@@ -28,13 +32,20 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
             '-'
         };
 
+        /// <summary>
+        ///     The legal characters
+        /// </summary>
+        /// TODO Edit XML Comment Template for LegalCharacters
         private static readonly IEnumerable<char> LegalCharacters =
             CharExtensions.AlphanumericCharacters.Concat(LegalSymbols);
 
+
         /// <summary>
-        /// Gets the underlying <see cref="DirectoryEntry"/> for the 
-        /// <see cref="Principal"/> if one exisits. Otherwise, returns null.
+        ///     Gets as directory entry.
         /// </summary>
+        /// <param name="principal">The principal.</param>
+        /// <returns>DirectoryEntry.</returns>
+        /// TODO Edit XML Comment Template for GetAsDirectoryEntry
         public static DirectoryEntry GetAsDirectoryEntry(
             this Principal principal)
         {
@@ -42,9 +53,11 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the <see cref="GroupPrincipal"/>s this <see cref="Principal"/>
-        ///  is a member of.
+        ///     Gets the group principals.
         /// </summary>
+        /// <param name="principal">The principal.</param>
+        /// <returns>IEnumerable&lt;GroupPrincipal&gt;.</returns>
+        /// TODO Edit XML Comment Template for GetGroupPrincipals
         public static IEnumerable<GroupPrincipal> GetGroupPrincipals(
             this Principal principal)
         {
@@ -52,50 +65,59 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the specified property from this <see cref="Principal"/>'s 
-        /// underlying <see cref="DirectoryEntry"/>.
+        ///     Gets the identifier.
         /// </summary>
+        /// <param name="principal">The principal.</param>
+        /// <returns>System.String.</returns>
+        /// TODO Edit XML Comment Template for GetId
+        public static string GetId(this IPrincipal principal)
+        {
+            return principal.Identity.GetUserId();
+        }
+
+        /// <summary>
+        ///     Gets the property.
+        /// </summary>
+        /// <param name="principal">The principal.</param>
+        /// <param name="propertyName">Name of the property.</param>
+        /// <returns>PropertyValueCollection.</returns>
+        /// TODO Edit XML Comment Template for GetProperty
         public static PropertyValueCollection GetProperty(
-            this Principal principal, string propertyName)
+            this Principal principal,
+            string propertyName)
         {
             return principal.GetAsDirectoryEntry().Properties[propertyName];
         }
 
         /// <summary>
-        /// Gets the value for the specified property from this 
-        /// <see cref="Principal"/>'s underlying <see cref="DirectoryEntry"/> 
-        /// as an <see cref="object"/>.
+        ///     Gets the property value.
         /// </summary>
+        /// <param name="principal">The principal.</param>
+        /// <param name="propertyName">Name of the property.</param>
+        /// <returns>System.Object.</returns>
+        /// TODO Edit XML Comment Template for GetPropertyValue
         public static object GetPropertyValue(
-            this Principal principal, string propertyName)
+            this Principal principal,
+            string propertyName)
         {
             return principal.GetProperty(propertyName).Value;
         }
 
         /// <summary>
-        /// Gets the value for the specified property from this 
-        /// <see cref="Principal"/>'s underlying <see cref="DirectoryEntry"/> 
-        /// as a <see cref="string"/>. Returns an empty <see cref="string"/> 
-        /// if the property value is null.
+        ///     Gets the property value as string.
         /// </summary>
+        /// <param name="principal">The principal.</param>
+        /// <param name="propertyName">Name of the property.</param>
+        /// <returns>System.String.</returns>
+        /// TODO Edit XML Comment Template for GetPropertyValueAsString
         public static string GetPropertyValueAsString(
-            this Principal principal, string propertyName)
+            this Principal principal,
+            string propertyName)
         {
             var propertyValue = principal.GetPropertyValue(propertyName);
             return propertyValue == null
                 ? string.Empty
                 : propertyValue.ToString().RemoveAllBut(LegalCharacters);
-        }
-
-        /// <summary>
-        ///     Gets the Id of this <see cref="IPrincipal"/>'s 
-        ///     <see cref="IIdentity"/>.
-        /// </summary>
-        /// <param name="principal"></param>
-        /// <returns></returns>
-        public static string GetId(this IPrincipal principal)
-        {
-            return principal.Identity.GetUserId();
         }
     }
 }

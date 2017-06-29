@@ -1,0 +1,1312 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+<title>MichaelBrandonMorris.Extensions - Table of Content</title>
+<link rel="stylesheet" href="TOC.css">
+<link rel="shortcut icon" href="favicon.ico"/>
+<script type="text/javascript" src="TOC.js"></script>
+</head>
+
+<body onload="javascript: Initialize('.aspx');" onresize="javascript: ResizeTree();">
+<form id="IndexForm" runat="server">
+
+<div id="TOCDiv" class="TOCDiv">
+
+<div id="divSearchOpts" class="SearchOpts" style="height: 90px; display: none;">
+	<img class="TOCLink" onclick="javascript: ShowHideSearch(false);"
+		src="Close.png" height="24" width="24" alt="Hide Search" title="Hide Search" style="float: right;"/>
+	<span class="Title">Keyword(s) to search:</span>
+	<input id="txtSearchText" type="text" style="width: 100%;" 
+		onkeypress="javascript: return OnSearchTextKeyPress(event);" /><br />
+	<input id="chkSortByTitle" type="checkbox" /><label for="chkSortByTitle">&nbsp;Sort results by title</label>
+	<input type="button" value="Search" onclick="javascript: return PerformSearch();" style="float: right;" />
+</div>
+
+<div id="divIndexOpts" class="IndexOpts" style="height: 28px; display: none;">
+	<img class="TOCLink" onclick="javascript: ShowHideIndex(false);"
+		src="Close.png" height="24" width="24" alt="Hide Keyword Index" title="Hide Keyword Index" style="float: right;"/>
+	<span class="Title">Keyword Index</span>
+</div>
+
+<div id="divNavOpts" class="NavOpts" style="height: 28px;">
+    <img class="TOCLink" onclick="javascript: SyncTOC();" src="SyncTOC.png"
+        height="24" width="24" alt="Sync to TOC" title="Sync to TOC" />
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(true);"
+        src="ExpandAll.png" height="24" width="24" alt="Expand all" title="Expand all" />
+    <img class="TOCLink" onclick="javascript: ExpandOrCollapseAll(false);"
+        src="CollapseAll.png" height="24" width="24" alt="Collapse all" title="Collapse all" />
+    <img class="TOCLink" onclick="javascript: ShowDirectLink();"
+        src="Link.png" height="24" width="24" alt="Get direct link to the displayed topic" title="Get direct link to the displayed topic" />
+    <a href="#" onclick="javascript: TopicContent.history.go(-1); return false;">
+		<img class="TOCLink" style="float: right;" 
+        src="Back.png" height="24" width="24" alt="Previous page" title="Previous page" /></a>
+</div>
+
+<div class="Tree" id="divSearchResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divIndexResults" style="display: none;"
+    onselectstart="javascript: return false;">
+</div>
+
+<div class="Tree" id="divTree" onselectstart="javascript: return false;">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N-MichaelBrandonMorris.Extensions.CollectionExtensions.htm" target="TopicContent">MichaelBrandonMorris.Extensions.CollectionExtensions Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.htm" target="TopicContent">ArrayExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.htm" target="TopicContent">ArrayExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.htm" target="TopicContent">ArrayExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.Skip--1.htm" target="TopicContent">Skip(TSource) Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.htm" target="TopicContent">EnumerableExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.htm" target="TopicContent">EnumerableExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.htm" target="TopicContent">EnumerableExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ContainsIgnoreCase.htm" target="TopicContent">ContainsIgnoreCase Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.IsEmpty--1.htm" target="TopicContent">IsEmpty(T) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.IsNullOrEmpty--1.htm" target="TopicContent">IsNullOrEmpty(T) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.Multiple--1.htm" target="TopicContent">Multiple(T) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.OrderByDescendingWhere--1.htm" target="TopicContent">OrderByDescendingWhere(T) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.OrderByWhere--1.htm" target="TopicContent">OrderByWhere(T) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.Shuffle--1.htm" target="TopicContent">Shuffle(T) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ShuffleToList--1.htm" target="TopicContent">ShuffleToList(T) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ToDataTable.htm" target="TopicContent">ToDataTable Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.htm" target="TopicContent">ListExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.htm" target="TopicContent">ListExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.htm" target="TopicContent">ListExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.OrderBy--2.htm" target="TopicContent">OrderBy(TSource, TKey) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.OrderByDescending--2.htm" target="TopicContent">OrderByDescending(TSource, TKey) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Peek--1.htm" target="TopicContent">Peek(T) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Pop--1.htm" target="TopicContent">Pop(T) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Push--1.htm" target="TopicContent">Push(T) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Select--2.htm" target="TopicContent">Select(TSource, TResult) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.SelectMany--2.htm" target="TopicContent">SelectMany(TSource, TResult) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Shuffle--1.htm" target="TopicContent">Shuffle(T) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Take--1.htm" target="TopicContent">Take(TSource) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Where--1.htm" target="TopicContent">Where(T) Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N-MichaelBrandonMorris.Extensions.OtherExtensions.htm" target="TopicContent">MichaelBrandonMorris.Extensions.OtherExtensions Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" target="TopicContent">ControllerExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" target="TopicContent">ControllerExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" target="TopicContent">ControllerExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.GetUser.htm" target="TopicContent">GetUser Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" target="TopicContent">HtmlHelperExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" target="TopicContent">HtmlHelperExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" target="TopicContent">HtmlHelperExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions._EditorForManyIndexField--1.htm" target="TopicContent">_EditorForManyIndexField(TModel) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.Attribute.htm" target="TopicContent">Attribute Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.DisplayFor--2.htm" target="TopicContent">DisplayFor(TModel, TValue) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForMany--2.htm" target="TopicContent">EditorForMany(TModel, TValue) Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForManyIndexField--1.htm" target="TopicContent">EditorForManyIndexField(TModel) Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" target="TopicContent">HttpPostedFileBaseExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" target="TopicContent">HttpPostedFileBaseExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" target="TopicContent">HttpPostedFileBaseExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.ToBytes.htm" target="TopicContent">ToBytes Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm" target="TopicContent">StringBuilderExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm" target="TopicContent">StringBuilderExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields.T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm" target="TopicContent">StringBuilderExtensions Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.Comma.htm" target="TopicContent">Comma Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.Quote.htm" target="TopicContent">Quote Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm" target="TopicContent">StringBuilderExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.AppendCsv.htm" target="TopicContent">AppendCsv Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.AppendLineCsv.htm" target="TopicContent">AppendLineCsv Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N-MichaelBrandonMorris.Extensions.PrimitiveExtensions.htm" target="TopicContent">MichaelBrandonMorris.Extensions.PrimitiveExtensions Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm" target="TopicContent">CharExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm" target="TopicContent">CharExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm" target="TopicContent">CharExtensions Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.AlphanumericCharacters.htm" target="TopicContent">AlphanumericCharacters Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm" target="TopicContent">CharExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.EqualsAny.htm" target="TopicContent">EqualsAny Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.GetNumericValue.htm" target="TopicContent">GetNumericValue Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.GetUnicodeCategory.htm" target="TopicContent">GetUnicodeCategory Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsControl.htm" target="TopicContent">IsControl Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsDigit.htm" target="TopicContent">IsDigit Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsHighSurrogate.htm" target="TopicContent">IsHighSurrogate Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLetter.htm" target="TopicContent">IsLetter Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLetterOrDigit.htm" target="TopicContent">IsLetterOrDigit Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLower.htm" target="TopicContent">IsLower Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLowSurrogate.htm" target="TopicContent">IsLowSurrogate Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsNumber.htm" target="TopicContent">IsNumber Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsPunctuation.htm" target="TopicContent">IsPunctuation Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsSeparator.htm" target="TopicContent">IsSeparator Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsSurrogate.htm" target="TopicContent">IsSurrogate Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsSymbol.htm" target="TopicContent">IsSymbol Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsUpper.htm" target="TopicContent">IsUpper Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsWhiteSpace.htm" target="TopicContent">IsWhiteSpace Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToLower.htm" target="TopicContent">ToLower Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToLower.htm" target="TopicContent">ToLower Method (Char)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToLower_1.htm" target="TopicContent">ToLower Method (Char, CultureInfo)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToLowerInvariant.htm" target="TopicContent">ToLowerInvariant Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToUpper.htm" target="TopicContent">ToUpper Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToUpper.htm" target="TopicContent">ToUpper Method (Char)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToUpper_1.htm" target="TopicContent">ToUpper Method (Char, CultureInfo)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToUpperInvariant.htm" target="TopicContent">ToUpperInvariant Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.htm" target="TopicContent">DoubleExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.htm" target="TopicContent">DoubleExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.htm" target="TopicContent">DoubleExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsInfinity.htm" target="TopicContent">IsInfinity Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsNaN.htm" target="TopicContent">IsNaN Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsNegativeInfinity.htm" target="TopicContent">IsNegativeInfinity Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsPositiveInfinity.htm" target="TopicContent">IsPositiveInfinity Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.htm" target="TopicContent">FloatExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.htm" target="TopicContent">FloatExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.htm" target="TopicContent">FloatExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsInfinity.htm" target="TopicContent">IsInfinity Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsNaN.htm" target="TopicContent">IsNaN Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsNegativeInfinity.htm" target="TopicContent">IsNegativeInfinity Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsPositiveInfinity.htm" target="TopicContent">IsPositiveInfinity Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.htm" target="TopicContent">ObjectExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.htm" target="TopicContent">ObjectExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.htm" target="TopicContent">ObjectExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.GetPropertyValue.htm" target="TopicContent">GetPropertyValue Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.htm" target="TopicContent">StringExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.htm" target="TopicContent">StringExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.htm" target="TopicContent">StringExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Compare.htm" target="TopicContent">Compare Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Compare.htm" target="TopicContent">Compare Method (String, String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Compare_1.htm" target="TopicContent">Compare Method (String, String, Boolean)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Compare_2.htm" target="TopicContent">Compare Method (String, String, Boolean, CultureInfo)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Compare_3.htm" target="TopicContent">Compare Method (String, String, CultureInfo, CompareOptions)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Compare_4.htm" target="TopicContent">Compare Method (String, String, StringComparison)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.CompareOrdinal.htm" target="TopicContent">CompareOrdinal Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ContainsIgnoreCase.htm" target="TopicContent">ContainsIgnoreCase Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ConvertToUtf32.htm" target="TopicContent">ConvertToUtf32 Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Copy.htm" target="TopicContent">Copy Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsCurrentCulture.htm" target="TopicContent">EqualsCurrentCulture Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsCurrentCultureIgnoreCase.htm" target="TopicContent">EqualsCurrentCultureIgnoreCase Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsInvariantCulture.htm" target="TopicContent">EqualsInvariantCulture Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsInvariantCultureIgnoreCase.htm" target="TopicContent">EqualsInvariantCultureIgnoreCase Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsOrdinal.htm" target="TopicContent">EqualsOrdinal Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsOrdinalIgnoreCase.htm" target="TopicContent">EqualsOrdinalIgnoreCase Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.GetNumericValue.htm" target="TopicContent">GetNumericValue Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.GetUnicodeCategory.htm" target="TopicContent">GetUnicodeCategory Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IndexOfOrdinal.htm" target="TopicContent">IndexOfOrdinal Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IndexOfOrdinalIgnoreCase.htm" target="TopicContent">IndexOfOrdinalIgnoreCase Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsControl.htm" target="TopicContent">IsControl Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsDigit.htm" target="TopicContent">IsDigit Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsHighSurrogate.htm" target="TopicContent">IsHighSurrogate Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLetter.htm" target="TopicContent">IsLetter Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLetterOrDigit.htm" target="TopicContent">IsLetterOrDigit Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLower.htm" target="TopicContent">IsLower Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLowSurrogate.htm" target="TopicContent">IsLowSurrogate Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsNullOrEmpty.htm" target="TopicContent">IsNullOrEmpty Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsNullOrWhiteSpace.htm" target="TopicContent">IsNullOrWhiteSpace Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsNumber.htm" target="TopicContent">IsNumber Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsPunctuation.htm" target="TopicContent">IsPunctuation Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSeparator.htm" target="TopicContent">IsSeparator Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSurrogate.htm" target="TopicContent">IsSurrogate Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSurrogatePair.htm" target="TopicContent">IsSurrogatePair Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSymbol.htm" target="TopicContent">IsSymbol Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsUpper.htm" target="TopicContent">IsUpper Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsWhiteSpace.htm" target="TopicContent">IsWhiteSpace Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsWhiteSpace.htm" target="TopicContent">IsWhiteSpace Method (String, Int32)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsWhiteSpace_1.htm" target="TopicContent">IsWhiteSpace Method (String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseBool.htm" target="TopicContent">ParseBool Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseByte.htm" target="TopicContent">ParseByte Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseByte.htm" target="TopicContent">ParseByte Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseByte_1.htm" target="TopicContent">ParseByte Method (String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseByte_2.htm" target="TopicContent">ParseByte Method (String, NumberStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseByte_3.htm" target="TopicContent">ParseByte Method (String, NumberStyles, IFormatProvider)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseChar.htm" target="TopicContent">ParseChar Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDateTime.htm" target="TopicContent">ParseDateTime Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDateTime.htm" target="TopicContent">ParseDateTime Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDateTime_1.htm" target="TopicContent">ParseDateTime Method (String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDateTime_2.htm" target="TopicContent">ParseDateTime Method (String, IFormatProvider, DateTimeStyles)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDecimal.htm" target="TopicContent">ParseDecimal Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDecimal.htm" target="TopicContent">ParseDecimal Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDecimal_1.htm" target="TopicContent">ParseDecimal Method (String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDecimal_2.htm" target="TopicContent">ParseDecimal Method (String, NumberStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDecimal_3.htm" target="TopicContent">ParseDecimal Method (String, NumberStyles, IFormatProvider)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDouble.htm" target="TopicContent">ParseDouble Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDouble.htm" target="TopicContent">ParseDouble Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDouble_1.htm" target="TopicContent">ParseDouble Method (String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDouble_2.htm" target="TopicContent">ParseDouble Method (String, NumberStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDouble_3.htm" target="TopicContent">ParseDouble Method (String, NumberStyles, IFormatProvider)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseExactDateTime.htm" target="TopicContent">ParseExactDateTime Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseExactDateTime.htm" target="TopicContent">ParseExactDateTime Method (String, String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseExactDateTime_1.htm" target="TopicContent">ParseExactDateTime Method (String, String, IFormatProvider, DateTimeStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseExactDateTime_2.htm" target="TopicContent">ParseExactDateTime Method (String, String[], IFormatProvider, DateTimeStyles)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseFloat.htm" target="TopicContent">ParseFloat Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseFloat.htm" target="TopicContent">ParseFloat Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseFloat_1.htm" target="TopicContent">ParseFloat Method (String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseFloat_2.htm" target="TopicContent">ParseFloat Method (String, NumberStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseFloat_3.htm" target="TopicContent">ParseFloat Method (String, NumberStyles, IFormatProvider)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseInt.htm" target="TopicContent">ParseInt Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseInt.htm" target="TopicContent">ParseInt Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseInt_1.htm" target="TopicContent">ParseInt Method (String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseInt_2.htm" target="TopicContent">ParseInt Method (String, NumberStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseInt_3.htm" target="TopicContent">ParseInt Method (String, NumberStyles, IFormatProvider)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseLong.htm" target="TopicContent">ParseLong Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseLong.htm" target="TopicContent">ParseLong Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseLong_1.htm" target="TopicContent">ParseLong Method (String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseLong_2.htm" target="TopicContent">ParseLong Method (String, NumberStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseLong_3.htm" target="TopicContent">ParseLong Method (String, NumberStyles, IFormatProvider)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseShort.htm" target="TopicContent">ParseShort Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseShort.htm" target="TopicContent">ParseShort Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseShort_1.htm" target="TopicContent">ParseShort Method (String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseShort_2.htm" target="TopicContent">ParseShort Method (String, NumberStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseShort_3.htm" target="TopicContent">ParseShort Method (String, NumberStyles, IFormatProvider)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Remove.htm" target="TopicContent">Remove Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Remove.htm" target="TopicContent">Remove Method (String, Char)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Remove_1.htm" target="TopicContent">Remove Method (String, String)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.RemoveAll.htm" target="TopicContent">RemoveAll Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.RemoveAllBut.htm" target="TopicContent">RemoveAllBut Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.SpaceCamelCase.htm" target="TopicContent">SpaceCamelCase Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.SubstringAtIndexOfOrdinal.htm" target="TopicContent">SubstringAtIndexOfOrdinal Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.SubstringAtIndexOfOrdinalIgnoreCase.htm" target="TopicContent">SubstringAtIndexOfOrdinalIgnoreCase Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToBool.htm" target="TopicContent">ToBool Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToByte.htm" target="TopicContent">ToByte Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToByte.htm" target="TopicContent">ToByte Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToByte_1.htm" target="TopicContent">ToByte Method (String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToByte_2.htm" target="TopicContent">ToByte Method (String, NumberStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToByte_3.htm" target="TopicContent">ToByte Method (String, NumberStyles, IFormatProvider)</a>
+</div>
+</div>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToChar.htm" target="TopicContent">ToChar Method </a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime.htm" target="TopicContent">ToDateTime Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime.htm" target="TopicContent">ToDateTime Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime_1.htm" target="TopicContent">ToDateTime Method (String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime_2.htm" target="TopicContent">ToDateTime Method (String, IFormatProvider, DateTimeStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime_3.htm" target="TopicContent">ToDateTime Method (String, String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime_4.htm" target="TopicContent">ToDateTime Method (String, String, IFormatProvider, DateTimeStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime_5.htm" target="TopicContent">ToDateTime Method (String, String[], IFormatProvider, DateTimeStyles)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDecimal.htm" target="TopicContent">ToDecimal Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDecimal.htm" target="TopicContent">ToDecimal Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDecimal_1.htm" target="TopicContent">ToDecimal Method (String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDecimal_2.htm" target="TopicContent">ToDecimal Method (String, NumberStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDecimal_3.htm" target="TopicContent">ToDecimal Method (String, NumberStyles, IFormatProvider)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDouble.htm" target="TopicContent">ToDouble Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDouble.htm" target="TopicContent">ToDouble Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDouble_1.htm" target="TopicContent">ToDouble Method (String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDouble_2.htm" target="TopicContent">ToDouble Method (String, NumberStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDouble_3.htm" target="TopicContent">ToDouble Method (String, NumberStyles, IFormatProvider)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToFloat.htm" target="TopicContent">ToFloat Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToFloat.htm" target="TopicContent">ToFloat Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToFloat_1.htm" target="TopicContent">ToFloat Method (String, NumberStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToFloat_2.htm" target="TopicContent">ToFloat Method (String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToFloat_3.htm" target="TopicContent">ToFloat Method (String, NumberStyles, IFormatProvider)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToInt.htm" target="TopicContent">ToInt Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToInt.htm" target="TopicContent">ToInt Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToInt_1.htm" target="TopicContent">ToInt Method (String, NumberStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToInt_2.htm" target="TopicContent">ToInt Method (String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToInt_3.htm" target="TopicContent">ToInt Method (String, NumberStyles, IFormatProvider)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToLong.htm" target="TopicContent">ToLong Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToLong.htm" target="TopicContent">ToLong Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToLong_1.htm" target="TopicContent">ToLong Method (String, NumberStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToLong_2.htm" target="TopicContent">ToLong Method (String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToLong_3.htm" target="TopicContent">ToLong Method (String, NumberStyles, IFormatProvider)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToShort.htm" target="TopicContent">ToShort Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToShort.htm" target="TopicContent">ToShort Method (String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToShort_1.htm" target="TopicContent">ToShort Method (String, IFormatProvider)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToShort_2.htm" target="TopicContent">ToShort Method (String, NumberStyles)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToShort_3.htm" target="TopicContent">ToShort Method (String, NumberStyles, IFormatProvider)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse.htm" target="TopicContent">TryParse Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse.htm" target="TopicContent">TryParse Method (String, Int32)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_1.htm" target="TopicContent">TryParse Method (String, NumberStyles, IFormatProvider, Int32)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_2.htm" target="TopicContent">TryParse Method (String, Double)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_3.htm" target="TopicContent">TryParse Method (String, NumberStyles, IFormatProvider, Double)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_4.htm" target="TopicContent">TryParse Method (String, Byte)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_5.htm" target="TopicContent">TryParse Method (String, NumberStyles, IFormatProvider, Byte)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_6.htm" target="TopicContent">TryParse Method (String, Boolean)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_7.htm" target="TopicContent">TryParse Method (String, Char)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_8.htm" target="TopicContent">TryParse Method (String, DateTime)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_9.htm" target="TopicContent">TryParse Method (String, IFormatProvider, DateTimeStyles, DateTime)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_10.htm" target="TopicContent">TryParse Method (String, String, IFormatProvider, DateTimeStyles, DateTime)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_11.htm" target="TopicContent">TryParse Method (String, String[], IFormatProvider, DateTimeStyles, DateTime)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_12.htm" target="TopicContent">TryParse Method (String, Decimal)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_13.htm" target="TopicContent">TryParse Method (String, NumberStyles, IFormatProvider, Decimal)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_14.htm" target="TopicContent">TryParse Method (String, Int16)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_15.htm" target="TopicContent">TryParse Method (String, NumberStyles, IFormatProvider, Int16)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_16.htm" target="TopicContent">TryParse Method (String, Int64)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_17.htm" target="TopicContent">TryParse Method (String, NumberStyles, IFormatProvider, Int64)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_18.htm" target="TopicContent">TryParse Method (String, Single)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_19.htm" target="TopicContent">TryParse Method (String, NumberStyles, IFormatProvider, Single)</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Wrap.htm" target="TopicContent">Wrap Method </a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Wrap.htm" target="TopicContent">Wrap Method (String, Char)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Wrap_1.htm" target="TopicContent">Wrap Method (String, String)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Wrap_2.htm" target="TopicContent">Wrap Method (IEnumerable(String), Char)</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Wrap_3.htm" target="TopicContent">Wrap Method (IEnumerable(String), String)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/N-MichaelBrandonMorris.Extensions.PrincipalExtensions.htm" target="TopicContent">MichaelBrandonMorris.Extensions.PrincipalExtensions Namespace</a>
+<div class="Hidden">
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.htm" target="TopicContent">GroupPrincipalExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.htm" target="TopicContent">GroupPrincipalExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.htm" target="TopicContent">GroupPrincipalExtensions Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.ManagedBy.htm" target="TopicContent">ManagedBy Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.htm" target="TopicContent">GroupPrincipalExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetComputerPrincipals.htm" target="TopicContent">GetComputerPrincipals Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetManagedByDistinguishedName.htm" target="TopicContent">GetManagedByDistinguishedName Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetManagedByName.htm" target="TopicContent">GetManagedByName Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetUserPrincipals.htm" target="TopicContent">GetUserPrincipals Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.htm" target="TopicContent">PrincipalContextExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.htm" target="TopicContent">PrincipalContextExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.htm" target="TopicContent">PrincipalContextExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.FindPrincipalByDistinguishedName.htm" target="TopicContent">FindPrincipalByDistinguishedName Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.FindPrincipalsByDistinguishedNames.htm" target="TopicContent">FindPrincipalsByDistinguishedNames Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.FindUserPrincipalByDistinguishedName.htm" target="TopicContent">FindUserPrincipalByDistinguishedName Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.FindUserPrincipalsByDistinguishedNames.htm" target="TopicContent">FindUserPrincipalsByDistinguishedNames Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.GetPrincipalContext.htm" target="TopicContent">GetPrincipalContext Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.htm" target="TopicContent">PrincipalExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.htm" target="TopicContent">PrincipalExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.htm" target="TopicContent">PrincipalExtensions Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.LegalCharacters.htm" target="TopicContent">LegalCharacters Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.LegalSymbols.htm" target="TopicContent">LegalSymbols Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.htm" target="TopicContent">PrincipalExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetAsDirectoryEntry.htm" target="TopicContent">GetAsDirectoryEntry Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetGroupPrincipals.htm" target="TopicContent">GetGroupPrincipals Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetId.htm" target="TopicContent">GetId Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetProperty.htm" target="TopicContent">GetProperty Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetPropertyValue.htm" target="TopicContent">GetPropertyValue Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetPropertyValueAsString.htm" target="TopicContent">GetPropertyValueAsString Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.htm" target="TopicContent">PrincipalSearcherExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.htm" target="TopicContent">PrincipalSearcherExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.htm" target="TopicContent">PrincipalSearcherExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.GetAllComputerPrincipals.htm" target="TopicContent">GetAllComputerPrincipals Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.GetAllGroupPrincipals.htm" target="TopicContent">GetAllGroupPrincipals Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.GetAllUserPrincipals.htm" target="TopicContent">GetAllUserPrincipals Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.htm" target="TopicContent">PrincipalSearchResultExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.htm" target="TopicContent">PrincipalSearchResultExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.htm" target="TopicContent">PrincipalSearchResultExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.GetComputerPrincipals.htm" target="TopicContent">GetComputerPrincipals Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.GetGroupPrincipals.htm" target="TopicContent">GetGroupPrincipals Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.GetUserPrincipals.htm" target="TopicContent">GetUserPrincipals Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm" target="TopicContent">UserPrincipalExtensions Class</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm" target="TopicContent">UserPrincipalExtensions Members</a>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Fields.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm" target="TopicContent">UserPrincipalExtensions Fields</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Assistant.htm" target="TopicContent">Assistant Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.City.htm" target="TopicContent">City Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Comment.htm" target="TopicContent">Comment Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Company.htm" target="TopicContent">Company Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Country.htm" target="TopicContent">Country Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Department.htm" target="TopicContent">Department Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.DirectReports.htm" target="TopicContent">DirectReports Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Division.htm" target="TopicContent">Division Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.EmployeeNumber.htm" target="TopicContent">EmployeeNumber Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.EmployeeNumberHash.htm" target="TopicContent">EmployeeNumberHash Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Fax.htm" target="TopicContent">Fax Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.HomeAddress.htm" target="TopicContent">HomeAddress Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.HomePhone.htm" target="TopicContent">HomePhone Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Initials.htm" target="TopicContent">Initials Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Manager.htm" target="TopicContent">Manager Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Mobile.htm" target="TopicContent">Mobile Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Notes.htm" target="TopicContent">Notes Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Pager.htm" target="TopicContent">Pager Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Sip.htm" target="TopicContent">Sip Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.State.htm" target="TopicContent">State Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.StreetAddress.htm" target="TopicContent">StreetAddress Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Suffix.htm" target="TopicContent">Suffix Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Title.htm" target="TopicContent">Title Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.UserAccountControl.htm" target="TopicContent">UserAccountControl Field</a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Voip.htm" target="TopicContent">Voip Field</a>
+</div>
+</div>
+</div>
+<div class="TreeNode">
+<img class="TreeNodeImg" onclick="javascript: Toggle(this);" src="Collapsed.png"/><a class="UnselectedNode" onclick="javascript: return Expand(this);" href="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm" target="TopicContent">UserPrincipalExtensions Methods</a>
+<div class="Hidden">
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.FindByDistinguishedName.htm" target="TopicContent">FindByDistinguishedName Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetAssistant.htm" target="TopicContent">GetAssistant Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetCity.htm" target="TopicContent">GetCity Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetComment.htm" target="TopicContent">GetComment Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetCompany.htm" target="TopicContent">GetCompany Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetCountry.htm" target="TopicContent">GetCountry Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetDepartment.htm" target="TopicContent">GetDepartment Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetDirectReportDistinguishedNames.htm" target="TopicContent">GetDirectReportDistinguishedNames Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetDivision.htm" target="TopicContent">GetDivision Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetEmployeeNumber.htm" target="TopicContent">GetEmployeeNumber Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetEmployeeNumberHash.htm" target="TopicContent">GetEmployeeNumberHash Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetFax.htm" target="TopicContent">GetFax Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetHomeAddress.htm" target="TopicContent">GetHomeAddress Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetHomePhone.htm" target="TopicContent">GetHomePhone Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetInitials.htm" target="TopicContent">GetInitials Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetManagerDistinguishedName.htm" target="TopicContent">GetManagerDistinguishedName Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetManagerName.htm" target="TopicContent">GetManagerName Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetMobile.htm" target="TopicContent">GetMobile Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetNotes.htm" target="TopicContent">GetNotes Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetPager.htm" target="TopicContent">GetPager Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetSip.htm" target="TopicContent">GetSip Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetState.htm" target="TopicContent">GetState Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetStreetAddress.htm" target="TopicContent">GetStreetAddress Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetSuffix.htm" target="TopicContent">GetSuffix Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetTitle.htm" target="TopicContent">GetTitle Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetUserAccountControl.htm" target="TopicContent">GetUserAccountControl Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetVoip.htm" target="TopicContent">GetVoip Method </a>
+</div>
+<div class="TreeItem">
+<img src="Item.gif"/><a class="UnselectedNode" onclick="javascript: return SelectNode(this);" href="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.IsActive.htm" target="TopicContent">IsActive Method </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div id="TOCSizer" class="TOCSizer" onmousedown="OnMouseDown(event)" onselectstart="javascript: return false;"></div>
+
+<iframe id="TopicContent" name="TopicContent" class="TopicContent" src="html/n-michaelbrandonmorris.extensions.collectionextensions.htm">
+This page uses an IFRAME but your browser does not support it.
+</iframe>
+
+</form>
+
+</body>
+
+</html>

@@ -102,6 +102,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CollectionExtensions\ArrayExtensions.cs" />
     <Compile Include="OtherExtensions\ControllerExtensions.cs" />
     <Compile Include="OtherExtensions\HtmlHelperExtensions.cs" />
     <Compile Include="OtherExtensions\HttpPostedFileBaseExtensions.cs" />

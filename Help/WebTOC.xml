@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="05dfee36-16a0-480e-bfc3-fc1c98295cbf" Title="MichaelBrandonMorris.Extensions.CollectionExtensions Namespace" Url="html/N-MichaelBrandonMorris.Extensions.CollectionExtensions.htm">
+    <HelpTOCNode Id="247b5d53-2a90-4189-960d-3d7a8ec3c682" Title="ArrayExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.htm">
+      <HelpTOCNode Title="ArrayExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.htm" />
+      <HelpTOCNode Id="63fee4e9-608b-4514-89aa-72fc3078e7c9" Title="ArrayExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.htm">
+        <HelpTOCNode Title="Skip(TSource) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.Skip--1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5f1089cf-924f-4d38-8f02-e34a44977090" Title="EnumerableExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.htm">
+      <HelpTOCNode Title="EnumerableExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.htm" />
+      <HelpTOCNode Id="ac393c83-8ba5-4d32-9746-735664f7609c" Title="EnumerableExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.htm">
+        <HelpTOCNode Title="ContainsIgnoreCase Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ContainsIgnoreCase.htm" />
+        <HelpTOCNode Title="IsEmpty(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.IsEmpty--1.htm" />
+        <HelpTOCNode Title="IsNullOrEmpty(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.IsNullOrEmpty--1.htm" />
+        <HelpTOCNode Title="Multiple(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.Multiple--1.htm" />
+        <HelpTOCNode Title="OrderByDescendingWhere(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.OrderByDescendingWhere--1.htm" />
+        <HelpTOCNode Title="OrderByWhere(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.OrderByWhere--1.htm" />
+        <HelpTOCNode Title="Shuffle(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.Shuffle--1.htm" />
+        <HelpTOCNode Title="ShuffleToList(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ShuffleToList--1.htm" />
+        <HelpTOCNode Title="ToDataTable Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ToDataTable.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="1c506012-893f-44ce-bfa9-687b8540a8da" Title="ListExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.htm">
+      <HelpTOCNode Title="ListExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.htm" />
+      <HelpTOCNode Id="1b6a1e0b-4a86-4149-80a3-03e3ba356f22" Title="ListExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.htm">
+        <HelpTOCNode Title="OrderBy(TSource, TKey) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.OrderBy--2.htm" />
+        <HelpTOCNode Title="OrderByDescending(TSource, TKey) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.OrderByDescending--2.htm" />
+        <HelpTOCNode Title="Peek(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Peek--1.htm" />
+        <HelpTOCNode Title="Pop(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Pop--1.htm" />
+        <HelpTOCNode Title="Push(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Push--1.htm" />
+        <HelpTOCNode Title="Select(TSource, TResult) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Select--2.htm" />
+        <HelpTOCNode Title="SelectMany(TSource, TResult) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.SelectMany--2.htm" />
+        <HelpTOCNode Title="Shuffle(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Shuffle--1.htm" />
+        <HelpTOCNode Title="Take(TSource) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Take--1.htm" />
+        <HelpTOCNode Title="Where(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Where--1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="023e1247-a11f-459d-97d0-a062659e795f" Title="MichaelBrandonMorris.Extensions.OtherExtensions Namespace" Url="html/N-MichaelBrandonMorris.Extensions.OtherExtensions.htm">
+    <HelpTOCNode Id="bd542bb3-36f1-464a-b161-1cbc43c6178a" Title="ControllerExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm">
+      <HelpTOCNode Title="ControllerExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" />
+      <HelpTOCNode Id="921b0c8b-406f-4bf0-8421-94f273dfb1b3" Title="ControllerExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm">
+        <HelpTOCNode Title="GetUser Method " Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.GetUser.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="401b4abf-4bfd-41f0-b361-d2ec30324304" Title="HtmlHelperExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm">
+      <HelpTOCNode Title="HtmlHelperExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" />
+      <HelpTOCNode Id="4189e0af-67a4-4dbe-bca7-9905db581942" Title="HtmlHelperExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm">
+        <HelpTOCNode Title="_EditorForManyIndexField(TModel) Method " Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions._EditorForManyIndexField--1.htm" />
+        <HelpTOCNode Title="Attribute Method " Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.Attribute.htm" />
+        <HelpTOCNode Title="DisplayFor(TModel, TValue) Method " Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.DisplayFor--2.htm" />
+        <HelpTOCNode Title="EditorForMany(TModel, TValue) Method " Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForMany--2.htm" />
+        <HelpTOCNode Title="EditorForManyIndexField(TModel) Method " Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForManyIndexField--1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b6848a47-c90e-4c48-a82a-a7f31adfbe64" Title="HttpPostedFileBaseExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm">
+      <HelpTOCNode Title="HttpPostedFileBaseExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" />
+      <HelpTOCNode Id="e84b5f5a-159e-4973-8ec2-8c1c7f4db4ac" Title="HttpPostedFileBaseExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm">
+        <HelpTOCNode Title="ToBytes Method " Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.ToBytes.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0b72ed45-834c-4b99-a315-ec33302dc94e" Title="StringBuilderExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm">
+      <HelpTOCNode Title="StringBuilderExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm" />
+      <HelpTOCNode Id="715348d9-0084-43b7-a487-7896e7291ebd" Title="StringBuilderExtensions Fields" Url="html/Fields.T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm">
+        <HelpTOCNode Title="Comma Field" Url="html/F-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.Comma.htm" />
+        <HelpTOCNode Title="Quote Field" Url="html/F-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.Quote.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="765bd11e-40d4-485c-8538-94b6a28ac5d3" Title="StringBuilderExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm">
+        <HelpTOCNode Title="AppendCsv Method " Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.AppendCsv.htm" />
+        <HelpTOCNode Title="AppendLineCsv Method " Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.AppendLineCsv.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="6981b816-5423-4d57-8643-e59393455068" Title="MichaelBrandonMorris.Extensions.PrimitiveExtensions Namespace" Url="html/N-MichaelBrandonMorris.Extensions.PrimitiveExtensions.htm">
+    <HelpTOCNode Id="241eb3ea-c994-4a6b-8d5c-d7c37c137bc2" Title="CharExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm">
+      <HelpTOCNode Title="CharExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm" />
+      <HelpTOCNode Id="79d885d9-1c6d-419d-a835-b3db3382ea12" Title="CharExtensions Fields" Url="html/Fields.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm">
+        <HelpTOCNode Title="AlphanumericCharacters Field" Url="html/F-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.AlphanumericCharacters.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0c9f3779-26bd-41c7-a30a-e431e3feec0f" Title="CharExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm">
+        <HelpTOCNode Title="EqualsAny Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.EqualsAny.htm" />
+        <HelpTOCNode Title="GetNumericValue Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.GetNumericValue.htm" />
+        <HelpTOCNode Title="GetUnicodeCategory Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.GetUnicodeCategory.htm" />
+        <HelpTOCNode Title="IsControl Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsControl.htm" />
+        <HelpTOCNode Title="IsDigit Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsDigit.htm" />
+        <HelpTOCNode Title="IsHighSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsHighSurrogate.htm" />
+        <HelpTOCNode Title="IsLetter Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLetter.htm" />
+        <HelpTOCNode Title="IsLetterOrDigit Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLetterOrDigit.htm" />
+        <HelpTOCNode Title="IsLower Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLower.htm" />
+        <HelpTOCNode Title="IsLowSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLowSurrogate.htm" />
+        <HelpTOCNode Title="IsNumber Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsNumber.htm" />
+        <HelpTOCNode Title="IsPunctuation Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsPunctuation.htm" />
+        <HelpTOCNode Title="IsSeparator Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsSeparator.htm" />
+        <HelpTOCNode Title="IsSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsSurrogate.htm" />
+        <HelpTOCNode Title="IsSymbol Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsSymbol.htm" />
+        <HelpTOCNode Title="IsUpper Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsUpper.htm" />
+        <HelpTOCNode Title="IsWhiteSpace Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsWhiteSpace.htm" />
+        <HelpTOCNode Id="6d23ecb8-3c9b-4f02-b08f-dcc89a1cf2f3" Title="ToLower Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToLower.htm">
+          <HelpTOCNode Title="ToLower Method (Char)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToLower.htm" />
+          <HelpTOCNode Title="ToLower Method (Char, CultureInfo)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToLower_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ToLowerInvariant Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToLowerInvariant.htm" />
+        <HelpTOCNode Id="60d17aad-57cd-4502-970b-b39a0d7937fc" Title="ToUpper Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToUpper.htm">
+          <HelpTOCNode Title="ToUpper Method (Char)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToUpper.htm" />
+          <HelpTOCNode Title="ToUpper Method (Char, CultureInfo)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToUpper_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ToUpperInvariant Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToUpperInvariant.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="b563eae6-e13f-4d47-bb6d-de01ceebeb87" Title="DoubleExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.htm">
+      <HelpTOCNode Title="DoubleExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.htm" />
+      <HelpTOCNode Id="9068971d-483a-4355-b502-7ff328f54467" Title="DoubleExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.htm">
+        <HelpTOCNode Title="IsInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsInfinity.htm" />
+        <HelpTOCNode Title="IsNaN Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsNaN.htm" />
+        <HelpTOCNode Title="IsNegativeInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsNegativeInfinity.htm" />
+        <HelpTOCNode Title="IsPositiveInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsPositiveInfinity.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="39cb3449-9cda-4135-8274-37970821810d" Title="FloatExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.htm">
+      <HelpTOCNode Title="FloatExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.htm" />
+      <HelpTOCNode Id="7aeb0740-adbe-4b8b-8f6d-893e2da54144" Title="FloatExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.htm">
+        <HelpTOCNode Title="IsInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsInfinity.htm" />
+        <HelpTOCNode Title="IsNaN Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsNaN.htm" />
+        <HelpTOCNode Title="IsNegativeInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsNegativeInfinity.htm" />
+        <HelpTOCNode Title="IsPositiveInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsPositiveInfinity.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d2fa391d-af5a-4a73-9225-5c0e4cf2d357" Title="ObjectExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.htm">
+      <HelpTOCNode Title="ObjectExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.htm" />
+      <HelpTOCNode Id="7a8b3456-586d-47ed-88ab-9736cbfce693" Title="ObjectExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.htm">
+        <HelpTOCNode Title="GetPropertyValue Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.GetPropertyValue.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="68602a22-fcc5-4a9a-8478-51ae5a3a5875" Title="StringExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.htm">
+      <HelpTOCNode Title="StringExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.htm" />
+      <HelpTOCNode Id="aa18a1f6-9214-4688-902a-e20e1f7160b3" Title="StringExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.htm">
+        <HelpTOCNode Id="ae638a11-9230-47be-a67b-c9f99efdcba6" Title="Compare Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Compare.htm">
+          <HelpTOCNode Title="Compare Method (String, String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Compare.htm" />
+          <HelpTOCNode Title="Compare Method (String, String, Boolean)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Compare_1.htm" />
+          <HelpTOCNode Title="Compare Method (String, String, Boolean, CultureInfo)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Compare_2.htm" />
+          <HelpTOCNode Title="Compare Method (String, String, CultureInfo, CompareOptions)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Compare_3.htm" />
+          <HelpTOCNode Title="Compare Method (String, String, StringComparison)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Compare_4.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CompareOrdinal Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.CompareOrdinal.htm" />
+        <HelpTOCNode Title="ContainsIgnoreCase Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ContainsIgnoreCase.htm" />
+        <HelpTOCNode Title="ConvertToUtf32 Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ConvertToUtf32.htm" />
+        <HelpTOCNode Title="Copy Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Copy.htm" />
+        <HelpTOCNode Title="EqualsCurrentCulture Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsCurrentCulture.htm" />
+        <HelpTOCNode Title="EqualsCurrentCultureIgnoreCase Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsCurrentCultureIgnoreCase.htm" />
+        <HelpTOCNode Title="EqualsInvariantCulture Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsInvariantCulture.htm" />
+        <HelpTOCNode Title="EqualsInvariantCultureIgnoreCase Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsInvariantCultureIgnoreCase.htm" />
+        <HelpTOCNode Title="EqualsOrdinal Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsOrdinal.htm" />
+        <HelpTOCNode Title="EqualsOrdinalIgnoreCase Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsOrdinalIgnoreCase.htm" />
+        <HelpTOCNode Title="GetNumericValue Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.GetNumericValue.htm" />
+        <HelpTOCNode Title="GetUnicodeCategory Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.GetUnicodeCategory.htm" />
+        <HelpTOCNode Title="IndexOfOrdinal Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IndexOfOrdinal.htm" />
+        <HelpTOCNode Title="IndexOfOrdinalIgnoreCase Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IndexOfOrdinalIgnoreCase.htm" />
+        <HelpTOCNode Title="IsControl Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsControl.htm" />
+        <HelpTOCNode Title="IsDigit Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsDigit.htm" />
+        <HelpTOCNode Title="IsHighSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsHighSurrogate.htm" />
+        <HelpTOCNode Title="IsLetter Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLetter.htm" />
+        <HelpTOCNode Title="IsLetterOrDigit Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLetterOrDigit.htm" />
+        <HelpTOCNode Title="IsLower Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLower.htm" />
+        <HelpTOCNode Title="IsLowSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLowSurrogate.htm" />
+        <HelpTOCNode Title="IsNullOrEmpty Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsNullOrEmpty.htm" />
+        <HelpTOCNode Title="IsNullOrWhiteSpace Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsNullOrWhiteSpace.htm" />
+        <HelpTOCNode Title="IsNumber Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsNumber.htm" />
+        <HelpTOCNode Title="IsPunctuation Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsPunctuation.htm" />
+        <HelpTOCNode Title="IsSeparator Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSeparator.htm" />
+        <HelpTOCNode Title="IsSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSurrogate.htm" />
+        <HelpTOCNode Title="IsSurrogatePair Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSurrogatePair.htm" />
+        <HelpTOCNode Title="IsSymbol Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSymbol.htm" />
+        <HelpTOCNode Title="IsUpper Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsUpper.htm" />
+        <HelpTOCNode Id="940112c7-7531-4443-aae5-f8fcfd23f920" Title="IsWhiteSpace Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsWhiteSpace.htm">
+          <HelpTOCNode Title="IsWhiteSpace Method (String, Int32)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsWhiteSpace.htm" />
+          <HelpTOCNode Title="IsWhiteSpace Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsWhiteSpace_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ParseBool Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseBool.htm" />
+        <HelpTOCNode Id="61762f59-9808-44e6-b9f9-1a5830d1badb" Title="ParseByte Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseByte.htm">
+          <HelpTOCNode Title="ParseByte Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseByte.htm" />
+          <HelpTOCNode Title="ParseByte Method (String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseByte_1.htm" />
+          <HelpTOCNode Title="ParseByte Method (String, NumberStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseByte_2.htm" />
+          <HelpTOCNode Title="ParseByte Method (String, NumberStyles, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseByte_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ParseChar Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseChar.htm" />
+        <HelpTOCNode Id="a8697dda-106c-4de8-b28d-aacd977028a2" Title="ParseDateTime Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDateTime.htm">
+          <HelpTOCNode Title="ParseDateTime Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDateTime.htm" />
+          <HelpTOCNode Title="ParseDateTime Method (String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDateTime_1.htm" />
+          <HelpTOCNode Title="ParseDateTime Method (String, IFormatProvider, DateTimeStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDateTime_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3fc8c7be-5426-476c-91f2-a789fb33d589" Title="ParseDecimal Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDecimal.htm">
+          <HelpTOCNode Title="ParseDecimal Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDecimal.htm" />
+          <HelpTOCNode Title="ParseDecimal Method (String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDecimal_1.htm" />
+          <HelpTOCNode Title="ParseDecimal Method (String, NumberStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDecimal_2.htm" />
+          <HelpTOCNode Title="ParseDecimal Method (String, NumberStyles, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDecimal_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ca23b236-010f-48fd-b19a-9961afe3b734" Title="ParseDouble Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDouble.htm">
+          <HelpTOCNode Title="ParseDouble Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDouble.htm" />
+          <HelpTOCNode Title="ParseDouble Method (String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDouble_1.htm" />
+          <HelpTOCNode Title="ParseDouble Method (String, NumberStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDouble_2.htm" />
+          <HelpTOCNode Title="ParseDouble Method (String, NumberStyles, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDouble_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="999acfd7-4433-47e0-b081-6a0f6676068f" Title="ParseExactDateTime Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseExactDateTime.htm">
+          <HelpTOCNode Title="ParseExactDateTime Method (String, String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseExactDateTime.htm" />
+          <HelpTOCNode Title="ParseExactDateTime Method (String, String, IFormatProvider, DateTimeStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseExactDateTime_1.htm" />
+          <HelpTOCNode Title="ParseExactDateTime Method (String, String[], IFormatProvider, DateTimeStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseExactDateTime_2.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8d451c37-7963-42f4-838e-4a6e8a1e8e39" Title="ParseFloat Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseFloat.htm">
+          <HelpTOCNode Title="ParseFloat Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseFloat.htm" />
+          <HelpTOCNode Title="ParseFloat Method (String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseFloat_1.htm" />
+          <HelpTOCNode Title="ParseFloat Method (String, NumberStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseFloat_2.htm" />
+          <HelpTOCNode Title="ParseFloat Method (String, NumberStyles, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseFloat_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f9b0ebdd-89ea-4490-b23a-8db3f587ba46" Title="ParseInt Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseInt.htm">
+          <HelpTOCNode Title="ParseInt Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseInt.htm" />
+          <HelpTOCNode Title="ParseInt Method (String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseInt_1.htm" />
+          <HelpTOCNode Title="ParseInt Method (String, NumberStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseInt_2.htm" />
+          <HelpTOCNode Title="ParseInt Method (String, NumberStyles, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseInt_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="b783c15c-253d-4e16-82da-6549cab0d901" Title="ParseLong Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseLong.htm">
+          <HelpTOCNode Title="ParseLong Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseLong.htm" />
+          <HelpTOCNode Title="ParseLong Method (String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseLong_1.htm" />
+          <HelpTOCNode Title="ParseLong Method (String, NumberStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseLong_2.htm" />
+          <HelpTOCNode Title="ParseLong Method (String, NumberStyles, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseLong_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a1220d2c-49f3-4062-8b7e-50434b0029a8" Title="ParseShort Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseShort.htm">
+          <HelpTOCNode Title="ParseShort Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseShort.htm" />
+          <HelpTOCNode Title="ParseShort Method (String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseShort_1.htm" />
+          <HelpTOCNode Title="ParseShort Method (String, NumberStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseShort_2.htm" />
+          <HelpTOCNode Title="ParseShort Method (String, NumberStyles, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseShort_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="156e222e-30dc-47b1-b9e4-6bf5684b0150" Title="Remove Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Remove.htm">
+          <HelpTOCNode Title="Remove Method (String, Char)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Remove.htm" />
+          <HelpTOCNode Title="Remove Method (String, String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Remove_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="RemoveAll Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.RemoveAll.htm" />
+        <HelpTOCNode Title="RemoveAllBut Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.RemoveAllBut.htm" />
+        <HelpTOCNode Title="SpaceCamelCase Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.SpaceCamelCase.htm" />
+        <HelpTOCNode Title="SubstringAtIndexOfOrdinal Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.SubstringAtIndexOfOrdinal.htm" />
+        <HelpTOCNode Title="SubstringAtIndexOfOrdinalIgnoreCase Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.SubstringAtIndexOfOrdinalIgnoreCase.htm" />
+        <HelpTOCNode Title="ToBool Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToBool.htm" />
+        <HelpTOCNode Id="c3894955-4d07-4434-ab8d-17f6088aed10" Title="ToByte Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToByte.htm">
+          <HelpTOCNode Title="ToByte Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToByte.htm" />
+          <HelpTOCNode Title="ToByte Method (String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToByte_1.htm" />
+          <HelpTOCNode Title="ToByte Method (String, NumberStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToByte_2.htm" />
+          <HelpTOCNode Title="ToByte Method (String, NumberStyles, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToByte_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ToChar Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToChar.htm" />
+        <HelpTOCNode Id="364622bd-8fbe-4bcf-8b71-d1d9a0b9d521" Title="ToDateTime Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime.htm">
+          <HelpTOCNode Title="ToDateTime Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime.htm" />
+          <HelpTOCNode Title="ToDateTime Method (String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime_1.htm" />
+          <HelpTOCNode Title="ToDateTime Method (String, IFormatProvider, DateTimeStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime_2.htm" />
+          <HelpTOCNode Title="ToDateTime Method (String, String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime_3.htm" />
+          <HelpTOCNode Title="ToDateTime Method (String, String, IFormatProvider, DateTimeStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime_4.htm" />
+          <HelpTOCNode Title="ToDateTime Method (String, String[], IFormatProvider, DateTimeStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime_5.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ba994046-46dc-418d-9530-c359dc85cbd3" Title="ToDecimal Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDecimal.htm">
+          <HelpTOCNode Title="ToDecimal Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDecimal.htm" />
+          <HelpTOCNode Title="ToDecimal Method (String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDecimal_1.htm" />
+          <HelpTOCNode Title="ToDecimal Method (String, NumberStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDecimal_2.htm" />
+          <HelpTOCNode Title="ToDecimal Method (String, NumberStyles, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDecimal_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d19db643-ff1e-4abc-bd9d-96a04e87aef4" Title="ToDouble Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDouble.htm">
+          <HelpTOCNode Title="ToDouble Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDouble.htm" />
+          <HelpTOCNode Title="ToDouble Method (String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDouble_1.htm" />
+          <HelpTOCNode Title="ToDouble Method (String, NumberStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDouble_2.htm" />
+          <HelpTOCNode Title="ToDouble Method (String, NumberStyles, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDouble_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c34337b9-7338-4135-983a-75c61b6e4527" Title="ToFloat Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToFloat.htm">
+          <HelpTOCNode Title="ToFloat Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToFloat.htm" />
+          <HelpTOCNode Title="ToFloat Method (String, NumberStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToFloat_1.htm" />
+          <HelpTOCNode Title="ToFloat Method (String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToFloat_2.htm" />
+          <HelpTOCNode Title="ToFloat Method (String, NumberStyles, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToFloat_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="2d7bea88-c667-43d5-a5f3-fa1d8ee79e0a" Title="ToInt Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToInt.htm">
+          <HelpTOCNode Title="ToInt Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToInt.htm" />
+          <HelpTOCNode Title="ToInt Method (String, NumberStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToInt_1.htm" />
+          <HelpTOCNode Title="ToInt Method (String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToInt_2.htm" />
+          <HelpTOCNode Title="ToInt Method (String, NumberStyles, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToInt_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3e3db671-6510-4f06-8e0b-19bd43121169" Title="ToLong Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToLong.htm">
+          <HelpTOCNode Title="ToLong Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToLong.htm" />
+          <HelpTOCNode Title="ToLong Method (String, NumberStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToLong_1.htm" />
+          <HelpTOCNode Title="ToLong Method (String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToLong_2.htm" />
+          <HelpTOCNode Title="ToLong Method (String, NumberStyles, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToLong_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ddaf2dc2-bce8-4c99-874a-3eeaf8917256" Title="ToShort Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToShort.htm">
+          <HelpTOCNode Title="ToShort Method (String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToShort.htm" />
+          <HelpTOCNode Title="ToShort Method (String, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToShort_1.htm" />
+          <HelpTOCNode Title="ToShort Method (String, NumberStyles)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToShort_2.htm" />
+          <HelpTOCNode Title="ToShort Method (String, NumberStyles, IFormatProvider)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToShort_3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6b185e76-7eab-4638-a294-c88844514091" Title="TryParse Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse.htm">
+          <HelpTOCNode Title="TryParse Method (String, Int32)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse.htm" />
+          <HelpTOCNode Title="TryParse Method (String, NumberStyles, IFormatProvider, Int32)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_1.htm" />
+          <HelpTOCNode Title="TryParse Method (String, Double)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_2.htm" />
+          <HelpTOCNode Title="TryParse Method (String, NumberStyles, IFormatProvider, Double)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_3.htm" />
+          <HelpTOCNode Title="TryParse Method (String, Byte)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_4.htm" />
+          <HelpTOCNode Title="TryParse Method (String, NumberStyles, IFormatProvider, Byte)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_5.htm" />
+          <HelpTOCNode Title="TryParse Method (String, Boolean)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_6.htm" />
+          <HelpTOCNode Title="TryParse Method (String, Char)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_7.htm" />
+          <HelpTOCNode Title="TryParse Method (String, DateTime)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_8.htm" />
+          <HelpTOCNode Title="TryParse Method (String, IFormatProvider, DateTimeStyles, DateTime)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_9.htm" />
+          <HelpTOCNode Title="TryParse Method (String, String, IFormatProvider, DateTimeStyles, DateTime)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_10.htm" />
+          <HelpTOCNode Title="TryParse Method (String, String[], IFormatProvider, DateTimeStyles, DateTime)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_11.htm" />
+          <HelpTOCNode Title="TryParse Method (String, Decimal)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_12.htm" />
+          <HelpTOCNode Title="TryParse Method (String, NumberStyles, IFormatProvider, Decimal)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_13.htm" />
+          <HelpTOCNode Title="TryParse Method (String, Int16)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_14.htm" />
+          <HelpTOCNode Title="TryParse Method (String, NumberStyles, IFormatProvider, Int16)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_15.htm" />
+          <HelpTOCNode Title="TryParse Method (String, Int64)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_16.htm" />
+          <HelpTOCNode Title="TryParse Method (String, NumberStyles, IFormatProvider, Int64)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_17.htm" />
+          <HelpTOCNode Title="TryParse Method (String, Single)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_18.htm" />
+          <HelpTOCNode Title="TryParse Method (String, NumberStyles, IFormatProvider, Single)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse_19.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="039627ca-e29c-41c3-bb5c-4a8f60b73999" Title="Wrap Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Wrap.htm">
+          <HelpTOCNode Title="Wrap Method (String, Char)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Wrap.htm" />
+          <HelpTOCNode Title="Wrap Method (String, String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Wrap_1.htm" />
+          <HelpTOCNode Title="Wrap Method (IEnumerable(String), Char)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Wrap_2.htm" />
+          <HelpTOCNode Title="Wrap Method (IEnumerable(String), String)" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Wrap_3.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="560ea652-72d7-46ad-a6aa-089c9f9206f6" Title="MichaelBrandonMorris.Extensions.PrincipalExtensions Namespace" Url="html/N-MichaelBrandonMorris.Extensions.PrincipalExtensions.htm">
+    <HelpTOCNode Id="02672337-ad07-4fa2-b9cd-dec8b096b022" Title="GroupPrincipalExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.htm">
+      <HelpTOCNode Title="GroupPrincipalExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.htm" />
+      <HelpTOCNode Id="58ce2368-9d88-490a-b7e6-ff650f34a982" Title="GroupPrincipalExtensions Fields" Url="html/Fields.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.htm">
+        <HelpTOCNode Title="ManagedBy Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.ManagedBy.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0ac764de-5f6b-4f64-b978-3450b4f74f44" Title="GroupPrincipalExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.htm">
+        <HelpTOCNode Title="GetComputerPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetComputerPrincipals.htm" />
+        <HelpTOCNode Title="GetManagedByDistinguishedName Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetManagedByDistinguishedName.htm" />
+        <HelpTOCNode Title="GetManagedByName Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetManagedByName.htm" />
+        <HelpTOCNode Title="GetUserPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetUserPrincipals.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="027d10c7-9e8f-45b0-9d45-f7b80ad62411" Title="PrincipalContextExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.htm">
+      <HelpTOCNode Title="PrincipalContextExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.htm" />
+      <HelpTOCNode Id="74b5ce8a-e1ae-4087-903f-bd71219c8266" Title="PrincipalContextExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.htm">
+        <HelpTOCNode Title="FindPrincipalByDistinguishedName Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.FindPrincipalByDistinguishedName.htm" />
+        <HelpTOCNode Title="FindPrincipalsByDistinguishedNames Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.FindPrincipalsByDistinguishedNames.htm" />
+        <HelpTOCNode Title="FindUserPrincipalByDistinguishedName Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.FindUserPrincipalByDistinguishedName.htm" />
+        <HelpTOCNode Title="FindUserPrincipalsByDistinguishedNames Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.FindUserPrincipalsByDistinguishedNames.htm" />
+        <HelpTOCNode Title="GetPrincipalContext Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.GetPrincipalContext.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6b1c283f-9a57-4b22-97f9-f521ead5f19d" Title="PrincipalExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.htm">
+      <HelpTOCNode Title="PrincipalExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.htm" />
+      <HelpTOCNode Id="151bbfed-a4b4-42a9-b06f-99acf8dfff9d" Title="PrincipalExtensions Fields" Url="html/Fields.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.htm">
+        <HelpTOCNode Title="LegalCharacters Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.LegalCharacters.htm" />
+        <HelpTOCNode Title="LegalSymbols Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.LegalSymbols.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="3a79ae77-7e75-41e8-8b7b-046619c8169f" Title="PrincipalExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.htm">
+        <HelpTOCNode Title="GetAsDirectoryEntry Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetAsDirectoryEntry.htm" />
+        <HelpTOCNode Title="GetGroupPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetGroupPrincipals.htm" />
+        <HelpTOCNode Title="GetId Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetId.htm" />
+        <HelpTOCNode Title="GetProperty Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetProperty.htm" />
+        <HelpTOCNode Title="GetPropertyValue Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetPropertyValue.htm" />
+        <HelpTOCNode Title="GetPropertyValueAsString Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetPropertyValueAsString.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="59d81822-8664-4d7e-93dd-b2e7a13256c8" Title="PrincipalSearcherExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.htm">
+      <HelpTOCNode Title="PrincipalSearcherExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.htm" />
+      <HelpTOCNode Id="741b42a2-93f1-4add-81ec-df6331c2f75a" Title="PrincipalSearcherExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.htm">
+        <HelpTOCNode Title="GetAllComputerPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.GetAllComputerPrincipals.htm" />
+        <HelpTOCNode Title="GetAllGroupPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.GetAllGroupPrincipals.htm" />
+        <HelpTOCNode Title="GetAllUserPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.GetAllUserPrincipals.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="258843cb-e7cc-4b2e-862f-dcd04383ec7a" Title="PrincipalSearchResultExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.htm">
+      <HelpTOCNode Title="PrincipalSearchResultExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.htm" />
+      <HelpTOCNode Id="68781841-abba-4b08-9521-7b2f9fd3ab49" Title="PrincipalSearchResultExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.htm">
+        <HelpTOCNode Title="GetComputerPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.GetComputerPrincipals.htm" />
+        <HelpTOCNode Title="GetGroupPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.GetGroupPrincipals.htm" />
+        <HelpTOCNode Title="GetUserPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.GetUserPrincipals.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a0bef11b-a886-4eaa-9937-641e33e9c32a" Title="UserPrincipalExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm">
+      <HelpTOCNode Title="UserPrincipalExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm" />
+      <HelpTOCNode Id="03003d9f-b238-4769-89c0-39d73158352a" Title="UserPrincipalExtensions Fields" Url="html/Fields.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm">
+        <HelpTOCNode Title="Assistant Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Assistant.htm" />
+        <HelpTOCNode Title="City Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.City.htm" />
+        <HelpTOCNode Title="Comment Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Comment.htm" />
+        <HelpTOCNode Title="Company Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Company.htm" />
+        <HelpTOCNode Title="Country Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Country.htm" />
+        <HelpTOCNode Title="Department Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Department.htm" />
+        <HelpTOCNode Title="DirectReports Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.DirectReports.htm" />
+        <HelpTOCNode Title="Division Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Division.htm" />
+        <HelpTOCNode Title="EmployeeNumber Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.EmployeeNumber.htm" />
+        <HelpTOCNode Title="EmployeeNumberHash Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.EmployeeNumberHash.htm" />
+        <HelpTOCNode Title="Fax Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Fax.htm" />
+        <HelpTOCNode Title="HomeAddress Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.HomeAddress.htm" />
+        <HelpTOCNode Title="HomePhone Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.HomePhone.htm" />
+        <HelpTOCNode Title="Initials Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Initials.htm" />
+        <HelpTOCNode Title="Manager Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Manager.htm" />
+        <HelpTOCNode Title="Mobile Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Mobile.htm" />
+        <HelpTOCNode Title="Notes Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Notes.htm" />
+        <HelpTOCNode Title="Pager Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Pager.htm" />
+        <HelpTOCNode Title="Sip Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Sip.htm" />
+        <HelpTOCNode Title="State Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.State.htm" />
+        <HelpTOCNode Title="StreetAddress Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.StreetAddress.htm" />
+        <HelpTOCNode Title="Suffix Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Suffix.htm" />
+        <HelpTOCNode Title="Title Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Title.htm" />
+        <HelpTOCNode Title="UserAccountControl Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.UserAccountControl.htm" />
+        <HelpTOCNode Title="Voip Field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Voip.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9c74ab3a-6ee8-48dc-83ab-8a4f410c187c" Title="UserPrincipalExtensions Methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm">
+        <HelpTOCNode Title="FindByDistinguishedName Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.FindByDistinguishedName.htm" />
+        <HelpTOCNode Title="GetAssistant Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetAssistant.htm" />
+        <HelpTOCNode Title="GetCity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetCity.htm" />
+        <HelpTOCNode Title="GetComment Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetComment.htm" />
+        <HelpTOCNode Title="GetCompany Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetCompany.htm" />
+        <HelpTOCNode Title="GetCountry Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetCountry.htm" />
+        <HelpTOCNode Title="GetDepartment Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetDepartment.htm" />
+        <HelpTOCNode Title="GetDirectReportDistinguishedNames Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetDirectReportDistinguishedNames.htm" />
+        <HelpTOCNode Title="GetDivision Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetDivision.htm" />
+        <HelpTOCNode Title="GetEmployeeNumber Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetEmployeeNumber.htm" />
+        <HelpTOCNode Title="GetEmployeeNumberHash Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetEmployeeNumberHash.htm" />
+        <HelpTOCNode Title="GetFax Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetFax.htm" />
+        <HelpTOCNode Title="GetHomeAddress Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetHomeAddress.htm" />
+        <HelpTOCNode Title="GetHomePhone Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetHomePhone.htm" />
+        <HelpTOCNode Title="GetInitials Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetInitials.htm" />
+        <HelpTOCNode Title="GetManagerDistinguishedName Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetManagerDistinguishedName.htm" />
+        <HelpTOCNode Title="GetManagerName Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetManagerName.htm" />
+        <HelpTOCNode Title="GetMobile Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetMobile.htm" />
+        <HelpTOCNode Title="GetNotes Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetNotes.htm" />
+        <HelpTOCNode Title="GetPager Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetPager.htm" />
+        <HelpTOCNode Title="GetSip Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetSip.htm" />
+        <HelpTOCNode Title="GetState Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetState.htm" />
+        <HelpTOCNode Title="GetStreetAddress Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetStreetAddress.htm" />
+        <HelpTOCNode Title="GetSuffix Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetSuffix.htm" />
+        <HelpTOCNode Title="GetTitle Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetTitle.htm" />
+        <HelpTOCNode Title="GetUserAccountControl Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetUserAccountControl.htm" />
+        <HelpTOCNode Title="GetVoip Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetVoip.htm" />
+        <HelpTOCNode Title="IsActive Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.IsActive.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

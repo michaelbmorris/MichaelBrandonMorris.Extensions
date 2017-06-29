@@ -6,36 +6,35 @@ using MichaelBrandonMorris.Extensions.PrimitiveExtensions;
 namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
 {
     /// <summary>
-    /// Provides useful extensions for the <see cref="GroupPrincipal"/> class.
+    ///     Class GroupPrincipalExtensions.
     /// </summary>
+    /// TODO Edit XML Comment Template for GroupPrincipalExtensions
     public static class GroupPrincipalExtensions
     {
+        /// <summary>
+        ///     The managed by
+        /// </summary>
+        /// TODO Edit XML Comment Template for ManagedBy
         private const string ManagedBy = "managedBy";
 
         /// <summary>
-        /// Gets the name of the manager of this group.
+        ///     Gets the computer principals.
         /// </summary>
-        public static string GetManagedByName(
+        /// <param name="groupPrincipal">The group principal.</param>
+        /// <returns>IEnumerable&lt;ComputerPrincipal&gt;.</returns>
+        /// TODO Edit XML Comment Template for GetComputerPrincipals
+        public static IEnumerable<ComputerPrincipal> GetComputerPrincipals(
             this GroupPrincipal groupPrincipal)
         {
-            var managedByDistinguishedName =
-                groupPrincipal.GetManagedByDistinguishedName();
-            if (managedByDistinguishedName.IsNullOrWhiteSpace()) return null;
-            using (var principalContext =
-                PrincipalContextExtensions.GetPrincipalContext())
-            using (var managedByUserPrincipal =
-                UserPrincipalExtensions.FindByDistinguishedName(
-                    principalContext, managedByDistinguishedName))
-            {
-                return managedByUserPrincipal?.Name;
-            }
+            return groupPrincipal.Members.OfType<ComputerPrincipal>();
         }
 
         /// <summary>
-        /// Gets the distinguished name of the manager of this group.
+        ///     Gets the name of the managed by distinguished.
         /// </summary>
-        /// <param name="groupPrincipal"></param>
-        /// <returns></returns>
+        /// <param name="groupPrincipal">The group principal.</param>
+        /// <returns>System.String.</returns>
+        /// TODO Edit XML Comment Template for GetManagedByDistinguishedName
         public static string GetManagedByDistinguishedName(
             this GroupPrincipal groupPrincipal)
         {
@@ -43,23 +42,44 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the <see cref="UserPrincipal"/> members of this 
-        /// <see cref="GroupPrincipal"/>.
+        ///     Gets the name of the managed by.
         /// </summary>
+        /// <param name="groupPrincipal">The group principal.</param>
+        /// <returns>System.String.</returns>
+        /// TODO Edit XML Comment Template for GetManagedByName
+        public static string GetManagedByName(
+            this GroupPrincipal groupPrincipal)
+        {
+            var managedByDistinguishedName =
+                groupPrincipal.GetManagedByDistinguishedName();
+
+            if (managedByDistinguishedName.IsNullOrWhiteSpace())
+            {
+                return null;
+            }
+
+            using (var principalContext =
+                PrincipalContextExtensions.GetPrincipalContext())
+
+            using (var managedByUserPrincipal =
+                UserPrincipalExtensions.FindByDistinguishedName(
+                    principalContext,
+                    managedByDistinguishedName))
+            {
+                return managedByUserPrincipal?.Name;
+            }
+        }
+
+        /// <summary>
+        ///     Gets the user principals.
+        /// </summary>
+        /// <param name="groupPrincipal">The group principal.</param>
+        /// <returns>IEnumerable&lt;UserPrincipal&gt;.</returns>
+        /// TODO Edit XML Comment Template for GetUserPrincipals
         public static IEnumerable<UserPrincipal> GetUserPrincipals(
             this GroupPrincipal groupPrincipal)
         {
             return groupPrincipal.Members.OfType<UserPrincipal>();
-        }
-
-        /// <summary>
-        /// Gets the <see cref="ComputerPrincipal"/> members of this 
-        /// <see cref="GroupPrincipal"/>.
-        /// </summary>
-        public static IEnumerable<ComputerPrincipal> GetComputerPrincipals(
-            this GroupPrincipal groupPrincipal)
-        {
-            return groupPrincipal.Members.OfType<ComputerPrincipal>();
         }
     }
 }

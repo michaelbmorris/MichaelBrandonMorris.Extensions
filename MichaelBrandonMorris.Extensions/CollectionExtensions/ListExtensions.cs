@@ -5,34 +5,21 @@ using System.Linq;
 namespace MichaelBrandonMorris.Extensions.CollectionExtensions
 {
     /// <summary>
-    ///     Provides useful extensions for classes that implement
-    ///     <see cref="IList{T}" />.
+    ///     Class ListExtensions.
     /// </summary>
+    /// TODO Edit XML Comment Template for ListExtensions
     public static class ListExtensions
     {
         /// <summary>
-        ///     Sorts the elements of a sequence in ascending order by using a
-        ///     specified comparer.
+        ///     Orders the by.
         /// </summary>
-        /// <typeparam name="TSource">
-        ///     The type of the elements of source.
-        /// </typeparam>
-        /// <typeparam name="TKey">
-        ///     The type of the key returned by keySelector.
-        /// </typeparam>
-        /// <param name="source">
-        ///     A sequence of values to order.
-        /// </param>
-        /// <param name="keySelector">
-        ///     A function to extract a key from an element.
-        /// </param>
-        /// <param name="comparer">
-        ///     An <see cref="IComparer{T}" /> to compare keys.
-        /// </param>
-        /// <returns>
-        ///     An <see cref="IList{T}" /> whose elements are sorted according
-        ///     to a key.
-        /// </returns>
+        /// <typeparam name="TSource">The type of the t source.</typeparam>
+        /// <typeparam name="TKey">The type of the t key.</typeparam>
+        /// <param name="source">The source.</param>
+        /// <param name="keySelector">The key selector.</param>
+        /// <param name="comparer">The comparer.</param>
+        /// <returns>IList&lt;TSource&gt;.</returns>
+        /// TODO Edit XML Comment Template for OrderBy`2
         public static IList<TSource> OrderBy<TSource, TKey>(
             this IList<TSource> source,
             Func<TSource, TKey> keySelector,
@@ -48,6 +35,16 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
                 .ToList();
         }
 
+        /// <summary>
+        ///     Orders the by descending.
+        /// </summary>
+        /// <typeparam name="TSource">The type of the t source.</typeparam>
+        /// <typeparam name="TKey">The type of the t key.</typeparam>
+        /// <param name="source">The source.</param>
+        /// <param name="keySelector">The key selector.</param>
+        /// <param name="comparer">The comparer.</param>
+        /// <returns>IList&lt;TSource&gt;.</returns>
+        /// TODO Edit XML Comment Template for OrderByDescending`2
         public static IList<TSource> OrderByDescending<TSource, TKey>(
             this IList<TSource> source,
             Func<TSource, TKey> keySelector,
@@ -63,17 +60,24 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
         }
 
         /// <summary>
-        ///     Returns the item from the end of the <see cref="IList{T}" />.
+        ///     Peeks the specified list.
         /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list">The list.</param>
+        /// <returns>T.</returns>
+        /// TODO Edit XML Comment Template for Peek`1
         public static T Peek<T>(this IList<T> list)
         {
             return list.Any() ? list.Last() : default(T);
         }
 
         /// <summary>
-        ///     Removes and returns the item from the end of the
-        ///     <see cref="IList{T}" />.
+        ///     Pops the specified list.
         /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list">The list.</param>
+        /// <returns>T.</returns>
+        /// TODO Edit XML Comment Template for Pop`1
         public static T Pop<T>(this IList<T> list)
         {
             var t = list.Last();
@@ -82,29 +86,26 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
         }
 
         /// <summary>
-        ///     Adds an item to the end of the <see cref="IList{T}" />.
+        ///     Pushes the specified t.
         /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list">The list.</param>
+        /// <param name="t">The t.</param>
+        /// TODO Edit XML Comment Template for Push`1
         public static void Push<T>(this IList<T> list, T t)
         {
             list.Add(t);
         }
 
         /// <summary>
-        ///     Projects each element of a sequence into a new form.
+        ///     Selects the specified selector.
         /// </summary>
-        /// <typeparam name="TSource">
-        ///     The type of the elements of source.
-        /// </typeparam>
-        /// <typeparam name="TResult">
-        ///     The type of the value returned byselector.
-        /// </typeparam>
-        /// <param name="source">
-        ///     A sequence of values to invoke a transform function on.
-        /// </param>
-        /// <param name="selector">
-        ///     A transform function to apply to each element.
-        /// </param>
-        /// <returns></returns>
+        /// <typeparam name="TSource">The type of the t source.</typeparam>
+        /// <typeparam name="TResult">The type of the t result.</typeparam>
+        /// <param name="source">The source.</param>
+        /// <param name="selector">The selector.</param>
+        /// <returns>IList&lt;TResult&gt;.</returns>
+        /// TODO Edit XML Comment Template for Select`2
         public static IList<TResult> Select<TSource, TResult>(
             this IList<TSource> source,
             Func<TSource, TResult> selector)
@@ -113,11 +114,28 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
         }
 
         /// <summary>
-        ///     Returns the shuffled <see cref="IList{T}" />
+        ///     Selects the many.
+        /// </summary>
+        /// <typeparam name="TSource">The type of the t source.</typeparam>
+        /// <typeparam name="TResult">The type of the t result.</typeparam>
+        /// <param name="source">The source.</param>
+        /// <param name="selector">The selector.</param>
+        /// <returns>IList&lt;TResult&gt;.</returns>
+        /// TODO Edit XML Comment Template for SelectMany`2
+        public static IList<TResult> SelectMany<TSource, TResult>(
+            this IList<TSource> source,
+            Func<TSource, IEnumerable<TResult>> selector)
+        {
+            return source.AsEnumerable().SelectMany(selector).ToList();
+        }
+
+        /// <summary>
+        ///     Shuffles the specified list.
         /// </summary>
         /// <typeparam name="T"></typeparam>
-        /// <param name="list"></param>
-        /// <returns></returns>
+        /// <param name="list">The list.</param>
+        /// <returns>IList&lt;T&gt;.</returns>
+        /// TODO Edit XML Comment Template for Shuffle`1
         public static IList<T> Shuffle<T>(this IList<T> list)
         {
             var random = new Random();
@@ -135,22 +153,13 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
         }
 
         /// <summary>
-        ///     Returns a specified number of contiguous elements from the
-        ///     start of a sequence.
+        ///     Takes the specified count.
         /// </summary>
-        /// <typeparam name="TSource">
-        ///     The type of the elements of source.
-        /// </typeparam>
-        /// <param name="source">
-        ///     The sequence to return elements from.
-        /// </param>
-        /// <param name="count">
-        ///     The number of elements to return.
-        /// </param>
-        /// <returns>
-        ///     An <see cref="IList{T}" /> that contains the specified number
-        ///     of elements from the start of the input sequence.
-        /// </returns>
+        /// <typeparam name="TSource">The type of the t source.</typeparam>
+        /// <param name="source">The source.</param>
+        /// <param name="count">The count.</param>
+        /// <returns>IList&lt;TSource&gt;.</returns>
+        /// TODO Edit XML Comment Template for Take`1
         public static IList<TSource> Take
             <TSource>(this IList<TSource> source, int count)
         {
@@ -158,12 +167,13 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
         }
 
         /// <summary>
-        ///     Allows use of Where on <see cref="IList{T}" />
+        ///     Wheres the specified predicate.
         /// </summary>
         /// <typeparam name="T"></typeparam>
-        /// <param name="list"></param>
-        /// <param name="predicate"></param>
-        /// <returns></returns>
+        /// <param name="list">The list.</param>
+        /// <param name="predicate">The predicate.</param>
+        /// <returns>IList&lt;T&gt;.</returns>
+        /// TODO Edit XML Comment Template for Where`1
         public static IList<T> Where<T>(
             this IList<T> list,
             Func<T, bool> predicate)

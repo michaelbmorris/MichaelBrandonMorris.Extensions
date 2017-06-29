@@ -4,23 +4,30 @@ using System.Web;
 namespace MichaelBrandonMorris.Extensions.OtherExtensions
 {
     /// <summary>
-    /// Provides extensions for the <see cref="HttpPostedFileBase" /> class.
+    ///     Class HttpPostedFileBaseExtensions.
     /// </summary>
+    /// TODO Edit XML Comment Template for HttpPostedFileBaseExtensions
     public static class HttpPostedFileBaseExtensions
     {
         /// <summary>
-        /// Copies the <see cref="HttpPostedFileBase" /> to a byte array.
+        ///     To the bytes.
         /// </summary>
-        /// <param name="file">The file to be copied to a byte array.</param>
-        /// <param name="offset">The offset to start reading the file from.</param>
-        /// <returns></returns>
+        /// <param name="file">The file.</param>
+        /// <param name="offset">The offset.</param>
+        /// <returns>System.Byte[].</returns>
+        /// <exception cref="ArgumentNullException">
+        ///     file - File must
+        ///     not be null.
+        /// </exception>
         public static byte[] ToBytes(
             this HttpPostedFileBase file,
             int offset = 0)
         {
             if (file == null)
             {
-                throw new ArgumentNullException();
+                throw new ArgumentNullException(
+                    nameof(file),
+                    "File must not be null.");
             }
 
             var bytes = new byte[file.ContentLength];

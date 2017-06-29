@@ -5,15 +5,20 @@ using System.Linq;
 namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
 {
     /// <summary>
-    /// Provides useful extensions for the 
-    /// <see cref="PrincipalSearchResult{T}"/> class.
+    ///     Class PrincipalSearchResultExtensions.
     /// </summary>
+    /// TODO Edit XML Comment Template for PrincipalSearchResultExtensions
     public static class PrincipalSearchResultExtensions
     {
         /// <summary>
-        /// Gets the <see cref="ComputerPrincipal"/>s from this 
-        /// <see cref="PrincipalSearchResult{Principal}"/>.
+        ///     Gets the computer principals.
         /// </summary>
+        /// <param name="principalSearchResult">
+        ///     The principal search
+        ///     result.
+        /// </param>
+        /// <returns>IEnumerable&lt;ComputerPrincipal&gt;.</returns>
+        /// TODO Edit XML Comment Template for GetComputerPrincipals
         public static IEnumerable<ComputerPrincipal> GetComputerPrincipals(
             this PrincipalSearchResult<Principal> principalSearchResult)
         {
@@ -21,9 +26,14 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the <see cref="GroupPrincipal"/>s from this 
-        /// <see cref="PrincipalSearchResult{Principal}"/>.
+        ///     Gets the group principals.
         /// </summary>
+        /// <param name="principalSearchResult">
+        ///     The principal search
+        ///     result.
+        /// </param>
+        /// <returns>IEnumerable&lt;GroupPrincipal&gt;.</returns>
+        /// TODO Edit XML Comment Template for GetGroupPrincipals
         public static IEnumerable<GroupPrincipal> GetGroupPrincipals(
             this PrincipalSearchResult<Principal> principalSearchResult)
         {
@@ -31,9 +41,14 @@ namespace MichaelBrandonMorris.Extensions.PrincipalExtensions
         }
 
         /// <summary>
-        /// Gets the <see cref="UserPrincipal"/>s from this 
-        /// <see cref="PrincipalSearchResult{Principal}"/>.
+        ///     Gets the user principals.
         /// </summary>
+        /// <param name="principalSearchResult">
+        ///     The principal search
+        ///     result.
+        /// </param>
+        /// <returns>IEnumerable&lt;UserPrincipal&gt;.</returns>
+        /// TODO Edit XML Comment Template for GetUserPrincipals
         public static IEnumerable<UserPrincipal> GetUserPrincipals(
             this PrincipalSearchResult<Principal> principalSearchResult)
         {

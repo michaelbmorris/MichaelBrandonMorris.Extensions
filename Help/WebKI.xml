@@ -1,0 +1,708 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AlphanumericCharacters field" Url="html/F-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.AlphanumericCharacters.htm" />
+  <HelpKINode Title="AppendCsv method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.AppendCsv.htm" />
+  <HelpKINode Title="AppendLineCsv method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.AppendLineCsv.htm" />
+  <HelpKINode Title="ArrayExtensions class">
+    <HelpKINode Title="ArrayExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.htm" />
+    <HelpKINode Title="ArrayExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.htm" />
+    <HelpKINode Title="about ArrayExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ArrayExtensions.Skip(Of TSource) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.Skip--1.htm" />
+  <HelpKINode Title="ArrayExtensions.Skip&lt;TSource&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.Skip--1.htm" />
+  <HelpKINode Title="Assistant field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Assistant.htm" />
+  <HelpKINode Title="Attribute method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.Attribute.htm" />
+  <HelpKINode Title="CharExtensions class">
+    <HelpKINode Title="CharExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm" />
+    <HelpKINode Title="CharExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm" />
+    <HelpKINode Title="about CharExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CharExtensions.AlphanumericCharacters field" Url="html/F-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.AlphanumericCharacters.htm" />
+  <HelpKINode Title="CharExtensions.EqualsAny method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.EqualsAny.htm" />
+  <HelpKINode Title="CharExtensions.GetNumericValue method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.GetNumericValue.htm" />
+  <HelpKINode Title="CharExtensions.GetUnicodeCategory method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.GetUnicodeCategory.htm" />
+  <HelpKINode Title="CharExtensions.IsControl method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsControl.htm" />
+  <HelpKINode Title="CharExtensions.IsDigit method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsDigit.htm" />
+  <HelpKINode Title="CharExtensions.IsHighSurrogate method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsHighSurrogate.htm" />
+  <HelpKINode Title="CharExtensions.IsLetter method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLetter.htm" />
+  <HelpKINode Title="CharExtensions.IsLetterOrDigit method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLetterOrDigit.htm" />
+  <HelpKINode Title="CharExtensions.IsLower method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLower.htm" />
+  <HelpKINode Title="CharExtensions.IsLowSurrogate method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLowSurrogate.htm" />
+  <HelpKINode Title="CharExtensions.IsNumber method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsNumber.htm" />
+  <HelpKINode Title="CharExtensions.IsPunctuation method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsPunctuation.htm" />
+  <HelpKINode Title="CharExtensions.IsSeparator method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsSeparator.htm" />
+  <HelpKINode Title="CharExtensions.IsSurrogate method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsSurrogate.htm" />
+  <HelpKINode Title="CharExtensions.IsSymbol method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsSymbol.htm" />
+  <HelpKINode Title="CharExtensions.IsUpper method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsUpper.htm" />
+  <HelpKINode Title="CharExtensions.IsWhiteSpace method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsWhiteSpace.htm" />
+  <HelpKINode Title="CharExtensions.ToLower method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToLower.htm" />
+  <HelpKINode Title="CharExtensions.ToLowerInvariant method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToLowerInvariant.htm" />
+  <HelpKINode Title="CharExtensions.ToUpper method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToUpper.htm" />
+  <HelpKINode Title="CharExtensions.ToUpperInvariant method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToUpperInvariant.htm" />
+  <HelpKINode Title="City field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.City.htm" />
+  <HelpKINode Title="Comma field" Url="html/F-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.Comma.htm" />
+  <HelpKINode Title="Comment field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Comment.htm" />
+  <HelpKINode Title="Company field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Company.htm" />
+  <HelpKINode Title="Compare method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Compare.htm" />
+  <HelpKINode Title="CompareOrdinal method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.CompareOrdinal.htm" />
+  <HelpKINode Title="ContainsIgnoreCase method">
+    <HelpKINode Title="ContainsIgnoreCase Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ContainsIgnoreCase.htm" />
+    <HelpKINode Title="ContainsIgnoreCase Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ContainsIgnoreCase.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ControllerExtensions class">
+    <HelpKINode Title="ControllerExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" />
+    <HelpKINode Title="ControllerExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" />
+    <HelpKINode Title="about ControllerExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ControllerExtensions.GetUser method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.GetUser.htm" />
+  <HelpKINode Title="ConvertToUtf32 method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ConvertToUtf32.htm" />
+  <HelpKINode Title="Copy method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Copy.htm" />
+  <HelpKINode Title="Country field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Country.htm" />
+  <HelpKINode Title="Department field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Department.htm" />
+  <HelpKINode Title="DirectReports field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.DirectReports.htm" />
+  <HelpKINode Title="DisplayFor(Of TModel, TValue) method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.DisplayFor--2.htm" />
+  <HelpKINode Title="DisplayFor&lt;TModel, TValue&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.DisplayFor--2.htm" />
+  <HelpKINode Title="Division field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Division.htm" />
+  <HelpKINode Title="DoubleExtensions class">
+    <HelpKINode Title="DoubleExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.htm" />
+    <HelpKINode Title="DoubleExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.htm" />
+    <HelpKINode Title="about DoubleExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DoubleExtensions.IsInfinity method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsInfinity.htm" />
+  <HelpKINode Title="DoubleExtensions.IsNaN method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsNaN.htm" />
+  <HelpKINode Title="DoubleExtensions.IsNegativeInfinity method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsNegativeInfinity.htm" />
+  <HelpKINode Title="DoubleExtensions.IsPositiveInfinity method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsPositiveInfinity.htm" />
+  <HelpKINode Title="EditorForMany(Of TModel, TValue) method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForMany--2.htm" />
+  <HelpKINode Title="EditorForMany&lt;TModel, TValue&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForMany--2.htm" />
+  <HelpKINode Title="EditorForManyIndexField(Of TModel) method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForManyIndexField--1.htm" />
+  <HelpKINode Title="EditorForManyIndexField&lt;TModel&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForManyIndexField--1.htm" />
+  <HelpKINode Title="EmployeeNumber field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.EmployeeNumber.htm" />
+  <HelpKINode Title="EmployeeNumberHash field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.EmployeeNumberHash.htm" />
+  <HelpKINode Title="EnumerableExtensions class">
+    <HelpKINode Title="EnumerableExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.htm" />
+    <HelpKINode Title="EnumerableExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.htm" />
+    <HelpKINode Title="about EnumerableExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnumerableExtensions.ContainsIgnoreCase method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ContainsIgnoreCase.htm" />
+  <HelpKINode Title="EnumerableExtensions.IsEmpty(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.IsEmpty--1.htm" />
+  <HelpKINode Title="EnumerableExtensions.IsEmpty&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.IsEmpty--1.htm" />
+  <HelpKINode Title="EnumerableExtensions.IsNullOrEmpty(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.IsNullOrEmpty--1.htm" />
+  <HelpKINode Title="EnumerableExtensions.IsNullOrEmpty&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.IsNullOrEmpty--1.htm" />
+  <HelpKINode Title="EnumerableExtensions.Multiple(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.Multiple--1.htm" />
+  <HelpKINode Title="EnumerableExtensions.Multiple&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.Multiple--1.htm" />
+  <HelpKINode Title="EnumerableExtensions.OrderByDescendingWhere(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.OrderByDescendingWhere--1.htm" />
+  <HelpKINode Title="EnumerableExtensions.OrderByDescendingWhere&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.OrderByDescendingWhere--1.htm" />
+  <HelpKINode Title="EnumerableExtensions.OrderByWhere(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.OrderByWhere--1.htm" />
+  <HelpKINode Title="EnumerableExtensions.OrderByWhere&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.OrderByWhere--1.htm" />
+  <HelpKINode Title="EnumerableExtensions.Shuffle(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.Shuffle--1.htm" />
+  <HelpKINode Title="EnumerableExtensions.Shuffle&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.Shuffle--1.htm" />
+  <HelpKINode Title="EnumerableExtensions.ShuffleToList(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ShuffleToList--1.htm" />
+  <HelpKINode Title="EnumerableExtensions.ShuffleToList&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ShuffleToList--1.htm" />
+  <HelpKINode Title="EnumerableExtensions.ToDataTable method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ToDataTable.htm" />
+  <HelpKINode Title="EqualsAny method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.EqualsAny.htm" />
+  <HelpKINode Title="EqualsCurrentCulture method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsCurrentCulture.htm" />
+  <HelpKINode Title="EqualsCurrentCultureIgnoreCase method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsCurrentCultureIgnoreCase.htm" />
+  <HelpKINode Title="EqualsInvariantCulture method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsInvariantCulture.htm" />
+  <HelpKINode Title="EqualsInvariantCultureIgnoreCase method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsInvariantCultureIgnoreCase.htm" />
+  <HelpKINode Title="EqualsOrdinal method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsOrdinal.htm" />
+  <HelpKINode Title="EqualsOrdinalIgnoreCase method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsOrdinalIgnoreCase.htm" />
+  <HelpKINode Title="Fax field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Fax.htm" />
+  <HelpKINode Title="FindByDistinguishedName method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.FindByDistinguishedName.htm" />
+  <HelpKINode Title="FindPrincipalByDistinguishedName method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.FindPrincipalByDistinguishedName.htm" />
+  <HelpKINode Title="FindPrincipalsByDistinguishedNames method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.FindPrincipalsByDistinguishedNames.htm" />
+  <HelpKINode Title="FindUserPrincipalByDistinguishedName method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.FindUserPrincipalByDistinguishedName.htm" />
+  <HelpKINode Title="FindUserPrincipalsByDistinguishedNames method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.FindUserPrincipalsByDistinguishedNames.htm" />
+  <HelpKINode Title="FloatExtensions class">
+    <HelpKINode Title="FloatExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.htm" />
+    <HelpKINode Title="FloatExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.htm" />
+    <HelpKINode Title="about FloatExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FloatExtensions.IsInfinity method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsInfinity.htm" />
+  <HelpKINode Title="FloatExtensions.IsNaN method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsNaN.htm" />
+  <HelpKINode Title="FloatExtensions.IsNegativeInfinity method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsNegativeInfinity.htm" />
+  <HelpKINode Title="FloatExtensions.IsPositiveInfinity method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsPositiveInfinity.htm" />
+  <HelpKINode Title="GetAllComputerPrincipals method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.GetAllComputerPrincipals.htm" />
+  <HelpKINode Title="GetAllGroupPrincipals method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.GetAllGroupPrincipals.htm" />
+  <HelpKINode Title="GetAllUserPrincipals method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.GetAllUserPrincipals.htm" />
+  <HelpKINode Title="GetAsDirectoryEntry method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetAsDirectoryEntry.htm" />
+  <HelpKINode Title="GetAssistant method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetAssistant.htm" />
+  <HelpKINode Title="GetCity method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetCity.htm" />
+  <HelpKINode Title="GetComment method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetComment.htm" />
+  <HelpKINode Title="GetCompany method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetCompany.htm" />
+  <HelpKINode Title="GetComputerPrincipals method">
+    <HelpKINode Title="GetComputerPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.GetComputerPrincipals.htm" />
+    <HelpKINode Title="GetComputerPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetComputerPrincipals.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetCountry method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetCountry.htm" />
+  <HelpKINode Title="GetDepartment method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetDepartment.htm" />
+  <HelpKINode Title="GetDirectReportDistinguishedNames method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetDirectReportDistinguishedNames.htm" />
+  <HelpKINode Title="GetDivision method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetDivision.htm" />
+  <HelpKINode Title="GetEmployeeNumber method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetEmployeeNumber.htm" />
+  <HelpKINode Title="GetEmployeeNumberHash method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetEmployeeNumberHash.htm" />
+  <HelpKINode Title="GetFax method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetFax.htm" />
+  <HelpKINode Title="GetGroupPrincipals method">
+    <HelpKINode Title="GetGroupPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetGroupPrincipals.htm" />
+    <HelpKINode Title="GetGroupPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.GetGroupPrincipals.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetHomeAddress method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetHomeAddress.htm" />
+  <HelpKINode Title="GetHomePhone method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetHomePhone.htm" />
+  <HelpKINode Title="GetId method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetId.htm" />
+  <HelpKINode Title="GetInitials method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetInitials.htm" />
+  <HelpKINode Title="GetManagedByDistinguishedName method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetManagedByDistinguishedName.htm" />
+  <HelpKINode Title="GetManagedByName method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetManagedByName.htm" />
+  <HelpKINode Title="GetManagerDistinguishedName method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetManagerDistinguishedName.htm" />
+  <HelpKINode Title="GetManagerName method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetManagerName.htm" />
+  <HelpKINode Title="GetMobile method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetMobile.htm" />
+  <HelpKINode Title="GetNotes method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetNotes.htm" />
+  <HelpKINode Title="GetNumericValue method">
+    <HelpKINode Title="GetNumericValue Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.GetNumericValue.htm" />
+    <HelpKINode Title="GetNumericValue Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.GetNumericValue.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetPager method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetPager.htm" />
+  <HelpKINode Title="GetPrincipalContext method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.GetPrincipalContext.htm" />
+  <HelpKINode Title="GetProperty method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetProperty.htm" />
+  <HelpKINode Title="GetPropertyValue method">
+    <HelpKINode Title="GetPropertyValue Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.GetPropertyValue.htm" />
+    <HelpKINode Title="GetPropertyValue Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetPropertyValue.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetPropertyValueAsString method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetPropertyValueAsString.htm" />
+  <HelpKINode Title="GetSip method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetSip.htm" />
+  <HelpKINode Title="GetState method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetState.htm" />
+  <HelpKINode Title="GetStreetAddress method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetStreetAddress.htm" />
+  <HelpKINode Title="GetSuffix method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetSuffix.htm" />
+  <HelpKINode Title="GetTitle method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetTitle.htm" />
+  <HelpKINode Title="GetUnicodeCategory method">
+    <HelpKINode Title="GetUnicodeCategory Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.GetUnicodeCategory.htm" />
+    <HelpKINode Title="GetUnicodeCategory Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.GetUnicodeCategory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetUser method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.GetUser.htm" />
+  <HelpKINode Title="GetUserAccountControl method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetUserAccountControl.htm" />
+  <HelpKINode Title="GetUserPrincipals method">
+    <HelpKINode Title="GetUserPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetUserPrincipals.htm" />
+    <HelpKINode Title="GetUserPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.GetUserPrincipals.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetVoip method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetVoip.htm" />
+  <HelpKINode Title="GroupPrincipalExtensions class">
+    <HelpKINode Title="GroupPrincipalExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.htm" />
+    <HelpKINode Title="GroupPrincipalExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.htm" />
+    <HelpKINode Title="about GroupPrincipalExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GroupPrincipalExtensions.GetComputerPrincipals method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetComputerPrincipals.htm" />
+  <HelpKINode Title="GroupPrincipalExtensions.GetManagedByDistinguishedName method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetManagedByDistinguishedName.htm" />
+  <HelpKINode Title="GroupPrincipalExtensions.GetManagedByName method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetManagedByName.htm" />
+  <HelpKINode Title="GroupPrincipalExtensions.GetUserPrincipals method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetUserPrincipals.htm" />
+  <HelpKINode Title="GroupPrincipalExtensions.ManagedBy field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.ManagedBy.htm" />
+  <HelpKINode Title="HomeAddress field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.HomeAddress.htm" />
+  <HelpKINode Title="HomePhone field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.HomePhone.htm" />
+  <HelpKINode Title="HtmlHelperExtensions class">
+    <HelpKINode Title="HtmlHelperExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" />
+    <HelpKINode Title="HtmlHelperExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" />
+    <HelpKINode Title="about HtmlHelperExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HtmlHelperExtensions.Attribute method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.Attribute.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.DisplayFor(Of TModel, TValue) method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.DisplayFor--2.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.DisplayFor&lt;TModel, TValue&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.DisplayFor--2.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.EditorForMany(Of TModel, TValue) method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForMany--2.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.EditorForMany&lt;TModel, TValue&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForMany--2.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.EditorForManyIndexField(Of TModel) method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForManyIndexField--1.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.EditorForManyIndexField&lt;TModel&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForManyIndexField--1.htm" />
+  <HelpKINode Title="HtmlHelperExtensions._EditorForManyIndexField(Of TModel) method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions._EditorForManyIndexField--1.htm" />
+  <HelpKINode Title="HtmlHelperExtensions._EditorForManyIndexField&lt;TModel&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions._EditorForManyIndexField--1.htm" />
+  <HelpKINode Title="HttpPostedFileBaseExtensions class">
+    <HelpKINode Title="HttpPostedFileBaseExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" />
+    <HelpKINode Title="HttpPostedFileBaseExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" />
+    <HelpKINode Title="about HttpPostedFileBaseExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HttpPostedFileBaseExtensions.ToBytes method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.ToBytes.htm" />
+  <HelpKINode Title="IndexOfOrdinal method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IndexOfOrdinal.htm" />
+  <HelpKINode Title="IndexOfOrdinalIgnoreCase method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IndexOfOrdinalIgnoreCase.htm" />
+  <HelpKINode Title="Initials field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Initials.htm" />
+  <HelpKINode Title="IsActive method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.IsActive.htm" />
+  <HelpKINode Title="IsControl method">
+    <HelpKINode Title="IsControl Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsControl.htm" />
+    <HelpKINode Title="IsControl Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsControl.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsDigit method">
+    <HelpKINode Title="IsDigit Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsDigit.htm" />
+    <HelpKINode Title="IsDigit Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsDigit.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsEmpty(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.IsEmpty--1.htm" />
+  <HelpKINode Title="IsEmpty&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.IsEmpty--1.htm" />
+  <HelpKINode Title="IsHighSurrogate method">
+    <HelpKINode Title="IsHighSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsHighSurrogate.htm" />
+    <HelpKINode Title="IsHighSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsHighSurrogate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsInfinity method">
+    <HelpKINode Title="IsInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsInfinity.htm" />
+    <HelpKINode Title="IsInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsInfinity.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsLetter method">
+    <HelpKINode Title="IsLetter Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLetter.htm" />
+    <HelpKINode Title="IsLetter Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLetter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsLetterOrDigit method">
+    <HelpKINode Title="IsLetterOrDigit Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLetterOrDigit.htm" />
+    <HelpKINode Title="IsLetterOrDigit Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLetterOrDigit.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsLower method">
+    <HelpKINode Title="IsLower Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLower.htm" />
+    <HelpKINode Title="IsLower Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLower.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsLowSurrogate method">
+    <HelpKINode Title="IsLowSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLowSurrogate.htm" />
+    <HelpKINode Title="IsLowSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLowSurrogate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsNaN method">
+    <HelpKINode Title="IsNaN Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsNaN.htm" />
+    <HelpKINode Title="IsNaN Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsNaN.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsNegativeInfinity method">
+    <HelpKINode Title="IsNegativeInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsNegativeInfinity.htm" />
+    <HelpKINode Title="IsNegativeInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsNegativeInfinity.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsNullOrEmpty method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsNullOrEmpty.htm" />
+  <HelpKINode Title="IsNullOrEmpty(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.IsNullOrEmpty--1.htm" />
+  <HelpKINode Title="IsNullOrEmpty&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.IsNullOrEmpty--1.htm" />
+  <HelpKINode Title="IsNullOrWhiteSpace method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsNullOrWhiteSpace.htm" />
+  <HelpKINode Title="IsNumber method">
+    <HelpKINode Title="IsNumber Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsNumber.htm" />
+    <HelpKINode Title="IsNumber Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsNumber.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsPositiveInfinity method">
+    <HelpKINode Title="IsPositiveInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsPositiveInfinity.htm" />
+    <HelpKINode Title="IsPositiveInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsPositiveInfinity.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsPunctuation method">
+    <HelpKINode Title="IsPunctuation Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsPunctuation.htm" />
+    <HelpKINode Title="IsPunctuation Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsPunctuation.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsSeparator method">
+    <HelpKINode Title="IsSeparator Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsSeparator.htm" />
+    <HelpKINode Title="IsSeparator Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSeparator.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsSurrogate method">
+    <HelpKINode Title="IsSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsSurrogate.htm" />
+    <HelpKINode Title="IsSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSurrogate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsSurrogatePair method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSurrogatePair.htm" />
+  <HelpKINode Title="IsSymbol method">
+    <HelpKINode Title="IsSymbol Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsSymbol.htm" />
+    <HelpKINode Title="IsSymbol Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSymbol.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsUpper method">
+    <HelpKINode Title="IsUpper Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsUpper.htm" />
+    <HelpKINode Title="IsUpper Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsUpper.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsWhiteSpace method">
+    <HelpKINode Title="IsWhiteSpace Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsWhiteSpace.htm" />
+    <HelpKINode Title="IsWhiteSpace Method " Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsWhiteSpace.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LegalCharacters field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.LegalCharacters.htm" />
+  <HelpKINode Title="LegalSymbols field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.LegalSymbols.htm" />
+  <HelpKINode Title="ListExtensions class">
+    <HelpKINode Title="ListExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.htm" />
+    <HelpKINode Title="ListExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.htm" />
+    <HelpKINode Title="about ListExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ListExtensions.OrderBy(Of TSource, TKey) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.OrderBy--2.htm" />
+  <HelpKINode Title="ListExtensions.OrderBy&lt;TSource, TKey&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.OrderBy--2.htm" />
+  <HelpKINode Title="ListExtensions.OrderByDescending(Of TSource, TKey) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.OrderByDescending--2.htm" />
+  <HelpKINode Title="ListExtensions.OrderByDescending&lt;TSource, TKey&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.OrderByDescending--2.htm" />
+  <HelpKINode Title="ListExtensions.Peek(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Peek--1.htm" />
+  <HelpKINode Title="ListExtensions.Peek&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Peek--1.htm" />
+  <HelpKINode Title="ListExtensions.Pop(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Pop--1.htm" />
+  <HelpKINode Title="ListExtensions.Pop&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Pop--1.htm" />
+  <HelpKINode Title="ListExtensions.Push(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Push--1.htm" />
+  <HelpKINode Title="ListExtensions.Push&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Push--1.htm" />
+  <HelpKINode Title="ListExtensions.Select(Of TSource, TResult) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Select--2.htm" />
+  <HelpKINode Title="ListExtensions.Select&lt;TSource, TResult&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Select--2.htm" />
+  <HelpKINode Title="ListExtensions.SelectMany(Of TSource, TResult) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.SelectMany--2.htm" />
+  <HelpKINode Title="ListExtensions.SelectMany&lt;TSource, TResult&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.SelectMany--2.htm" />
+  <HelpKINode Title="ListExtensions.Shuffle(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Shuffle--1.htm" />
+  <HelpKINode Title="ListExtensions.Shuffle&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Shuffle--1.htm" />
+  <HelpKINode Title="ListExtensions.Take(Of TSource) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Take--1.htm" />
+  <HelpKINode Title="ListExtensions.Take&lt;TSource&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Take--1.htm" />
+  <HelpKINode Title="ListExtensions.Where(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Where--1.htm" />
+  <HelpKINode Title="ListExtensions.Where&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Where--1.htm" />
+  <HelpKINode Title="ManagedBy field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.ManagedBy.htm" />
+  <HelpKINode Title="Manager field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Manager.htm" />
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.CollectionExtensions namespace" Url="html/N-MichaelBrandonMorris.Extensions.CollectionExtensions.htm" />
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions class">
+    <HelpKINode Title="ArrayExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.htm" />
+    <HelpKINode Title="ArrayExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions class">
+    <HelpKINode Title="EnumerableExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.htm" />
+    <HelpKINode Title="EnumerableExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions class">
+    <HelpKINode Title="ListExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.htm" />
+    <HelpKINode Title="ListExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.OtherExtensions namespace" Url="html/N-MichaelBrandonMorris.Extensions.OtherExtensions.htm" />
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions class">
+    <HelpKINode Title="ControllerExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" />
+    <HelpKINode Title="ControllerExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions class">
+    <HelpKINode Title="HtmlHelperExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" />
+    <HelpKINode Title="HtmlHelperExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions class">
+    <HelpKINode Title="HttpPostedFileBaseExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" />
+    <HelpKINode Title="HttpPostedFileBaseExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions class">
+    <HelpKINode Title="StringBuilderExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm" />
+    <HelpKINode Title="StringBuilderExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.PrimitiveExtensions namespace" Url="html/N-MichaelBrandonMorris.Extensions.PrimitiveExtensions.htm" />
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions class">
+    <HelpKINode Title="CharExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm" />
+    <HelpKINode Title="CharExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions class">
+    <HelpKINode Title="DoubleExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.htm" />
+    <HelpKINode Title="DoubleExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions class">
+    <HelpKINode Title="FloatExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.htm" />
+    <HelpKINode Title="FloatExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions class">
+    <HelpKINode Title="ObjectExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.htm" />
+    <HelpKINode Title="ObjectExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions class">
+    <HelpKINode Title="StringExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.htm" />
+    <HelpKINode Title="StringExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.PrincipalExtensions namespace" Url="html/N-MichaelBrandonMorris.Extensions.PrincipalExtensions.htm" />
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions class">
+    <HelpKINode Title="GroupPrincipalExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.htm" />
+    <HelpKINode Title="GroupPrincipalExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions class">
+    <HelpKINode Title="PrincipalContextExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.htm" />
+    <HelpKINode Title="PrincipalContextExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions class">
+    <HelpKINode Title="PrincipalExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.htm" />
+    <HelpKINode Title="PrincipalExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions class">
+    <HelpKINode Title="PrincipalSearcherExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.htm" />
+    <HelpKINode Title="PrincipalSearcherExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions class">
+    <HelpKINode Title="PrincipalSearchResultExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.htm" />
+    <HelpKINode Title="PrincipalSearchResultExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions class">
+    <HelpKINode Title="UserPrincipalExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm" />
+    <HelpKINode Title="UserPrincipalExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Mobile field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Mobile.htm" />
+  <HelpKINode Title="Multiple(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.Multiple--1.htm" />
+  <HelpKINode Title="Multiple&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.Multiple--1.htm" />
+  <HelpKINode Title="Notes field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Notes.htm" />
+  <HelpKINode Title="ObjectExtensions class">
+    <HelpKINode Title="ObjectExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.htm" />
+    <HelpKINode Title="ObjectExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.htm" />
+    <HelpKINode Title="about ObjectExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ObjectExtensions.GetPropertyValue method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.ObjectExtensions.GetPropertyValue.htm" />
+  <HelpKINode Title="OrderBy(Of TSource, TKey) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.OrderBy--2.htm" />
+  <HelpKINode Title="OrderBy&lt;TSource, TKey&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.OrderBy--2.htm" />
+  <HelpKINode Title="OrderByDescending(Of TSource, TKey) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.OrderByDescending--2.htm" />
+  <HelpKINode Title="OrderByDescending&lt;TSource, TKey&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.OrderByDescending--2.htm" />
+  <HelpKINode Title="OrderByDescendingWhere(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.OrderByDescendingWhere--1.htm" />
+  <HelpKINode Title="OrderByDescendingWhere&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.OrderByDescendingWhere--1.htm" />
+  <HelpKINode Title="OrderByWhere(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.OrderByWhere--1.htm" />
+  <HelpKINode Title="OrderByWhere&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.OrderByWhere--1.htm" />
+  <HelpKINode Title="Pager field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Pager.htm" />
+  <HelpKINode Title="ParseBool method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseBool.htm" />
+  <HelpKINode Title="ParseByte method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseByte.htm" />
+  <HelpKINode Title="ParseChar method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseChar.htm" />
+  <HelpKINode Title="ParseDateTime method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDateTime.htm" />
+  <HelpKINode Title="ParseDecimal method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDecimal.htm" />
+  <HelpKINode Title="ParseDouble method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDouble.htm" />
+  <HelpKINode Title="ParseExactDateTime method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseExactDateTime.htm" />
+  <HelpKINode Title="ParseFloat method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseFloat.htm" />
+  <HelpKINode Title="ParseInt method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseInt.htm" />
+  <HelpKINode Title="ParseLong method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseLong.htm" />
+  <HelpKINode Title="ParseShort method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseShort.htm" />
+  <HelpKINode Title="Peek(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Peek--1.htm" />
+  <HelpKINode Title="Peek&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Peek--1.htm" />
+  <HelpKINode Title="Pop(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Pop--1.htm" />
+  <HelpKINode Title="Pop&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Pop--1.htm" />
+  <HelpKINode Title="PrincipalContextExtensions class">
+    <HelpKINode Title="PrincipalContextExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.htm" />
+    <HelpKINode Title="PrincipalContextExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.htm" />
+    <HelpKINode Title="about PrincipalContextExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PrincipalContextExtensions.FindPrincipalByDistinguishedName method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.FindPrincipalByDistinguishedName.htm" />
+  <HelpKINode Title="PrincipalContextExtensions.FindPrincipalsByDistinguishedNames method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.FindPrincipalsByDistinguishedNames.htm" />
+  <HelpKINode Title="PrincipalContextExtensions.FindUserPrincipalByDistinguishedName method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.FindUserPrincipalByDistinguishedName.htm" />
+  <HelpKINode Title="PrincipalContextExtensions.FindUserPrincipalsByDistinguishedNames method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.FindUserPrincipalsByDistinguishedNames.htm" />
+  <HelpKINode Title="PrincipalContextExtensions.GetPrincipalContext method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.GetPrincipalContext.htm" />
+  <HelpKINode Title="PrincipalExtensions class">
+    <HelpKINode Title="PrincipalExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.htm" />
+    <HelpKINode Title="PrincipalExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.htm" />
+    <HelpKINode Title="about PrincipalExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PrincipalExtensions.GetAsDirectoryEntry method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetAsDirectoryEntry.htm" />
+  <HelpKINode Title="PrincipalExtensions.GetGroupPrincipals method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetGroupPrincipals.htm" />
+  <HelpKINode Title="PrincipalExtensions.GetId method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetId.htm" />
+  <HelpKINode Title="PrincipalExtensions.GetProperty method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetProperty.htm" />
+  <HelpKINode Title="PrincipalExtensions.GetPropertyValue method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetPropertyValue.htm" />
+  <HelpKINode Title="PrincipalExtensions.GetPropertyValueAsString method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.GetPropertyValueAsString.htm" />
+  <HelpKINode Title="PrincipalExtensions.LegalCharacters field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.LegalCharacters.htm" />
+  <HelpKINode Title="PrincipalExtensions.LegalSymbols field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalExtensions.LegalSymbols.htm" />
+  <HelpKINode Title="PrincipalSearcherExtensions class">
+    <HelpKINode Title="PrincipalSearcherExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.htm" />
+    <HelpKINode Title="PrincipalSearcherExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.htm" />
+    <HelpKINode Title="about PrincipalSearcherExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PrincipalSearcherExtensions.GetAllComputerPrincipals method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.GetAllComputerPrincipals.htm" />
+  <HelpKINode Title="PrincipalSearcherExtensions.GetAllGroupPrincipals method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.GetAllGroupPrincipals.htm" />
+  <HelpKINode Title="PrincipalSearcherExtensions.GetAllUserPrincipals method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearcherExtensions.GetAllUserPrincipals.htm" />
+  <HelpKINode Title="PrincipalSearchResultExtensions class">
+    <HelpKINode Title="PrincipalSearchResultExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.htm" />
+    <HelpKINode Title="PrincipalSearchResultExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.htm" />
+    <HelpKINode Title="about PrincipalSearchResultExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PrincipalSearchResultExtensions.GetComputerPrincipals method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.GetComputerPrincipals.htm" />
+  <HelpKINode Title="PrincipalSearchResultExtensions.GetGroupPrincipals method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.GetGroupPrincipals.htm" />
+  <HelpKINode Title="PrincipalSearchResultExtensions.GetUserPrincipals method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.GetUserPrincipals.htm" />
+  <HelpKINode Title="Push(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Push--1.htm" />
+  <HelpKINode Title="Push&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Push--1.htm" />
+  <HelpKINode Title="Quote field" Url="html/F-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.Quote.htm" />
+  <HelpKINode Title="Remove method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Remove.htm" />
+  <HelpKINode Title="RemoveAll method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.RemoveAll.htm" />
+  <HelpKINode Title="RemoveAllBut method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.RemoveAllBut.htm" />
+  <HelpKINode Title="Select(Of TSource, TResult) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Select--2.htm" />
+  <HelpKINode Title="Select&lt;TSource, TResult&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Select--2.htm" />
+  <HelpKINode Title="SelectMany(Of TSource, TResult) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.SelectMany--2.htm" />
+  <HelpKINode Title="SelectMany&lt;TSource, TResult&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.SelectMany--2.htm" />
+  <HelpKINode Title="Shuffle(Of T) method">
+    <HelpKINode Title="Shuffle(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Shuffle--1.htm" />
+    <HelpKINode Title="Shuffle(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.Shuffle--1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Shuffle&lt;T&gt; method">
+    <HelpKINode Title="Shuffle(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Shuffle--1.htm" />
+    <HelpKINode Title="Shuffle(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.Shuffle--1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ShuffleToList(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ShuffleToList--1.htm" />
+  <HelpKINode Title="ShuffleToList&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ShuffleToList--1.htm" />
+  <HelpKINode Title="Sip field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Sip.htm" />
+  <HelpKINode Title="Skip(Of TSource) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.Skip--1.htm" />
+  <HelpKINode Title="Skip&lt;TSource&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.Skip--1.htm" />
+  <HelpKINode Title="SpaceCamelCase method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.SpaceCamelCase.htm" />
+  <HelpKINode Title="State field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.State.htm" />
+  <HelpKINode Title="StreetAddress field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.StreetAddress.htm" />
+  <HelpKINode Title="StringBuilderExtensions class">
+    <HelpKINode Title="StringBuilderExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm" />
+    <HelpKINode Title="StringBuilderExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm" />
+    <HelpKINode Title="about StringBuilderExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StringBuilderExtensions.AppendCsv method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.AppendCsv.htm" />
+  <HelpKINode Title="StringBuilderExtensions.AppendLineCsv method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.AppendLineCsv.htm" />
+  <HelpKINode Title="StringBuilderExtensions.Comma field" Url="html/F-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.Comma.htm" />
+  <HelpKINode Title="StringBuilderExtensions.Quote field" Url="html/F-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.Quote.htm" />
+  <HelpKINode Title="StringExtensions class">
+    <HelpKINode Title="StringExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.htm" />
+    <HelpKINode Title="StringExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.htm" />
+    <HelpKINode Title="about StringExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StringExtensions.Compare method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Compare.htm" />
+  <HelpKINode Title="StringExtensions.CompareOrdinal method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.CompareOrdinal.htm" />
+  <HelpKINode Title="StringExtensions.ContainsIgnoreCase method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ContainsIgnoreCase.htm" />
+  <HelpKINode Title="StringExtensions.ConvertToUtf32 method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ConvertToUtf32.htm" />
+  <HelpKINode Title="StringExtensions.Copy method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Copy.htm" />
+  <HelpKINode Title="StringExtensions.EqualsCurrentCulture method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsCurrentCulture.htm" />
+  <HelpKINode Title="StringExtensions.EqualsCurrentCultureIgnoreCase method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsCurrentCultureIgnoreCase.htm" />
+  <HelpKINode Title="StringExtensions.EqualsInvariantCulture method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsInvariantCulture.htm" />
+  <HelpKINode Title="StringExtensions.EqualsInvariantCultureIgnoreCase method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsInvariantCultureIgnoreCase.htm" />
+  <HelpKINode Title="StringExtensions.EqualsOrdinal method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsOrdinal.htm" />
+  <HelpKINode Title="StringExtensions.EqualsOrdinalIgnoreCase method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.EqualsOrdinalIgnoreCase.htm" />
+  <HelpKINode Title="StringExtensions.GetNumericValue method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.GetNumericValue.htm" />
+  <HelpKINode Title="StringExtensions.GetUnicodeCategory method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.GetUnicodeCategory.htm" />
+  <HelpKINode Title="StringExtensions.IndexOfOrdinal method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IndexOfOrdinal.htm" />
+  <HelpKINode Title="StringExtensions.IndexOfOrdinalIgnoreCase method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IndexOfOrdinalIgnoreCase.htm" />
+  <HelpKINode Title="StringExtensions.IsControl method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsControl.htm" />
+  <HelpKINode Title="StringExtensions.IsDigit method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsDigit.htm" />
+  <HelpKINode Title="StringExtensions.IsHighSurrogate method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsHighSurrogate.htm" />
+  <HelpKINode Title="StringExtensions.IsLetter method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLetter.htm" />
+  <HelpKINode Title="StringExtensions.IsLetterOrDigit method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLetterOrDigit.htm" />
+  <HelpKINode Title="StringExtensions.IsLower method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLower.htm" />
+  <HelpKINode Title="StringExtensions.IsLowSurrogate method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLowSurrogate.htm" />
+  <HelpKINode Title="StringExtensions.IsNullOrEmpty method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsNullOrEmpty.htm" />
+  <HelpKINode Title="StringExtensions.IsNullOrWhiteSpace method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsNullOrWhiteSpace.htm" />
+  <HelpKINode Title="StringExtensions.IsNumber method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsNumber.htm" />
+  <HelpKINode Title="StringExtensions.IsPunctuation method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsPunctuation.htm" />
+  <HelpKINode Title="StringExtensions.IsSeparator method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSeparator.htm" />
+  <HelpKINode Title="StringExtensions.IsSurrogate method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSurrogate.htm" />
+  <HelpKINode Title="StringExtensions.IsSurrogatePair method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSurrogatePair.htm" />
+  <HelpKINode Title="StringExtensions.IsSymbol method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSymbol.htm" />
+  <HelpKINode Title="StringExtensions.IsUpper method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsUpper.htm" />
+  <HelpKINode Title="StringExtensions.IsWhiteSpace method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsWhiteSpace.htm" />
+  <HelpKINode Title="StringExtensions.ParseBool method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseBool.htm" />
+  <HelpKINode Title="StringExtensions.ParseByte method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseByte.htm" />
+  <HelpKINode Title="StringExtensions.ParseChar method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseChar.htm" />
+  <HelpKINode Title="StringExtensions.ParseDateTime method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDateTime.htm" />
+  <HelpKINode Title="StringExtensions.ParseDecimal method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDecimal.htm" />
+  <HelpKINode Title="StringExtensions.ParseDouble method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseDouble.htm" />
+  <HelpKINode Title="StringExtensions.ParseExactDateTime method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseExactDateTime.htm" />
+  <HelpKINode Title="StringExtensions.ParseFloat method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseFloat.htm" />
+  <HelpKINode Title="StringExtensions.ParseInt method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseInt.htm" />
+  <HelpKINode Title="StringExtensions.ParseLong method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseLong.htm" />
+  <HelpKINode Title="StringExtensions.ParseShort method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ParseShort.htm" />
+  <HelpKINode Title="StringExtensions.Remove method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Remove.htm" />
+  <HelpKINode Title="StringExtensions.RemoveAll method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.RemoveAll.htm" />
+  <HelpKINode Title="StringExtensions.RemoveAllBut method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.RemoveAllBut.htm" />
+  <HelpKINode Title="StringExtensions.SpaceCamelCase method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.SpaceCamelCase.htm" />
+  <HelpKINode Title="StringExtensions.SubstringAtIndexOfOrdinal method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.SubstringAtIndexOfOrdinal.htm" />
+  <HelpKINode Title="StringExtensions.SubstringAtIndexOfOrdinalIgnoreCase method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.SubstringAtIndexOfOrdinalIgnoreCase.htm" />
+  <HelpKINode Title="StringExtensions.ToBool method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToBool.htm" />
+  <HelpKINode Title="StringExtensions.ToByte method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToByte.htm" />
+  <HelpKINode Title="StringExtensions.ToChar method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToChar.htm" />
+  <HelpKINode Title="StringExtensions.ToDateTime method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime.htm" />
+  <HelpKINode Title="StringExtensions.ToDecimal method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDecimal.htm" />
+  <HelpKINode Title="StringExtensions.ToDouble method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDouble.htm" />
+  <HelpKINode Title="StringExtensions.ToFloat method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToFloat.htm" />
+  <HelpKINode Title="StringExtensions.ToInt method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToInt.htm" />
+  <HelpKINode Title="StringExtensions.ToLong method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToLong.htm" />
+  <HelpKINode Title="StringExtensions.ToShort method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToShort.htm" />
+  <HelpKINode Title="StringExtensions.TryParse method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse.htm" />
+  <HelpKINode Title="StringExtensions.Wrap method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Wrap.htm" />
+  <HelpKINode Title="SubstringAtIndexOfOrdinal method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.SubstringAtIndexOfOrdinal.htm" />
+  <HelpKINode Title="SubstringAtIndexOfOrdinalIgnoreCase method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.SubstringAtIndexOfOrdinalIgnoreCase.htm" />
+  <HelpKINode Title="Suffix field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Suffix.htm" />
+  <HelpKINode Title="Take(Of TSource) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Take--1.htm" />
+  <HelpKINode Title="Take&lt;TSource&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Take--1.htm" />
+  <HelpKINode Title="Title field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Title.htm" />
+  <HelpKINode Title="ToBool method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToBool.htm" />
+  <HelpKINode Title="ToByte method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToByte.htm" />
+  <HelpKINode Title="ToBytes method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.ToBytes.htm" />
+  <HelpKINode Title="ToChar method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToChar.htm" />
+  <HelpKINode Title="ToDataTable method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ToDataTable.htm" />
+  <HelpKINode Title="ToDateTime method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime.htm" />
+  <HelpKINode Title="ToDecimal method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDecimal.htm" />
+  <HelpKINode Title="ToDouble method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDouble.htm" />
+  <HelpKINode Title="ToFloat method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToFloat.htm" />
+  <HelpKINode Title="ToInt method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToInt.htm" />
+  <HelpKINode Title="ToLong method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToLong.htm" />
+  <HelpKINode Title="ToLower method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToLower.htm" />
+  <HelpKINode Title="ToLowerInvariant method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToLowerInvariant.htm" />
+  <HelpKINode Title="ToShort method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToShort.htm" />
+  <HelpKINode Title="ToUpper method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToUpper.htm" />
+  <HelpKINode Title="ToUpperInvariant method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.ToUpperInvariant.htm" />
+  <HelpKINode Title="TryParse method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.TryParse.htm" />
+  <HelpKINode Title="UserAccountControl field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.UserAccountControl.htm" />
+  <HelpKINode Title="UserPrincipalExtensions class">
+    <HelpKINode Title="UserPrincipalExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm" />
+    <HelpKINode Title="UserPrincipalExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm" />
+    <HelpKINode Title="about UserPrincipalExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm" />
+    <HelpKINode Title="fields" Url="html/Fields.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserPrincipalExtensions.Assistant field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Assistant.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.City field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.City.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.Comment field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Comment.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.Company field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Company.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.Country field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Country.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.Department field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Department.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.DirectReports field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.DirectReports.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.Division field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Division.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.EmployeeNumber field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.EmployeeNumber.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.EmployeeNumberHash field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.EmployeeNumberHash.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.Fax field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Fax.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.FindByDistinguishedName method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.FindByDistinguishedName.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetAssistant method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetAssistant.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetCity method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetCity.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetComment method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetComment.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetCompany method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetCompany.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetCountry method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetCountry.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetDepartment method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetDepartment.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetDirectReportDistinguishedNames method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetDirectReportDistinguishedNames.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetDivision method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetDivision.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetEmployeeNumber method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetEmployeeNumber.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetEmployeeNumberHash method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetEmployeeNumberHash.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetFax method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetFax.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetHomeAddress method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetHomeAddress.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetHomePhone method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetHomePhone.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetInitials method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetInitials.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetManagerDistinguishedName method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetManagerDistinguishedName.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetManagerName method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetManagerName.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetMobile method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetMobile.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetNotes method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetNotes.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetPager method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetPager.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetSip method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetSip.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetState method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetState.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetStreetAddress method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetStreetAddress.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetSuffix method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetSuffix.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetTitle method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetTitle.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetUserAccountControl method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetUserAccountControl.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.GetVoip method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetVoip.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.HomeAddress field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.HomeAddress.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.HomePhone field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.HomePhone.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.Initials field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Initials.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.IsActive method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.IsActive.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.Manager field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Manager.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.Mobile field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Mobile.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.Notes field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Notes.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.Pager field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Pager.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.Sip field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Sip.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.State field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.State.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.StreetAddress field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.StreetAddress.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.Suffix field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Suffix.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.Title field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Title.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.UserAccountControl field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.UserAccountControl.htm" />
+  <HelpKINode Title="UserPrincipalExtensions.Voip field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Voip.htm" />
+  <HelpKINode Title="Voip field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Voip.htm" />
+  <HelpKINode Title="Where(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Where--1.htm" />
+  <HelpKINode Title="Where&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Where--1.htm" />
+  <HelpKINode Title="Wrap method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Wrap.htm" />
+  <HelpKINode Title="_EditorForManyIndexField(Of TModel) method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions._EditorForManyIndexField--1.htm" />
+  <HelpKINode Title="_EditorForManyIndexField&lt;TModel&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions._EditorForManyIndexField--1.htm" />
+</HelpKI>
