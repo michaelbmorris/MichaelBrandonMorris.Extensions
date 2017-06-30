@@ -13,7 +13,7 @@
   <HelpKINode Title="ArrayExtensions.Skip(Of TSource) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.Skip--1.htm" />
   <HelpKINode Title="ArrayExtensions.Skip&lt;TSource&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ArrayExtensions.Skip--1.htm" />
   <HelpKINode Title="Assistant field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Assistant.htm" />
-  <HelpKINode Title="Attribute method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.Attribute.htm" />
+  <HelpKINode Title="Attribute method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.Attribute.htm" />
   <HelpKINode Title="CharExtensions class">
     <HelpKINode Title="CharExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm" />
     <HelpKINode Title="CharExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.htm" />
@@ -55,20 +55,20 @@
     <HelpKINode Title="ContainsIgnoreCase Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ContainsIgnoreCase.htm" />
   </HelpKINode>
   <HelpKINode Title="ControllerExtensions class">
-    <HelpKINode Title="ControllerExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" />
-    <HelpKINode Title="ControllerExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" />
-    <HelpKINode Title="about ControllerExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" />
+    <HelpKINode Title="ControllerExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.WebExtensions.ControllerExtensions.htm" />
+    <HelpKINode Title="ControllerExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.WebExtensions.ControllerExtensions.htm" />
+    <HelpKINode Title="about ControllerExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.WebExtensions.ControllerExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.WebExtensions.ControllerExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.WebExtensions.ControllerExtensions.htm" />
   </HelpKINode>
-  <HelpKINode Title="ControllerExtensions.GetUser method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.GetUser.htm" />
+  <HelpKINode Title="ControllerExtensions.GetUser method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.ControllerExtensions.GetUser.htm" />
   <HelpKINode Title="ConvertToUtf32 method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ConvertToUtf32.htm" />
   <HelpKINode Title="Copy method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Copy.htm" />
   <HelpKINode Title="Country field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Country.htm" />
   <HelpKINode Title="Department field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Department.htm" />
   <HelpKINode Title="DirectReports field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.DirectReports.htm" />
-  <HelpKINode Title="DisplayFor(Of TModel, TValue) method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.DisplayFor--2.htm" />
-  <HelpKINode Title="DisplayFor&lt;TModel, TValue&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.DisplayFor--2.htm" />
+  <HelpKINode Title="DisplayFor(Of TModel, TValue) method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.DisplayFor--2.htm" />
+  <HelpKINode Title="DisplayFor&lt;TModel, TValue&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.DisplayFor--2.htm" />
   <HelpKINode Title="Division field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Division.htm" />
   <HelpKINode Title="DoubleExtensions class">
     <HelpKINode Title="DoubleExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.htm" />
@@ -81,10 +81,10 @@
   <HelpKINode Title="DoubleExtensions.IsNaN method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsNaN.htm" />
   <HelpKINode Title="DoubleExtensions.IsNegativeInfinity method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsNegativeInfinity.htm" />
   <HelpKINode Title="DoubleExtensions.IsPositiveInfinity method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsPositiveInfinity.htm" />
-  <HelpKINode Title="EditorForMany(Of TModel, TValue) method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForMany--2.htm" />
-  <HelpKINode Title="EditorForMany&lt;TModel, TValue&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForMany--2.htm" />
-  <HelpKINode Title="EditorForManyIndexField(Of TModel) method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForManyIndexField--1.htm" />
-  <HelpKINode Title="EditorForManyIndexField&lt;TModel&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForManyIndexField--1.htm" />
+  <HelpKINode Title="EditorForMany(Of TModel, TValue) method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.EditorForMany--2.htm" />
+  <HelpKINode Title="EditorForMany&lt;TModel, TValue&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.EditorForMany--2.htm" />
+  <HelpKINode Title="EditorForManyIndexField(Of TModel) method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.EditorForManyIndexField--1.htm" />
+  <HelpKINode Title="EditorForManyIndexField&lt;TModel&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.EditorForManyIndexField--1.htm" />
   <HelpKINode Title="EmployeeNumber field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.EmployeeNumber.htm" />
   <HelpKINode Title="EmployeeNumberHash field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.EmployeeNumberHash.htm" />
   <HelpKINode Title="EnumerableExtensions class">
@@ -143,8 +143,8 @@
   <HelpKINode Title="GetComment method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetComment.htm" />
   <HelpKINode Title="GetCompany method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetCompany.htm" />
   <HelpKINode Title="GetComputerPrincipals method">
-    <HelpKINode Title="GetComputerPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.GetComputerPrincipals.htm" />
     <HelpKINode Title="GetComputerPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetComputerPrincipals.htm" />
+    <HelpKINode Title="GetComputerPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalSearchResultExtensions.GetComputerPrincipals.htm" />
   </HelpKINode>
   <HelpKINode Title="GetCountry method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetCountry.htm" />
   <HelpKINode Title="GetDepartment method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetDepartment.htm" />
@@ -168,8 +168,8 @@
   <HelpKINode Title="GetMobile method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetMobile.htm" />
   <HelpKINode Title="GetNotes method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetNotes.htm" />
   <HelpKINode Title="GetNumericValue method">
-    <HelpKINode Title="GetNumericValue Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.GetNumericValue.htm" />
     <HelpKINode Title="GetNumericValue Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.GetNumericValue.htm" />
+    <HelpKINode Title="GetNumericValue Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.GetNumericValue.htm" />
   </HelpKINode>
   <HelpKINode Title="GetPager method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetPager.htm" />
   <HelpKINode Title="GetPrincipalContext method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.PrincipalContextExtensions.GetPrincipalContext.htm" />
@@ -185,10 +185,10 @@
   <HelpKINode Title="GetSuffix method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetSuffix.htm" />
   <HelpKINode Title="GetTitle method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetTitle.htm" />
   <HelpKINode Title="GetUnicodeCategory method">
-    <HelpKINode Title="GetUnicodeCategory Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.GetUnicodeCategory.htm" />
     <HelpKINode Title="GetUnicodeCategory Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.GetUnicodeCategory.htm" />
+    <HelpKINode Title="GetUnicodeCategory Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.GetUnicodeCategory.htm" />
   </HelpKINode>
-  <HelpKINode Title="GetUser method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.GetUser.htm" />
+  <HelpKINode Title="GetUser method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.ControllerExtensions.GetUser.htm" />
   <HelpKINode Title="GetUserAccountControl method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.GetUserAccountControl.htm" />
   <HelpKINode Title="GetUserPrincipals method">
     <HelpKINode Title="GetUserPrincipals Method " Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.GroupPrincipalExtensions.GetUserPrincipals.htm" />
@@ -211,40 +211,40 @@
   <HelpKINode Title="HomeAddress field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.HomeAddress.htm" />
   <HelpKINode Title="HomePhone field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.HomePhone.htm" />
   <HelpKINode Title="HtmlHelperExtensions class">
-    <HelpKINode Title="HtmlHelperExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" />
-    <HelpKINode Title="HtmlHelperExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" />
-    <HelpKINode Title="about HtmlHelperExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" />
+    <HelpKINode Title="HtmlHelperExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.htm" />
+    <HelpKINode Title="HtmlHelperExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.htm" />
+    <HelpKINode Title="about HtmlHelperExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.htm" />
   </HelpKINode>
-  <HelpKINode Title="HtmlHelperExtensions.Attribute method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.Attribute.htm" />
-  <HelpKINode Title="HtmlHelperExtensions.DisplayFor(Of TModel, TValue) method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.DisplayFor--2.htm" />
-  <HelpKINode Title="HtmlHelperExtensions.DisplayFor&lt;TModel, TValue&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.DisplayFor--2.htm" />
-  <HelpKINode Title="HtmlHelperExtensions.EditorForMany(Of TModel, TValue) method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForMany--2.htm" />
-  <HelpKINode Title="HtmlHelperExtensions.EditorForMany&lt;TModel, TValue&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForMany--2.htm" />
-  <HelpKINode Title="HtmlHelperExtensions.EditorForManyIndexField(Of TModel) method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForManyIndexField--1.htm" />
-  <HelpKINode Title="HtmlHelperExtensions.EditorForManyIndexField&lt;TModel&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.EditorForManyIndexField--1.htm" />
-  <HelpKINode Title="HtmlHelperExtensions._EditorForManyIndexField(Of TModel) method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions._EditorForManyIndexField--1.htm" />
-  <HelpKINode Title="HtmlHelperExtensions._EditorForManyIndexField&lt;TModel&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions._EditorForManyIndexField--1.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.Attribute method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.Attribute.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.DisplayFor(Of TModel, TValue) method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.DisplayFor--2.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.DisplayFor&lt;TModel, TValue&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.DisplayFor--2.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.EditorForMany(Of TModel, TValue) method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.EditorForMany--2.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.EditorForMany&lt;TModel, TValue&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.EditorForMany--2.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.EditorForManyIndexField(Of TModel) method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.EditorForManyIndexField--1.htm" />
+  <HelpKINode Title="HtmlHelperExtensions.EditorForManyIndexField&lt;TModel&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.EditorForManyIndexField--1.htm" />
+  <HelpKINode Title="HtmlHelperExtensions._EditorForManyIndexField(Of TModel) method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions._EditorForManyIndexField--1.htm" />
+  <HelpKINode Title="HtmlHelperExtensions._EditorForManyIndexField&lt;TModel&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions._EditorForManyIndexField--1.htm" />
   <HelpKINode Title="HttpPostedFileBaseExtensions class">
-    <HelpKINode Title="HttpPostedFileBaseExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" />
-    <HelpKINode Title="HttpPostedFileBaseExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" />
-    <HelpKINode Title="about HttpPostedFileBaseExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" />
-    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" />
-    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" />
+    <HelpKINode Title="HttpPostedFileBaseExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.WebExtensions.HttpPostedFileBaseExtensions.htm" />
+    <HelpKINode Title="HttpPostedFileBaseExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.WebExtensions.HttpPostedFileBaseExtensions.htm" />
+    <HelpKINode Title="about HttpPostedFileBaseExtensions class" Url="html/T-MichaelBrandonMorris.Extensions.WebExtensions.HttpPostedFileBaseExtensions.htm" />
+    <HelpKINode Title="all members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.WebExtensions.HttpPostedFileBaseExtensions.htm" />
+    <HelpKINode Title="methods" Url="html/Methods.T-MichaelBrandonMorris.Extensions.WebExtensions.HttpPostedFileBaseExtensions.htm" />
   </HelpKINode>
-  <HelpKINode Title="HttpPostedFileBaseExtensions.ToBytes method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.ToBytes.htm" />
+  <HelpKINode Title="HttpPostedFileBaseExtensions.ToBytes method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HttpPostedFileBaseExtensions.ToBytes.htm" />
   <HelpKINode Title="IndexOfOrdinal method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IndexOfOrdinal.htm" />
   <HelpKINode Title="IndexOfOrdinalIgnoreCase method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IndexOfOrdinalIgnoreCase.htm" />
   <HelpKINode Title="Initials field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Initials.htm" />
   <HelpKINode Title="IsActive method" Url="html/M-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.IsActive.htm" />
   <HelpKINode Title="IsControl method">
-    <HelpKINode Title="IsControl Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsControl.htm" />
     <HelpKINode Title="IsControl Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsControl.htm" />
+    <HelpKINode Title="IsControl Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsControl.htm" />
   </HelpKINode>
   <HelpKINode Title="IsDigit method">
-    <HelpKINode Title="IsDigit Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsDigit.htm" />
     <HelpKINode Title="IsDigit Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsDigit.htm" />
+    <HelpKINode Title="IsDigit Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsDigit.htm" />
   </HelpKINode>
   <HelpKINode Title="IsEmpty(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.IsEmpty--1.htm" />
   <HelpKINode Title="IsEmpty&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.IsEmpty--1.htm" />
@@ -269,40 +269,40 @@
     <HelpKINode Title="IsLower Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLower.htm" />
   </HelpKINode>
   <HelpKINode Title="IsLowSurrogate method">
-    <HelpKINode Title="IsLowSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLowSurrogate.htm" />
     <HelpKINode Title="IsLowSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsLowSurrogate.htm" />
+    <HelpKINode Title="IsLowSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsLowSurrogate.htm" />
   </HelpKINode>
   <HelpKINode Title="IsNaN method">
     <HelpKINode Title="IsNaN Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsNaN.htm" />
     <HelpKINode Title="IsNaN Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsNaN.htm" />
   </HelpKINode>
   <HelpKINode Title="IsNegativeInfinity method">
-    <HelpKINode Title="IsNegativeInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsNegativeInfinity.htm" />
     <HelpKINode Title="IsNegativeInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsNegativeInfinity.htm" />
+    <HelpKINode Title="IsNegativeInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsNegativeInfinity.htm" />
   </HelpKINode>
   <HelpKINode Title="IsNullOrEmpty method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsNullOrEmpty.htm" />
   <HelpKINode Title="IsNullOrEmpty(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.IsNullOrEmpty--1.htm" />
   <HelpKINode Title="IsNullOrEmpty&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.IsNullOrEmpty--1.htm" />
   <HelpKINode Title="IsNullOrWhiteSpace method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsNullOrWhiteSpace.htm" />
   <HelpKINode Title="IsNumber method">
-    <HelpKINode Title="IsNumber Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsNumber.htm" />
     <HelpKINode Title="IsNumber Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsNumber.htm" />
+    <HelpKINode Title="IsNumber Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsNumber.htm" />
   </HelpKINode>
   <HelpKINode Title="IsPositiveInfinity method">
-    <HelpKINode Title="IsPositiveInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsPositiveInfinity.htm" />
     <HelpKINode Title="IsPositiveInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.DoubleExtensions.IsPositiveInfinity.htm" />
+    <HelpKINode Title="IsPositiveInfinity Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.FloatExtensions.IsPositiveInfinity.htm" />
   </HelpKINode>
   <HelpKINode Title="IsPunctuation method">
-    <HelpKINode Title="IsPunctuation Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsPunctuation.htm" />
     <HelpKINode Title="IsPunctuation Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsPunctuation.htm" />
+    <HelpKINode Title="IsPunctuation Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsPunctuation.htm" />
   </HelpKINode>
   <HelpKINode Title="IsSeparator method">
-    <HelpKINode Title="IsSeparator Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsSeparator.htm" />
     <HelpKINode Title="IsSeparator Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSeparator.htm" />
+    <HelpKINode Title="IsSeparator Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsSeparator.htm" />
   </HelpKINode>
   <HelpKINode Title="IsSurrogate method">
-    <HelpKINode Title="IsSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsSurrogate.htm" />
     <HelpKINode Title="IsSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSurrogate.htm" />
+    <HelpKINode Title="IsSurrogate Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsSurrogate.htm" />
   </HelpKINode>
   <HelpKINode Title="IsSurrogatePair method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSurrogatePair.htm" />
   <HelpKINode Title="IsSymbol method">
@@ -310,8 +310,8 @@
     <HelpKINode Title="IsSymbol Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsSymbol.htm" />
   </HelpKINode>
   <HelpKINode Title="IsUpper method">
-    <HelpKINode Title="IsUpper Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsUpper.htm" />
     <HelpKINode Title="IsUpper Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsUpper.htm" />
+    <HelpKINode Title="IsUpper Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.IsUpper.htm" />
   </HelpKINode>
   <HelpKINode Title="IsWhiteSpace method">
     <HelpKINode Title="IsWhiteSpace Method " Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.CharExtensions.IsWhiteSpace.htm" />
@@ -362,18 +362,6 @@
     <HelpKINode Title="ListExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.htm" />
   </HelpKINode>
   <HelpKINode Title="MichaelBrandonMorris.Extensions.OtherExtensions namespace" Url="html/N-MichaelBrandonMorris.Extensions.OtherExtensions.htm" />
-  <HelpKINode Title="MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions class">
-    <HelpKINode Title="ControllerExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" />
-    <HelpKINode Title="ControllerExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.ControllerExtensions.htm" />
-  </HelpKINode>
-  <HelpKINode Title="MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions class">
-    <HelpKINode Title="HtmlHelperExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" />
-    <HelpKINode Title="HtmlHelperExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions.htm" />
-  </HelpKINode>
-  <HelpKINode Title="MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions class">
-    <HelpKINode Title="HttpPostedFileBaseExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" />
-    <HelpKINode Title="HttpPostedFileBaseExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.htm" />
-  </HelpKINode>
   <HelpKINode Title="MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions class">
     <HelpKINode Title="StringBuilderExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm" />
     <HelpKINode Title="StringBuilderExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.OtherExtensions.StringBuilderExtensions.htm" />
@@ -423,6 +411,19 @@
   <HelpKINode Title="MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions class">
     <HelpKINode Title="UserPrincipalExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm" />
     <HelpKINode Title="UserPrincipalExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.WebExtensions namespace" Url="html/N-MichaelBrandonMorris.Extensions.WebExtensions.htm" />
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.WebExtensions.ControllerExtensions class">
+    <HelpKINode Title="ControllerExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.WebExtensions.ControllerExtensions.htm" />
+    <HelpKINode Title="ControllerExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.WebExtensions.ControllerExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions class">
+    <HelpKINode Title="HtmlHelperExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.htm" />
+    <HelpKINode Title="HtmlHelperExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MichaelBrandonMorris.Extensions.WebExtensions.HttpPostedFileBaseExtensions class">
+    <HelpKINode Title="HttpPostedFileBaseExtensions Class" Url="html/T-MichaelBrandonMorris.Extensions.WebExtensions.HttpPostedFileBaseExtensions.htm" />
+    <HelpKINode Title="HttpPostedFileBaseExtensions Members" Url="html/AllMembers.T-MichaelBrandonMorris.Extensions.WebExtensions.HttpPostedFileBaseExtensions.htm" />
   </HelpKINode>
   <HelpKINode Title="Mobile field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Mobile.htm" />
   <HelpKINode Title="Multiple(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.Multiple--1.htm" />
@@ -523,8 +524,8 @@
     <HelpKINode Title="Shuffle(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.Shuffle--1.htm" />
   </HelpKINode>
   <HelpKINode Title="Shuffle&lt;T&gt; method">
-    <HelpKINode Title="Shuffle(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Shuffle--1.htm" />
     <HelpKINode Title="Shuffle(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.Shuffle--1.htm" />
+    <HelpKINode Title="Shuffle(T) Method " Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Shuffle--1.htm" />
   </HelpKINode>
   <HelpKINode Title="ShuffleToList(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ShuffleToList--1.htm" />
   <HelpKINode Title="ShuffleToList&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ShuffleToList--1.htm" />
@@ -622,7 +623,7 @@
   <HelpKINode Title="Title field" Url="html/F-MichaelBrandonMorris.Extensions.PrincipalExtensions.UserPrincipalExtensions.Title.htm" />
   <HelpKINode Title="ToBool method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToBool.htm" />
   <HelpKINode Title="ToByte method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToByte.htm" />
-  <HelpKINode Title="ToBytes method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HttpPostedFileBaseExtensions.ToBytes.htm" />
+  <HelpKINode Title="ToBytes method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HttpPostedFileBaseExtensions.ToBytes.htm" />
   <HelpKINode Title="ToChar method" Url="html/M-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToChar.htm" />
   <HelpKINode Title="ToDataTable method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.EnumerableExtensions.ToDataTable.htm" />
   <HelpKINode Title="ToDateTime method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.ToDateTime.htm" />
@@ -703,6 +704,6 @@
   <HelpKINode Title="Where(Of T) method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Where--1.htm" />
   <HelpKINode Title="Where&lt;T&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.CollectionExtensions.ListExtensions.Where--1.htm" />
   <HelpKINode Title="Wrap method" Url="html/Overload-MichaelBrandonMorris.Extensions.PrimitiveExtensions.StringExtensions.Wrap.htm" />
-  <HelpKINode Title="_EditorForManyIndexField(Of TModel) method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions._EditorForManyIndexField--1.htm" />
-  <HelpKINode Title="_EditorForManyIndexField&lt;TModel&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.OtherExtensions.HtmlHelperExtensions._EditorForManyIndexField--1.htm" />
+  <HelpKINode Title="_EditorForManyIndexField(Of TModel) method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions._EditorForManyIndexField--1.htm" />
+  <HelpKINode Title="_EditorForManyIndexField&lt;TModel&gt; method" Url="html/M-MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions._EditorForManyIndexField--1.htm" />
 </HelpKI>
