@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web;
 
-namespace MichaelBrandonMorris.Extensions.OtherExtensions
+namespace MichaelBrandonMorris.Extensions.WebExtensions
 {
     /// <summary>
     ///     Class HttpPostedFileBaseExtensions.

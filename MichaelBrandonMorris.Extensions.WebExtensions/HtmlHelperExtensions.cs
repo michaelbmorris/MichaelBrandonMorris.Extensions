@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Mvc.Html;
 
-namespace MichaelBrandonMorris.Extensions.OtherExtensions
+namespace MichaelBrandonMorris.Extensions.WebExtensions
 {
     /// <summary>
     ///     Class HtmlHelperExtensions.
