@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MichaelBrandonMorris.Extensions</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>http://www.michaelbmorris.com/MichaelBrandonMorris.Extensions/LICENSE.txt</licenseUrl>
+    <projectUrl>http://www.michaelbmorris.com/MichaelBrandonMorris.Extensions</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extension methods for built-in types.</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>extension extensions collection array enumerable ienumerable list ilist controller icontroller htmlhelper httppostedfilebase file char double float object string principal groupprincipal principalcontext principalsearcher principalsearchresult userprincipal</tags>
+  </metadata>
+</package>
