@@ -1,35 +1,80 @@
----
-layout: default
----
+--- layout: default ---
+
+<h1>Help</h1>
+
+<a href="Help">Website</a>
 
 <h1>Modules</h1>
 <table>
-<thead>
-<tr>
-<th>
-Name
-</th>
-<th>
-Description
-</th>
-<th>
-NuGet
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-Collection Extensions
-</td>
-<td>
-Extensions for built-in collection types.
-</td>
-<td>
-<code>
-Install-Package MichaelBrandonMorris.Extensions.CollectionExtensions
-</code>
-</td>
-</tr>
-</tbody>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Types Extended</th>
+            <th>NuGet</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Collection Extensions</td>
+            <td>Extensions for built-in collection types.</td>
+            <td>
+                <ul>
+                <li>Array</li>
+                <li>IEnumerable</li>
+                <li>IList</li>
+                    </ul>
+                    </td>
+            <td>
+                <code>Install-Package MichaelBrandonMorris.Extensions.CollectionExtensions</code>
+            </td>
+        </tr>
+        <tr>
+            <td>Primitive Extensions</td>
+            <td>Extensions for built-in primitive types.</td>
+            <td>
+                <ul>
+                    <li>Char</li>
+                    <li>Double</li>
+                    <li>Float</li>
+                    <li>Object</li>
+                    <li>String</li>
+                </ul>
+            </td>
+            <td>
+                <code>Install-Package MichaelBrandonMorris.Extensions.PrimitiveExtensions</code>
+            </td>
+        </tr>
+        <tr>
+            <td>Principal Extensions</td>
+            <td>Extensions for built-in principal types.</td>
+            <td>
+                <ul>
+                    <li>GroupPrincipal</li>
+                    <li>PrincipalContext</li>
+                    <li>Principal</li>
+                    <li>PrincipalSearchResult</li>
+                    <li>PrincipalSearcher</li>
+                    <li>UserPrincipal</li>
+                </ul>
+            </td>
+            <td>
+                <code>Install-Package MichaelBrandonMorris.Extensions.PrincipalExtensions</code>
+            </td>
+        </tr>
+        <tr>
+            <td>Web Extensions</td>
+            <td>Extensions for built-in web types.</td>
+            <td>
+                <ul>
+                    <li>Controller</li>
+                    <li>HtmlHelper</li>
+                    <li>HttpPostedFileBase</li>
+                </ul>
+            </td>
+            <td>
+                <code>Install-Package MichaelBrandonMorris.Extensions.WebExtensions</code>
+            </td>
+        </tr>
+    </tbody>
 </table>
