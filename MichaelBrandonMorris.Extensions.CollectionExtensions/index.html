@@ -9,14 +9,21 @@ layout: default
 <code>public static TSource[] Skip<TSource>(this TSource[] source, int count)</code>
 <h3>IEnumerable</h3>
 <code>public static bool ContainsIgnoreCase(this IEnumerable<string> strings, string s)</code>
+<br />
 <code>public static IList<T> OrderByDescendingWhere<T>(this IEnumerable<T> objects, Func<T, object> orderBy = null, Func<T, bool> where = null)</code>
+<br />
 <code>public static IList<T> OrderByWhere<T>(this IEnumerable<T> objects, Func<T, object> orderBy = null, Func<T, bool> where = null)</code>
+<br />
 <code>public static IEnumerable<T> Shuffle<T>(this IEnumerable<T> enumerable)</code>
 <h3>IList</h3>
 <code>public static IList<TSource> OrderBy<TSource, TKey>(this IList<TSource> source, Func<TSource, TKey> keySelector, IComparer<TKey> comparer = null)</code>
+<br />
 <code>public static IList<TSource> OrderByDescending<TSource, TKey>(this IList<TSource> source, Func<TSource, TKey> keySelector, IComparer<TKey> comparer = null)</code>
+<br />
 <code>public static IList<TResult> Select<TSource, TResult>(this IList<TSource> source, Func<TSource, TResult> selector)</code>
+<br />
 <code>public static IList<TResult> SelectMany<TSource, TResult>(this IList<TSource> source, Func<TSource, IEnumerable<TResult>> selector)</code>
+<br />
 <code>public static IList<T> Shuffle<T>(this IList<T> list)</code>
 <h2>NuGet</h2>
 <a href="https://www.nuget.org/packages/MichaelBrandonMorris.Extensions.CollectionExtensions/" target="_blank"><img src="https://img.shields.io/nuget/v/MichaelBrandonMorris.Extensions.CollectionExtensions.svg"></a>
