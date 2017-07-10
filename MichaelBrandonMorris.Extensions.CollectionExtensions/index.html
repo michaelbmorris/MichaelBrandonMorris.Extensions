@@ -3,28 +3,24 @@ layout: default
 ---
 <a href="../">Extensions</a>
 <h1>About</h1>
-<p>Extensions for built-in collection types.</p>
+<p>Extensions for built-in collection types. Methods are generic unless otherwise specified.</p>
 <h2>Types Extended</h2>
 <h3>Array</h3>
-<code>public static TSource[] Skip<TSource>(this TSource[] source, int count)</code>
+Array extensions include the following:
+<dl>
+  <dt>Skip</dt>
+  <dd>Skips the specified count.</dd>
+</dl>
 <h3>IEnumerable</h3>
-<code>public static bool ContainsIgnoreCase(this IEnumerable<string> strings, string s)</code>
-<br />
-<code>public static IList<T> OrderByDescendingWhere<T>(this IEnumerable<T> objects, Func<T, object> orderBy = null, Func<T, bool> where = null)</code>
-<br />
-<code>public static IList<T> OrderByWhere<T>(this IEnumerable<T> objects, Func<T, object> orderBy = null, Func<T, bool> where = null)</code>
-<br />
-<code>public static IEnumerable<T> Shuffle<T>(this IEnumerable<T> enumerable)</code>
+IEnumerable extensions include the following:
+<dl>
+  <dt>ContainsIgnoreCase</dt>
+  <dd>Determines whether the IEnumerable&lt;string&gt; contains the specified string, ignoring case.</dd>
+  <dt>IsEmpty</dt>
+  <dd>Determines whether the specified IEnumerable is empty</dd>
+</dl>
 <h3>IList</h3>
-<code>public static IList<TSource> OrderBy<TSource, TKey>(this IList<TSource> source, Func<TSource, TKey> keySelector, IComparer<TKey> comparer = null)</code>
-<br />
-<code>public static IList<TSource> OrderByDescending<TSource, TKey>(this IList<TSource> source, Func<TSource, TKey> keySelector, IComparer<TKey> comparer = null)</code>
-<br />
-<code>public static IList<TResult> Select<TSource, TResult>(this IList<TSource> source, Func<TSource, TResult> selector)</code>
-<br />
-<code>public static IList<TResult> SelectMany<TSource, TResult>(this IList<TSource> source, Func<TSource, IEnumerable<TResult>> selector)</code>
-<br />
-<code>public static IList<T> Shuffle<T>(this IList<T> list)</code>
+
 <h2>NuGet</h2>
 <a href="https://www.nuget.org/packages/MichaelBrandonMorris.Extensions.CollectionExtensions/" target="_blank"><img src="https://img.shields.io/nuget/v/MichaelBrandonMorris.Extensions.CollectionExtensions.svg"></a>
 <a href="https://www.nuget.org/packages/MichaelBrandonMorris.Extensions.CollectionExtensions/" target="_blank"><img src="https://img.shields.io/nuget/dt/MichaelBrandonMorris.Extensions.CollectionExtensions.svg"></a>
