@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<a href="../">Extensions</a>
+<h1>About</h1>
+<p>Extensions for built-in collection types.</p>
+<h2>Types Extended</h2>
+<h3>Array</h3>
+<code>public static TSource[] Skip<TSource>(this TSource[] source, int count)</code>
+<h3>IEnumerable</h3>
+<code>public static bool ContainsIgnoreCase(this IEnumerable<string> strings, string s)</code>
+<code>public static IList<T> OrderByDescendingWhere<T>(this IEnumerable<T> objects, Func<T, object> orderBy = null, Func<T, bool> where = null)</code>
+<code>public static IList<T> OrderByWhere<T>(this IEnumerable<T> objects, Func<T, object> orderBy = null, Func<T, bool> where = null)</code>
+<code>public static IEnumerable<T> Shuffle<T>(this IEnumerable<T> enumerable)</code>
+<h3>IList</h3>
+<code>public static IList<TSource> OrderBy<TSource, TKey>(this IList<TSource> source, Func<TSource, TKey> keySelector, IComparer<TKey> comparer = null)</code>
+<code>public static IList<TSource> OrderByDescending<TSource, TKey>(this IList<TSource> source, Func<TSource, TKey> keySelector, IComparer<TKey> comparer = null)</code>
+<code>public static IList<TResult> Select<TSource, TResult>(this IList<TSource> source, Func<TSource, TResult> selector)</code>
+<code>public static IList<TResult> SelectMany<TSource, TResult>(this IList<TSource> source, Func<TSource, IEnumerable<TResult>> selector)</code>
+<code>public static IList<T> Shuffle<T>(this IList<T> list)</code>
+<h2>NuGet</h2>
+<a href="https://www.nuget.org/packages/MichaelBrandonMorris.Extensions.CollectionExtensions/" target="_blank"><img src="https://img.shields.io/nuget/v/MichaelBrandonMorris.Extensions.CollectionExtensions.svg"></a>
+<a href="https://www.nuget.org/packages/MichaelBrandonMorris.Extensions.CollectionExtensions/" target="_blank"><img src="https://img.shields.io/nuget/dt/MichaelBrandonMorris.Extensions.CollectionExtensions.svg"></a>
+<br />
+<code>Install-Package MichaelBrandonMorris.Extensions.CollectionExtensions</code>
+<h1>Help</h1>
+<a href="../Help/html/N-MichaelBrandonMorris.Extensions.CollectionExtensions.htm" target="_blank">Code Documentation</a>
