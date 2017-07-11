@@ -79,22 +79,22 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="objects">The objects.</param>
-        /// <param name="orderByPredicate">The order by predicate.</param>
-        /// <param name="wherePredicate">The where predicate.</param>
+        /// <param name="orderBy">The order by predicate.</param>
+        /// <param name="where">The where predicate.</param>
         /// <returns>IList&lt;T&gt;.</returns>
         /// TODO Edit XML Comment Template for OrderByDescendingWhere`1
         public static IList<T> OrderByDescendingWhere<T>(
             this IEnumerable<T> objects,
-            Func<T, object> orderByPredicate = null,
-            Func<T, bool> wherePredicate = null)
+            Func<T, object> orderBy = null,
+            Func<T, bool> where = null)
         {
-            objects = orderByPredicate == null
+            objects = orderBy == null
                 ? objects
-                : objects.OrderByDescending(orderByPredicate);
+                : objects.OrderByDescending(orderBy);
 
-            objects = wherePredicate == null
+            objects = where == null
                 ? objects
-                : objects.Where(wherePredicate);
+                : objects.Where(where);
 
             return objects.ToList();
         }
@@ -104,22 +104,22 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="objects">The objects.</param>
-        /// <param name="orderByPredicate">The order by predicate.</param>
-        /// <param name="wherePredicate">The where predicate.</param>
+        /// <param name="orderBy">The order by predicate.</param>
+        /// <param name="where">The where predicate.</param>
         /// <returns>IList&lt;T&gt;.</returns>
         /// TODO Edit XML Comment Template for OrderByWhere`1
         public static IList<T> OrderByWhere<T>(
             this IEnumerable<T> objects,
-            Func<T, object> orderByPredicate = null,
-            Func<T, bool> wherePredicate = null)
+            Func<T, object> orderBy = null,
+            Func<T, bool> where = null)
         {
-            objects = orderByPredicate == null
+            objects = orderBy == null
                 ? objects
-                : objects.OrderBy(orderByPredicate);
+                : objects.OrderBy(orderBy);
 
-            objects = wherePredicate == null
+            objects = where == null
                 ? objects
-                : objects.Where(wherePredicate);
+                : objects.Where(where);
 
             return objects.ToList();
         }

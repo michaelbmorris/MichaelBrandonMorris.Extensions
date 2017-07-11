@@ -11,6 +11,35 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
     public static class ListExtensions
     {
         /// <summary>
+        ///     Appends the specified list.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="item">The item.</param>
+        /// <param name="list">The list.</param>
+        /// <returns>IList&lt;T&gt;.</returns>
+        /// TODO Edit XML Comment Template for Append`1
+        public static IList<T> Append<T>(this T item, IList<T> list)
+        {
+            list.Insert(0, item);
+            return list;
+        }
+
+        /// <summary>
+        ///     Inserts the specified index.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list">The list.</param>
+        /// <param name="index">The index.</param>
+        /// <param name="item">The item.</param>
+        /// <returns>IList&lt;T&gt;.</returns>
+        /// TODO Edit XML Comment Template for Insert`1
+        public static IList<T> Insert<T>(this IList<T> list, int index, T item)
+        {
+            list.Insert(index, item);
+            return list;
+        }
+
+        /// <summary>
         ///     Orders the by.
         /// </summary>
         /// <typeparam name="TSource">The type of the t source.</typeparam>
@@ -83,6 +112,20 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
             var t = list.Last();
             list.Remove(t);
             return t;
+        }
+
+        /// <summary>
+        ///     Prepends the specified item.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="list">The list.</param>
+        /// <param name="item">The item.</param>
+        /// <returns>IList&lt;T&gt;.</returns>
+        /// TODO Edit XML Comment Template for Prepend`1
+        public static IList<T> Prepend<T>(this IList<T> list, T item)
+        {
+            list.Insert(0, item);
+            return list;
         }
 
         /// <summary>
