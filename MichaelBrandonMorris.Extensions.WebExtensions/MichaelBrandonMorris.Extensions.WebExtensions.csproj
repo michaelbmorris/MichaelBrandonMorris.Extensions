@@ -105,6 +105,9 @@
   <ItemGroup>
     <Compile Include="ControllerExtensions.cs" />
     <Compile Include="HtmlHelperExtensions.cs" />
+    <Compile Include="HtmlHelperExtensions\Bootstrap\Horizontal\InputFor.cs" />
+    <Compile Include="HtmlHelperExtensions\Bootstrap\InputFor.cs" />
+    <Compile Include="HtmlHelperExtensions\Bootstrap\RequiredTextBoxFor.cs" />
     <Compile Include="HttpPostedFileBaseExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
