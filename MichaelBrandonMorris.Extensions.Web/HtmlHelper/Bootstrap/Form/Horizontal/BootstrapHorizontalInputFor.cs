@@ -7,16 +7,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Form.Horizont
 {
     public static partial class InputExtensions
     {
-        public enum BootstrapContextualClass
-        {
-            Default,
-            Muted,
-            Primary,
-            Success,
-            Info,
-            Warning,
-            Danger
-        }
+        
 
         internal const string LabelClasses = "control-label col-md-2";
         private const string PasswordClasses = "form-control";

@@ -105,8 +105,12 @@
   <ItemGroup>
     <Compile Include="Controller\GetUser.cs" />
     <Compile Include="HtmlHelper\Attribute.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\BootstrapActionLinkButton.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Constants.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Form\BootstrapSubmit.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalCkeditorFor.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalPasswordFor.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalSubmit.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalTextBoxFor.cs" />
     <Compile Include="HtmlHelper\CkeditorFor.cs" />
     <Compile Include="HtmlHelper\EditorForMany.cs" />
