@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Web;
 
-namespace MichaelBrandonMorris.Extensions.Web
+namespace MichaelBrandonMorris.Extensions.Web.HttpPostedFileBase
 {
     /// <summary>
     ///     Class HttpPostedFileBaseExtensions.
@@ -20,7 +19,7 @@ namespace MichaelBrandonMorris.Extensions.Web
         ///     not be null.
         /// </exception>
         public static byte[] ToBytes(
-            this HttpPostedFileBase file,
+            this System.Web.HttpPostedFileBase file,
             int offset = 0)
         {
             if (file == null)

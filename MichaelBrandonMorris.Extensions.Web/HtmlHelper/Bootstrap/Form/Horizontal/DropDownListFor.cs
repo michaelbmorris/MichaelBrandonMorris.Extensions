@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using System.Web.Mvc;
 using System.Web.Mvc.Html;
 
-namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Horizontal
+namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Form.Horizontal
 {
     public static partial class InputExtensions
     {

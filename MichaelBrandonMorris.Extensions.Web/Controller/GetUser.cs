@@ -4,12 +4,8 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 
-namespace MichaelBrandonMorris.Extensions.Web
+namespace MichaelBrandonMorris.Extensions.Web.Controller
 {
-    /// <summary>
-    ///     Class ControllerExtensions.
-    /// </summary>
-    /// TODO Edit XML Comment Template for ControllerExtensions
     public static class ControllerExtensions
     {
         /// <summary>

@@ -3,8 +3,7 @@ using System.Linq.Expressions;
 using System.Web.Mvc;
 using System.Web.Mvc.Html;
 
-namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.
-    Bootstrap
+namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Form
 {
     public static class BootstrapHtmlHelperExtensions
     {

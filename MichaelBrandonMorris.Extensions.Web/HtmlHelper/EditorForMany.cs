@@ -2,134 +2,13 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
-using System.Web;
 using System.Web.Mvc;
 using System.Web.Mvc.Html;
-using MichaelBrandonMorris.Extensions.PrimitiveExtensions;
 
 namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper
 {
-    /// <summary>
-    ///     Class HtmlHelperExtensions.
-    /// </summary>
-    /// TODO Edit XML Comment Template for HtmlHelperExtensions
-    public static class HtmlHelperExtensions
+    public static partial class HtmlHelperExtensions
     {
-        /// <summary>
-        ///     Attributes the specified name.
-        /// </summary>
-        /// <param name="helper">The helper.</param>
-        /// <param name="name">The name.</param>
-        /// <param name="value">The value.</param>
-        /// <param name="condition">if set to <c>true</c> [condition].</param>
-        /// <returns>MvcHtmlString.</returns>
-        /// TODO Edit XML Comment Template for Attribute
-        public static MvcHtmlString Attribute(
-            this System.Web.Mvc.HtmlHelper helper,
-            string name,
-            string value,
-            bool? condition)
-        {
-            if (string.IsNullOrEmpty(name)
-                || string.IsNullOrEmpty(value))
-            {
-                return MvcHtmlString.Empty;
-            }
-
-            var render = condition ?? true;
-            value = HttpUtility.HtmlAttributeEncode(value);
-
-            return render
-                ? new MvcHtmlString($"{name}=\"{value}\"")
-                : MvcHtmlString.Empty;
-        }
-
-
-        /// <summary>
-        ///     Ckeditors for.
-        /// </summary>
-        /// <typeparam name="TModel">The type of the t model.</typeparam>
-        /// <typeparam name="TValue">The type of the t value.</typeparam>
-        /// <param name="html">The HTML.</param>
-        /// <param name="expression">The expression.</param>
-        /// <returns>MvcHtmlString.</returns>
-        /// <exception cref="ArgumentException"></exception>
-        /// TODO Edit XML Comment Template for CkeditorFor`2
-        public static MvcHtmlString CkeditorFor<TModel, TValue>(
-            this HtmlHelper<TModel> html,
-            Expression<Func<TModel, TValue>> expression)
-        {
-            var modelMetadata =
-                ModelMetadata.FromLambdaExpression(expression, html.ViewData);
-
-            var name = ExpressionHelper.GetExpressionText(expression);
-            var fullName = html.ViewContext.ViewData.TemplateInfo
-                .GetFullHtmlFieldName(name);
-
-            if (fullName.IsNullOrWhiteSpace())
-            {
-                throw new ArgumentException();
-            }
-
-            var tagBuilder = new TagBuilder("textarea");
-            tagBuilder.GenerateId(fullName);
-            tagBuilder.MergeAttribute("name", fullName, true);
-
-            if (html.ViewData.ModelState.TryGetValue(
-                    fullName,
-                    out ModelState modelState)
-                && modelState.Errors.Count > 0)
-            {
-                tagBuilder.AddCssClass(
-                    System.Web.Mvc.HtmlHelper.ValidationInputCssClassName);
-            }
-
-            tagBuilder.MergeAttributes(
-                html.GetUnobtrusiveValidationAttributes(name, modelMetadata));
-
-            string value;
-
-            if (modelState?.Value != null)
-            {
-                value = modelState.Value.AttemptedValue;
-            }
-            else if (modelMetadata.Model != null)
-            {
-                value = modelMetadata.Model.ToString();
-            }
-            else
-            {
-                value = string.Empty;
-            }
-
-            tagBuilder.InnerHtml = Environment.NewLine
-                                   + HttpUtility.HtmlEncode(value);
-
-            var script = new TagBuilder("script")
-            {
-                InnerHtml =
-                    $"CKEDITOR.replace(\"{tagBuilder.Attributes["id"]}\")"
-            };
-
-            return MvcHtmlString.Create(tagBuilder.ToString() + script);
-        }
-
-        /// <summary>
-        ///     Displays for.
-        /// </summary>
-        /// <typeparam name="TModel">The type of the t model.</typeparam>
-        /// <typeparam name="TValue">The type of the t value.</typeparam>
-        /// <param name="html">The HTML.</param>
-        /// <param name="value">The value.</param>
-        /// <returns>MvcHtmlString.</returns>
-        /// TODO Edit XML Comment Template for DisplayFor`2
-        public static MvcHtmlString DisplayFor<TModel, TValue>(
-            this HtmlHelper<TModel> html,
-            TValue value)
-        {
-            return html.DisplayFor(x => value);
-        }
-
         /// <summary>
         ///     Editors for many.
         /// </summary>

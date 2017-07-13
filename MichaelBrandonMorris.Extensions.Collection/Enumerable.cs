@@ -11,7 +11,7 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
     ///     Class EnumerableExtensions.
     /// </summary>
     /// TODO Edit XML Comment Template for EnumerableExtensions
-    public static class EnumerableExtensions
+    public static class Enumerable
     {
         /// <summary>
         ///     Determines whether [contains ignore case] [the

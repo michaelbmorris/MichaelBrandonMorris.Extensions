@@ -6,7 +6,7 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
     ///     Class ArrayExtensions.
     /// </summary>
     /// TODO Edit XML Comment Template for ArrayExtensions
-    public static class ArrayExtensions
+    public static class Array
     {
         /// <summary>
         ///     Skips the specified count.

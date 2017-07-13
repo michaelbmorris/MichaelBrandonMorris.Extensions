@@ -8,7 +8,7 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
     ///     Class ListExtensions.
     /// </summary>
     /// TODO Edit XML Comment Template for ListExtensions
-    public static class ListExtensions
+    public static class List
     {
         /// <summary>
         ///     Appends the specified list.

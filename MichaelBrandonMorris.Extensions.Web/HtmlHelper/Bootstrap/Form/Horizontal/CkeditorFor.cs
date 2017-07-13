@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using System.Web.Mvc;
 
-namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Horizontal
+namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Form.Horizontal
 {
     public static partial class InputExtensions
     {

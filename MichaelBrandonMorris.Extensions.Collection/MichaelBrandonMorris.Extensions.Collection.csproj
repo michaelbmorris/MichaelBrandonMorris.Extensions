@@ -44,9 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ArrayExtensions.cs" />
-    <Compile Include="EnumerableExtensions.cs" />
-    <Compile Include="ListExtensions.cs" />
+    <Compile Include="Array.cs" />
+    <Compile Include="Enumerable.cs" />
+    <Compile Include="List.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
