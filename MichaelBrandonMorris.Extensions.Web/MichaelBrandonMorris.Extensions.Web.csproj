@@ -105,15 +105,15 @@
   <ItemGroup>
     <Compile Include="Controller\GetUser.cs" />
     <Compile Include="HtmlHelper\Attribute.cs" />
-    <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\CkeditorFor.cs" />
-    <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\PasswordFor.cs" />
-    <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\TextBoxFor.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalCkeditorFor.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalPasswordFor.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalTextBoxFor.cs" />
     <Compile Include="HtmlHelper\CkeditorFor.cs" />
     <Compile Include="HtmlHelper\EditorForMany.cs" />
-    <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\DropDownListFor.cs" />
-    <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\InputFor.cs" />
-    <Compile Include="HtmlHelper\Bootstrap\Form\InputFor.cs" />
-    <Compile Include="HtmlHelper\Bootstrap\Form\RequiredTextBoxFor.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalDropDownListFor.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalInputFor.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Form\BootstrapInputFor.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Form\BootstrapTextBoxFor.cs" />
     <Compile Include="HttpPostedFileBase\ToBytes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

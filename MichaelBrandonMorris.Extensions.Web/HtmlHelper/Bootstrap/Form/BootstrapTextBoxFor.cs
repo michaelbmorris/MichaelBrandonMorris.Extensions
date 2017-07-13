@@ -5,13 +5,8 @@ using System.Web.Mvc.Html;
 
 namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Form
 {
-    public static class BootstrapHtmlHelperExtensions
+    public static partial class InputExtensions
     {
-        private const string LabelClasses = "control-label col-md-2";
-        private const string Required = "required";
-        private const string TextBoxClasses = "form-control";
-        private const string ValidationMessageClasses = "text-danger";
-
         public static MvcHtmlString RequiredTextBoxFor<TModel, TValue>(
             this HtmlHelper<TModel> html,
             Expression<Func<TModel, TValue>> expression)

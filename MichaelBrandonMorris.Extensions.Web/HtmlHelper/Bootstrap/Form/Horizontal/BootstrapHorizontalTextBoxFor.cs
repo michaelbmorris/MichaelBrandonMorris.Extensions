@@ -11,7 +11,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Form.Horizont
         internal const string Autocomplete = "autocomplete";
         internal const string Class = "class";
 
-        public static MvcHtmlString TextBoxFor<TModel, TValue>(
+        public static MvcHtmlString BootstrapHorizontalTextBoxFor<TModel, TValue>(
             this HtmlHelper<TModel> html,
             Expression<Func<TModel, TValue>> expression,
             string format,
@@ -23,7 +23,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Form.Horizont
 
             var textBox = html.TextBoxFor(expression, format, htmlAttributes);
 
-            return html.InputFor(expression, textBox);
+            return html.BootstrapHorizontalInputFor(expression, textBox);
         }
 
         public static MvcHtmlString TextBoxFor<TModel, TValue>(
@@ -37,7 +37,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Form.Horizont
 
             var textBox = html.TextBoxFor(expression, htmlAttributes);
 
-            return html.InputFor(expression, textBox);
+            return html.BootstrapHorizontalInputFor(expression, textBox);
         }
 
         private static IDictionary<string, object> BuildHtmlAttributes(

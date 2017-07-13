@@ -37,7 +37,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Form.
                     autocomplete
                 });
 
-            return html.InputFor(expression, password);
+            return html.BootstrapHorizontalInputFor(expression, password);
         }
     }
 }

@@ -10,7 +10,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Form.Horizont
     {
         private const string DropDownListClasses = "form-control";
 
-        public static MvcHtmlString DropDownListFor<TModel, TValue>(
+        public static MvcHtmlString BootstrapHorizontalDropDownListFor<TModel, TValue>(
                 this HtmlHelper<TModel> html,
                 Expression<Func<TModel, TValue>> expression,
                 IEnumerable<SelectListItem> selectList)
@@ -23,10 +23,10 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Form.Horizont
                     @class = DropDownListClasses
                 });
 
-            return html.InputFor(expression, dropDownList);
+            return html.BootstrapHorizontalInputFor(expression, dropDownList);
         }
 
-        public static MvcHtmlString DropDownListFor<TModel, TValue>(
+        public static MvcHtmlString BootstrapHorizontalDropDownListFor<TModel, TValue>(
             this HtmlHelper<TModel> html,
             Expression<Func<TModel, TValue>> expression,
             IEnumerable<SelectListItem> selectList,
@@ -41,7 +41,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Form.Horizont
                     @class = DropDownListClasses
                 });
 
-            return html.InputFor(expression, dropDownList);
+            return html.BootstrapHorizontalInputFor(expression, dropDownList);
         }
     }
 }

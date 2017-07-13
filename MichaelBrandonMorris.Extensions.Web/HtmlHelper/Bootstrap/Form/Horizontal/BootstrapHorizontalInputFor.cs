@@ -24,7 +24,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Form.Horizont
         private const string TextBoxClasses = "form-control";
         private const string ValidationMessageClasses = "text-danger";
 
-        internal static MvcHtmlString InputFor
+        internal static MvcHtmlString BootstrapHorizontalInputFor
             <TModel, TValue>(
                 this HtmlHelper<TModel> html,
                 Expression<Func<TModel, TValue>> expression,
