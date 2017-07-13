@@ -7,7 +7,7 @@ using System.Web.Mvc;
 using System.Web.Mvc.Html;
 using MichaelBrandonMorris.Extensions.PrimitiveExtensions;
 
-namespace MichaelBrandonMorris.Extensions.WebExtensions
+namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper
 {
     /// <summary>
     ///     Class HtmlHelperExtensions.
@@ -25,7 +25,7 @@ namespace MichaelBrandonMorris.Extensions.WebExtensions
         /// <returns>MvcHtmlString.</returns>
         /// TODO Edit XML Comment Template for Attribute
         public static MvcHtmlString Attribute(
-            this HtmlHelper helper,
+            this System.Web.Mvc.HtmlHelper helper,
             string name,
             string value,
             bool? condition)
@@ -61,6 +61,7 @@ namespace MichaelBrandonMorris.Extensions.WebExtensions
         {
             var modelMetadata =
                 ModelMetadata.FromLambdaExpression(expression, html.ViewData);
+
             var name = ExpressionHelper.GetExpressionText(expression);
             var fullName = html.ViewContext.ViewData.TemplateInfo
                 .GetFullHtmlFieldName(name);
@@ -79,7 +80,8 @@ namespace MichaelBrandonMorris.Extensions.WebExtensions
                     out ModelState modelState)
                 && modelState.Errors.Count > 0)
             {
-                tagBuilder.AddCssClass(HtmlHelper.ValidationInputCssClassName);
+                tagBuilder.AddCssClass(
+                    System.Web.Mvc.HtmlHelper.ValidationInputCssClassName);
             }
 
             tagBuilder.MergeAttributes(

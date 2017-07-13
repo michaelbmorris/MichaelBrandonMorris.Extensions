@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MichaelBrandonMorris.Extens
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MichaelBrandonMorris.Extensions.PrincipalExtensions", "MichaelBrandonMorris.Extensions.PrincipalExtensions\MichaelBrandonMorris.Extensions.PrincipalExtensions.csproj", "{C64ACD35-06F5-4AF3-8EC0-136A4106F61C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MichaelBrandonMorris.Extensions.WebExtensions", "MichaelBrandonMorris.Extensions.WebExtensions\MichaelBrandonMorris.Extensions.WebExtensions.csproj", "{10FB32FE-A2F1-4FC3-A6D4-437D399CC4CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MichaelBrandonMorris.Extensions.Web", "MichaelBrandonMorris.Extensions.WebExtensions\MichaelBrandonMorris.Extensions.Web.csproj", "{10FB32FE-A2F1-4FC3-A6D4-437D399CC4CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MichaelBrandonMorris.Extensions.OtherExtensions", "MichaelBrandonMorris.Extensions.OtherExtensions\MichaelBrandonMorris.Extensions.OtherExtensions.csproj", "{BED30CAE-7315-48A2-8C43-630BF1768CC0}"
 EndProject

@@ -3,33 +3,38 @@ using System.Linq.Expressions;
 using System.Web.Mvc;
 using System.Web.Mvc.Html;
 
-namespace MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.
-    Bootstrap
+namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Horizontal
 {
-    public static class BootstrapHtmlHelperExtensions
+    public static partial class InputExtensions
     {
-        private const string LabelClasses = "control-label col-md-2";
+        public enum BootstrapContextualClass
+        {
+            Default,
+            Muted,
+            Primary,
+            Success,
+            Info,
+            Warning,
+            Danger
+        }
+
+        internal const string LabelClasses = "control-label col-md-2";
+        private const string PasswordClasses = "form-control";
         private const string Required = "required";
         private const string TextBoxClasses = "form-control";
         private const string ValidationMessageClasses = "text-danger";
 
-        public static MvcHtmlString RequiredTextBoxFor<TModel, TValue>(
-            this HtmlHelper<TModel> html,
-            Expression<Func<TModel, TValue>> expression)
+        internal static MvcHtmlString InputFor
+            <TModel, TValue>(
+                this HtmlHelper<TModel> html,
+                Expression<Func<TModel, TValue>> expression,
+                MvcHtmlString input)
         {
             var label = html.LabelFor(
                 expression,
                 new
                 {
                     @class = LabelClasses
-                });
-
-            var textBox = html.TextBoxFor(
-                expression,
-                new
-                {
-                    @class = TextBoxClasses,
-                    required = Required
                 });
 
             var validationMessage = html.ValidationMessageFor(
@@ -44,7 +49,7 @@ namespace MichaelBrandonMorris.Extensions.WebExtensions.HtmlHelperExtensions.
                 "<div class=\"form-group\">"
                 + $"{label}"
                 + "<div class=\"col-md-10\">"
-                + $"{textBox}"
+                + $"{input}"
                 + $"{validationMessage}"
                 + "</div>"
                 + "</div>");

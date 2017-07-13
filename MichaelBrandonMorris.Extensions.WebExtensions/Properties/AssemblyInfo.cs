@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MichaelBrandonMorris.Extensions.WebExtensions")]
+[assembly: AssemblyTitle("MichaelBrandonMorris.Extensions.Web")]
 [assembly: AssemblyDescription("Extensions for built-in web types.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Michael Brandon Morris")]
-[assembly: AssemblyProduct("MichaelBrandonMorris.Extensions.WebExtensions")]
+[assembly: AssemblyProduct("MichaelBrandonMorris.Extensions.Web")]
 [assembly: AssemblyCopyright("Copyright © Michael Brandon Morris 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

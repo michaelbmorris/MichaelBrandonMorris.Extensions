@@ -4,7 +4,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 
-namespace MichaelBrandonMorris.Extensions.WebExtensions
+namespace MichaelBrandonMorris.Extensions.Web
 {
     /// <summary>
     ///     Class ControllerExtensions.
