@@ -106,6 +106,7 @@
     <Compile Include="Controller\GetUser.cs" />
     <Compile Include="HtmlHelper\Attribute.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\CkeditorFor.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\PasswordFor.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\TextBoxFor.cs" />
     <Compile Include="HtmlHelper\CkeditorFor.cs" />
     <Compile Include="HtmlHelper\EditorForMany.cs" />
