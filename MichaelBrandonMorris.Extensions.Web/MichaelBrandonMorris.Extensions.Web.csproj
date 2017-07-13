@@ -108,6 +108,7 @@
     <Compile Include="HtmlHelper\Bootstrap\BootstrapActionLinkButton.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Constants.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\BootstrapSubmit.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalCheckBoxFor.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalCkeditorFor.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalPasswordFor.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalSubmit.cs" />
