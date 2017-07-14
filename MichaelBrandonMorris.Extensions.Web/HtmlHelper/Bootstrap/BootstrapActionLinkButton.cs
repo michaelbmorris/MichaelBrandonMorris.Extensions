@@ -39,7 +39,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
                 routeValues,
                 new
                 {
-                    @class = $"btn {ContextualClasses[contextualClass]}"
+                    @class = $"btn btn-{ContextualClasses[contextualClass]}"
                 });
         }
 
@@ -70,7 +70,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
                 controllerName,
                 new
                 {
-                    @class = $"btn {ContextualClasses[contextualClass]}"
+                    @class = $"btn btn-{ContextualClasses[contextualClass]}"
                 });
         }
     }
