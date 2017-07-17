@@ -17,6 +17,19 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
             this System.Web.Mvc.HtmlHelper html,
             string linkText,
             string actionName,
+            BootstrapContextualClass contextualClass)
+        {
+            return html.BootstrapActionLinkButton(
+                linkText,
+                actionName,
+                null,
+                contextualClass);
+        }
+
+        public static MvcHtmlString BootstrapActionLinkButton(
+            this System.Web.Mvc.HtmlHelper html,
+            string linkText,
+            string actionName,
             object routeValues)
         {
             return html.BootstrapActionLinkButton(
@@ -57,6 +70,36 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
         }
 
         public static MvcHtmlString BootstrapActionLinkButton(
+            System.Web.Mvc.HtmlHelper html,
+            string linkText,
+            string actionName,
+            string controllerName,
+            BootstrapContextualClass contextualClass)
+        {
+            return html.BootstrapActionLinkButton(
+                linkText,
+                actionName,
+                controllerName,
+                null,
+                contextualClass);
+        }
+
+        public static MvcHtmlString BootstrapActionLinkButton(
+            System.Web.Mvc.HtmlHelper html,
+            string linkText,
+            string actionName,
+            string controllerName,
+            object routeValues)
+        {
+            return html.BootstrapActionLinkButton(
+                linkText,
+                actionName,
+                controllerName,
+                routeValues,
+                BootstrapContextualClass.Default);
+        }
+
+        public static MvcHtmlString BootstrapActionLinkButton(
             this System.Web.Mvc.HtmlHelper html,
             string linkText,
             string actionName,
@@ -68,6 +111,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
                 linkText,
                 actionName,
                 controllerName,
+                routeValues,
                 new
                 {
                     @class = $"btn btn-{ContextualClasses[contextualClass]}"
