@@ -116,6 +116,8 @@
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalPasswordFor.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalSubmit.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalTextBoxFor.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Form\Inline\BootstrapInlineTextBox.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Form\Inline\BootstrapInlineDropDownListFor.cs" />
     <Compile Include="HtmlHelper\CkeditorFor.cs" />
     <Compile Include="HtmlHelper\EditorForMany.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalDropDownListFor.cs" />

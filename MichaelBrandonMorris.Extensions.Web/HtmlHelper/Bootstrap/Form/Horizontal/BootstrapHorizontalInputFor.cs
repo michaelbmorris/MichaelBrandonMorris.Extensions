@@ -6,9 +6,7 @@ using System.Web.Mvc.Html;
 namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Form.Horizontal
 {
     public static partial class InputExtensions
-    {
-        
-
+    {     
         internal const string LabelClasses = "control-label col-md-2";
         private const string PasswordClasses = "form-control";
         private const string Required = "required";
