@@ -13,6 +13,14 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
         Danger
     }
 
+    public enum TargetAttribute
+    {
+        Self,
+        Blank,
+        Parent,
+        Top
+    }
+
     public static partial class BootstrapExtensions
     {
         private static Dictionary<BootstrapContextualClass, string>
@@ -38,6 +46,28 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
                 BootstrapContextualClass.Danger, "danger"
             }
         };
+
+        private static Dictionary<TargetAttribute, string> TargetAttributes => new Dictionary<TargetAttribute, string>
+        {
+            {
+                TargetAttribute.Self, "_self"
+            },
+            {
+                TargetAttribute.Blank, "_blank"
+            },
+            {
+                TargetAttribute.Parent, "_parent"
+            },
+            {
+                TargetAttribute.Top, "_top"
+            }
+        };
+
+        internal static string GetTargetAttribute(
+            TargetAttribute targetAttribute)
+        {
+            return TargetAttributes[targetAttribute];
+        }
 
         internal static string GetContextualClass(
             BootstrapContextualClass contextualClass)
