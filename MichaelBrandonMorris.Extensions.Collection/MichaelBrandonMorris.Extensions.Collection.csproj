@@ -7,8 +7,8 @@
     <ProjectGuid>{0147DD19-2C49-4C71-9D5E-DFE1AFAED857}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MichaelBrandonMorris.Extensions.CollectionExtensions</RootNamespace>
-    <AssemblyName>MichaelBrandonMorris.Extensions.CollectionExtensions</AssemblyName>
+    <RootNamespace>MichaelBrandonMorris.Extensions.Collection</RootNamespace>
+    <AssemblyName>MichaelBrandonMorris.Extensions.Collection</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

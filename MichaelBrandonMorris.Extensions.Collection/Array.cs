@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace MichaelBrandonMorris.Extensions.CollectionExtensions
+namespace MichaelBrandonMorris.Extensions.Collection
 {
     /// <summary>
     ///     Class ArrayExtensions.

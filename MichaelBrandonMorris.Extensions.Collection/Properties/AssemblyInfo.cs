@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly:
-    AssemblyTitle("MichaelBrandonMorris.Extensions.CollectionExtensions")]
+    AssemblyTitle("MichaelBrandonMorris.Extensions.Collection")]
 [assembly: AssemblyDescription("Extensions for built-in collection types.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Michael Brandon Morris")]
 [assembly:
-    AssemblyProduct("MichaelBrandonMorris.Extensions.CollectionExtensions")]
+    AssemblyProduct("MichaelBrandonMorris.Extensions.Collection")]
 [assembly: AssemblyCopyright("Copyright © Michael Brandon Morris 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

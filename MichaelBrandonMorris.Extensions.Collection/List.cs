@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace MichaelBrandonMorris.Extensions.CollectionExtensions
+namespace MichaelBrandonMorris.Extensions.Collection
 {
     /// <summary>
     ///     Class ListExtensions.
@@ -138,6 +138,11 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
         public static void Push<T>(this IList<T> list, T t)
         {
             list.Add(t);
+        }
+
+        public static IList<T> SkipLast<T>(this IList<T> list, int count)
+        {
+            return list.AsEnumerable().SkipLast(count).ToList();
         }
 
         /// <summary>

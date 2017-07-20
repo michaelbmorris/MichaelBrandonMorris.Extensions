@@ -5,6 +5,8 @@
     <version>$version$</version>
     <authors>$author$</authors>
     <owners>michaelbmorris</owners>
+    <licenseUrl>http://michaelbmorris.com/MichaelBrandonMorris.Extensions/LICENSE.txt</licenseUrl>
+    <projectUrl>http://michaelbmorris.com/MichaelBrandonMorris.Extensions/MichaelBrandonMorris.Extensions.Collection/</projectUrl>
     <description>$description$</description>
   </metadata>
 </package>

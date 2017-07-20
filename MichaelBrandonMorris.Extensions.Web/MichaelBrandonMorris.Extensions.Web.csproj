@@ -105,17 +105,21 @@
   <ItemGroup>
     <Compile Include="Controller\GetUser.cs" />
     <Compile Include="HtmlHelper\Attribute.cs" />
-    <Compile Include="HtmlHelper\Bootstrap\BootstrapActionLinkButton.cs" />
-    <Compile Include="HtmlHelper\Bootstrap\BootstrapDefinitionFor.cs" />
-    <Compile Include="HtmlHelper\Bootstrap\BootstrapHorizontalDefinitionList.cs" />
-    <Compile Include="HtmlHelper\Bootstrap\BootstrapHorizontalDefinitionListFor.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Display\BootstrapActionLinkButton.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Display\BootstrapDefinitionFor.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Display\Constants.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Display\Horizontal\BootstrapHorizontalDefinitionList.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Display\Horizontal\BootstrapHorizontalDefinitionListFor.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Constants.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Display\Horizontal\Constants.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\BootstrapSubmit.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Form\Constants.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalCheckBoxFor.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalCkeditorFor.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalPasswordFor.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalSubmit.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\BootstrapHorizontalTextBoxFor.cs" />
+    <Compile Include="HtmlHelper\Bootstrap\Form\Horizontal\Constants.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Inline\BootstrapInlineTextBox.cs" />
     <Compile Include="HtmlHelper\Bootstrap\Form\Inline\BootstrapInlineDropDownListFor.cs" />
     <Compile Include="HtmlHelper\CkeditorFor.cs" />

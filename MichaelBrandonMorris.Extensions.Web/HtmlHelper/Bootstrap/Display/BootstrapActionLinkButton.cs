@@ -3,29 +3,68 @@ using System.Web.Mvc;
 using System.Web.Mvc.Html;
 using System.Web.Routing;
 
-namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
+namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Display
 {
-    public static partial class BootstrapExtensions
+    public static partial class DisplayExtensions
     {
         public static MvcHtmlString BootstrapActionLinkButton(
             this System.Web.Mvc.HtmlHelper html,
             string linkText,
-            string actionName)
+            string actionName,
+            ContextualColor contextualColor =
+                ContextualColor.Default,
+            TargetAttribute targetAttribute = TargetAttribute.Self)
         {
-            return html.BootstrapActionLinkButton(linkText, actionName, null);
+            return html.ActionLink(
+                linkText,
+                actionName,
+                null,
+                new
+                {
+                    @class = $"btn btn-{ContextualColors[contextualColor]}"
+                });
         }
 
         public static MvcHtmlString BootstrapActionLinkButton(
             this System.Web.Mvc.HtmlHelper html,
             string linkText,
             string actionName,
-            BootstrapContextualClass contextualClass)
+            int id,
+            ContextualColor contextualColor = ContextualColor.Default)
         {
-            return html.BootstrapActionLinkButton(
+            return html.ActionLink(
                 linkText,
                 actionName,
-                null,
-                contextualClass);
+                new
+                {
+                    id
+                },
+                new
+                {
+                    @class = $"btn btn-{ContextualColors[contextualColor]}"
+                });
+        }
+
+        public static MvcHtmlString BootstrapActionLinkButton(
+            this System.Web.Mvc.HtmlHelper html,
+            string linkText,
+            string actionName,
+            string controllerName,
+            int id,
+            ContextualColor contextualColor = ContextualColor.Default)
+        {
+            return html.ActionLink(
+                linkText,
+                actionName,
+                controllerName,
+                new
+                {
+                    id
+                },
+                new
+                {
+                    @class = $"btn btn-{ContextualColors[contextualColor]}"
+                });
         }
 
         public static MvcHtmlString BootstrapActionLinkButton(
@@ -38,7 +77,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
                 linkText,
                 actionName,
                 routeValues,
-                BootstrapContextualClass.Default);
+                ContextualColor.Default);
         }
 
         public static MvcHtmlString BootstrapActionLinkButton(
@@ -46,7 +85,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
             string linkText,
             string actionName,
             object routeValues,
-            BootstrapContextualClass contextualClass)
+            ContextualColor contextualColor)
         {
             return html.ActionLink(
                 linkText,
@@ -54,7 +93,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
                 routeValues,
                 new
                 {
-                    @class = $"btn btn-{ContextualClasses[contextualClass]}"
+                    @class = $"btn btn-{ContextualColors[contextualColor]}"
                 });
         }
 
@@ -68,7 +107,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
                 linkText,
                 actionName,
                 controllerName,
-                BootstrapContextualClass.Default);
+                ContextualColor.Default);
         }
 
         public static MvcHtmlString BootstrapActionLinkButton(
@@ -76,14 +115,14 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
             string linkText,
             string actionName,
             string controllerName,
-            BootstrapContextualClass contextualClass)
+            ContextualColor contextualColor)
         {
             return html.BootstrapActionLinkButton(
                 linkText,
                 actionName,
                 controllerName,
                 null,
-                contextualClass);
+                contextualColor);
         }
 
         public static MvcHtmlString BootstrapActionLinkButton(
@@ -98,7 +137,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
                 actionName,
                 controllerName,
                 routeValues,
-                BootstrapContextualClass.Default);
+                ContextualColor.Default);
         }
 
         public static MvcHtmlString BootstrapActionLinkButton(
@@ -107,7 +146,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
             string actionName,
             string controllerName,
             object routeValues,
-            BootstrapContextualClass contextualClass)
+            ContextualColor contextualColor)
         {
             return html.ActionLink(
                 linkText,
@@ -116,7 +155,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
                 routeValues,
                 new
                 {
-                    @class = $"btn btn-{ContextualClasses[contextualClass]}"
+                    @class = $"btn btn-{ContextualColors[contextualColor]}"
                 });
         }
 
@@ -124,7 +163,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
             this System.Web.Mvc.HtmlHelper html,
             string actionName,
             object routeValues,
-            BootstrapContextualClass contextualClass)
+            ContextualColor contextualColor)
         {
             return html.ActionLink(
                 actionName,
@@ -132,7 +171,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
                 routeValues,
                 new
                 {
-                    @class = $"btn btn-{GetContextualClass(contextualClass)}"
+                    @class = $"btn btn-{ContextualColors[contextualColor]}"
                 });
         }
 
@@ -140,7 +179,7 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
             this System.Web.Mvc.HtmlHelper html,
             string actionName,
             object routeValues,
-            BootstrapContextualClass contextualClass,
+            ContextualColor contextualColor,
             TargetAttribute targetAttribute)
         {
             return html.ActionLink(
@@ -149,8 +188,8 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
                 routeValues,
                 new
                 {
-                    @class = $"btn btn-{GetContextualClass(contextualClass)}",
-                    target = GetTargetAttribute(targetAttribute)
+                    @class = $"btn btn-{ContextualColors[contextualColor]}",
+                    target = Bootstrap.BootstrapExtensions.TargetAttributes[targetAttribute]
                 });
         }
 
@@ -159,12 +198,12 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
             string actionName,
             string controllerName,
             RouteValueDictionary routeValues,
-            BootstrapContextualClass contextualClass)
+            ContextualColor contextualColor)
         {
             var htmlAttributes = new Dictionary<string, object>
             {
                 {
-                    "class", $"btn btn-{GetContextualClass(contextualClass)}"
+                    "class", $"btn btn-{ContextualColors[contextualColor]}"
                 }
             };
 
@@ -177,17 +216,23 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
         }
 
         /// <summary>
-        ///     Creates a Bootstrap-styled button for a Html.ActionLink with the specified action name and contextual class. The action name is used as the link text.
+        ///     Creates a Bootstrap-styled button for a Html.ActionLink
+        ///     with the specified action name and contextual class.
+        ///     The action name is used as the link text.
         /// </summary>
         /// <param name="html">The HTML helper.</param>
         /// <param name="actionName">Name of the action.</param>
-        /// <param name="contextualClass">The Bootstrap contextual class.</param>
+        /// <param name="contextualColor">
+        ///     The Bootstrap contextual
+        ///     class.
+        /// </param>
         /// <returns>MvcHtmlString.</returns>
         /// TODO Edit XML Comment Template for BootstrapActionLinkButton
         public static MvcHtmlString BootstrapActionLinkButton(
             this System.Web.Mvc.HtmlHelper html,
             string actionName,
-            BootstrapContextualClass contextualClass = BootstrapContextualClass.Default,
+            ContextualColor contextualColor =
+                ContextualColor.Default,
             TargetAttribute targetAttribute = TargetAttribute.Self)
         {
             return html.ActionLink(
@@ -196,25 +241,29 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
                 null,
                 new
                 {
-                    @class = $"btn btn-{GetContextualClass(contextualClass)}",
-                    target = GetTargetAttribute(targetAttribute)
+                    @class = $"btn btn-{ContextualColors[contextualColor]}",
+                    target = Bootstrap.BootstrapExtensions.TargetAttributes[targetAttribute]
                 });
         }
 
         /// <summary>
-        /// Creates a Bootstrap-styled button for a Html.ActionLink with the specified action name, id parameter, and contextual class. The action name is used as the link text.
+        ///     Creates a Bootstrap-styled button for a Html.ActionLink
+        ///     with the specified action name, id parameter, and
+        ///     contextual class. The action name is used as the link
+        ///     text.
         /// </summary>
         /// <param name="html">The HTML.</param>
         /// <param name="actionName">Name of the action.</param>
         /// <param name="id">The identifier.</param>
-        /// <param name="contextualClass">The contextual class.</param>
+        /// <param name="contextualColor">The contextual class.</param>
         /// <returns>MvcHtmlString.</returns>
         /// TODO Edit XML Comment Template for BootstrapActionLinkButton
         public static MvcHtmlString BootstrapActionLinkButton(
             this System.Web.Mvc.HtmlHelper html,
             string actionName,
             int id,
-            BootstrapContextualClass contextualClass = BootstrapContextualClass.Default,
+            ContextualColor contextualColor =
+                ContextualColor.Default,
             TargetAttribute targetAttribute = TargetAttribute.Self)
         {
             return html.ActionLink(
@@ -226,8 +275,8 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
                 },
                 new
                 {
-                    @class = $"btn btn-{GetContextualClass(contextualClass)}",
-                    target = GetTargetAttribute(targetAttribute)
+                    @class = $"btn btn-{ContextualColors[contextualColor]}",
+                    target = Bootstrap.BootstrapExtensions.TargetAttributes[targetAttribute]
                 });
         }
     }

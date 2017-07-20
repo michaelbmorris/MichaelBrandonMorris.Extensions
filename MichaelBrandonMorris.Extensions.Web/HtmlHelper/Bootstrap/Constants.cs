@@ -2,7 +2,7 @@
 
 namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
 {
-    public enum BootstrapContextualClass
+    public enum ContextualColor
     {
         Default,
         Muted,
@@ -23,31 +23,31 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
 
     public static partial class BootstrapExtensions
     {
-        private static Dictionary<BootstrapContextualClass, string>
-            ContextualClasses => new Dictionary<BootstrapContextualClass, string
+        internal static Dictionary<ContextualColor, string>
+            ContextualColors => new Dictionary<ContextualColor, string
         >
         {
             {
-                BootstrapContextualClass.Default, "default"
+                ContextualColor.Default, "default"
             },
             {
-                BootstrapContextualClass.Muted, "muted"
+                ContextualColor.Muted, "muted"
             },
             {
-                BootstrapContextualClass.Primary, "primary"
+                ContextualColor.Primary, "primary"
             },
             {
-                BootstrapContextualClass.Info, "info"
+                ContextualColor.Info, "info"
             },
             {
-                BootstrapContextualClass.Warning, "warning"
+                ContextualColor.Warning, "warning"
             },
             {
-                BootstrapContextualClass.Danger, "danger"
+                ContextualColor.Danger, "danger"
             }
         };
 
-        private static Dictionary<TargetAttribute, string> TargetAttributes => new Dictionary<TargetAttribute, string>
+        internal static Dictionary<TargetAttribute, string> TargetAttributes => new Dictionary<TargetAttribute, string>
         {
             {
                 TargetAttribute.Self, "_self"
@@ -62,17 +62,5 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
                 TargetAttribute.Top, "_top"
             }
         };
-
-        internal static string GetTargetAttribute(
-            TargetAttribute targetAttribute)
-        {
-            return TargetAttributes[targetAttribute];
-        }
-
-        internal static string GetContextualClass(
-            BootstrapContextualClass contextualClass)
-        {
-            return ContextualClasses[contextualClass];
-        }
     }
 }

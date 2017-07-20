@@ -5,7 +5,7 @@ using System.Dynamic;
 using System.Linq;
 using MichaelBrandonMorris.Extensions.PrimitiveExtensions;
 
-namespace MichaelBrandonMorris.Extensions.CollectionExtensions
+namespace MichaelBrandonMorris.Extensions.Collection
 {
     /// <summary>
     ///     Class EnumerableExtensions.
@@ -13,6 +13,32 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
     /// TODO Edit XML Comment Template for EnumerableExtensions
     public static class Enumerable
     {
+        public static IEnumerable<T> SkipLast<T>(this IEnumerable<T> enumerable, int count)
+        {
+            using (var iterator = enumerable.GetEnumerator())
+            {
+                bool hasRemainingItems;
+                var queue = new Queue<T>(count + 1);
+
+                do
+                {
+                    hasRemainingItems = iterator.MoveNext();
+
+                    if (!hasRemainingItems)
+                    {
+                        continue;
+                    }
+
+                    queue.Enqueue(iterator.Current);
+
+                    if (queue.Count > count)
+                    {
+                        yield return queue.Dequeue();
+                    }
+                } while (hasRemainingItems);
+            }
+        }
+
         /// <summary>
         ///     Determines whether [contains ignore case] [the
         ///     specified s].
@@ -92,9 +118,9 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
                 ? objects
                 : objects.OrderByDescending(orderBy);
 
-            objects = where == null
+            objects = @where == null
                 ? objects
-                : objects.Where(where);
+                : objects.Where(@where);
 
             return objects.ToList();
         }
@@ -117,9 +143,9 @@ namespace MichaelBrandonMorris.Extensions.CollectionExtensions
                 ? objects
                 : objects.OrderBy(orderBy);
 
-            objects = where == null
+            objects = @where == null
                 ? objects
-                : objects.Where(where);
+                : objects.Where(@where);
 
             return objects.ToList();
         }

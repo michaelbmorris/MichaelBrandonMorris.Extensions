@@ -7,10 +7,10 @@ namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Form
         public static MvcHtmlString BootstrapSubmit(
             this System.Web.Mvc.HtmlHelper html,
             string value,
-            BootstrapContextualClass contextualClass)
+            ContextualColor contextualColor)
         {
             return MvcHtmlString.Create(
-                $"<input class=\"btn btn-{BootstrapExtensions.GetContextualClass(contextualClass)}\" type=\"submit\" value =\"{value}\"/>");
+                $"<input class=\"btn btn-{ContextualColors[contextualColor]}\" type=\"submit\" value =\"{value}\"/>");
         }
     }
 }

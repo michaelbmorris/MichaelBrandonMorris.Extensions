@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Web.Mvc;
 
-namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap
+namespace MichaelBrandonMorris.Extensions.Web.HtmlHelper.Bootstrap.Display.Horizontal
 {
     public static partial class DisplayExtensions
     {
